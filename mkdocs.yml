@@ -5,26 +5,6 @@ nav:
   - Getting Started:
     - Introduction: index.md
     - Installation: installation.md
-    #- Scenario tutorials: scenarios/index.md
-    #- Create custom layouts: create-custom-layouts/index.md
-    #- How to contribute?: how-to-contribute.md 
-    #- Building documentation: build-the-doc.md
-    #- Version 3 : v3/index.md
-  #- Search Results:
-   # - Usage: usage/search-results/index.md
-  #  - Data sources: usage/search-results/data-sources/index.md
-   # - Slots: usage/search-results/slots.md
-    #- Tokens: usage/search-results/tokens.md
- #   - Layouts: usage/search-results/layouts/index.md
-   # - Connections: usage/search-results/connections/index.md
-   # - Extensibility: extensibility/index.md
-  - Search Filters:
-    #- Usage: usage/search-filters/index.md
-    - Layouts: usage/search-filters/layouts/index.md
- # - Search Verticals:
-   # - Usage: usage/search-verticals/index.md 
-  - Search Box:
-    - Usage: usage/search-box/index.md
   
 theme:
   name: 'material'
