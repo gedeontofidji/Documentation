@@ -1,5 +1,5 @@
 site_name: PnP Modern Search (v4)
-site_url: 'http://127.0.0.1:8000/'
+site_url: 'https://gedeontofidji.github.io/Documentationbis/'
 use_directory_urls: true
 nav:
   - Getting Started:
@@ -70,4 +70,4 @@ extra:
     - icon: fontawesome/brands/twitter
       link: 'https://microsoft-search.github.io/pnp-modern-search/'
 repo_url: https://github.com/microsoft-search/pnp-modern-search/
-edit_uri: blob/develop/docs
+edit_uri: blob/main/docs
