@@ -163,8 +163,6 @@ a[href*="mailto"]::after, a[data-toggle="tooltip"]::after, a[href].noCrossRef::a
 ```
 {% endraw %}
 
-{% include tip.html content="If you have a link to a file download, or some other link that shouldn't have a cross reference (such as link used in JavaScript for navtabs or collapsible sections, for example, add `noCrossRef` as a class to the link to avoid having it say \"page 0\" in the cross reference." %}
-
 This style specifies that after links to web resources, the URL should be inserted instead of the page number:
 
 ```css
