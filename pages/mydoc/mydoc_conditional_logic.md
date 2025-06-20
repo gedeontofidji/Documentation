@@ -18,8 +18,6 @@ As such, the conditional logic won't have as much play as it previously did. Ins
 
 However, you can still of course use conditional logic as needed.
 
-{% include tip.html content="Definitely check out [Liquid's documentation](http://docs.shopify.com/themes/liquid-documentation/basics) for more details about how to use operators and other liquid markup. The notes here are a small, somewhat superficial sample from the site." %}
-
 ## Where to store filtering values
 
 You can filter content based on values that you have set either in your page's frontmatter, a config file, or in a file in your \_data folder. If you set the attribute in your config file, you need to restart the Jekyll server to see the changes. If you set the value in a file in your \_data folder or page frontmatter, you don't need to restart the server when you make changes.
