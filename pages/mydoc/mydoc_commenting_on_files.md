@@ -59,8 +59,6 @@ When you're finished making all updates in the branch, you can merge the branch 
 
 Note that if you're making updates online, those updates will be out of sync with any local edits.
 
-{% include warning.html content="Don't make edits both online using Github's browser-based interface AND offline on your local machine using your local tools. When you try to push from your local, you'll likely get a merge conflict error. Instead, make sure you do a pull and update on your local after making any edits online." %}
-
 ## Prose.io
 
  Prose.io is an overlay on Github that would allow people to make comments in an easier interface. If you simply go to [prose.io](http://prose.io), it asks to authorize your Github account, and so it will read files directly from Github but in the Prose.io interface.
