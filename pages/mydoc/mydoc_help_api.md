@@ -138,8 +138,6 @@ You can also view the same JSON file here: <a target="_blank" rel="noopener" hre
 
 You can add different fields depending on how you want the JSON to be structured. Here we just have to fields: `doc_id` and `body`. And the JSON is looking just in the tooltips collection that we created.
 
-{% include tip.html content="Check out [Google's style guide](https://google.github.io/styleguide/jsoncstyleguide.xml) for JSON. These best practices can help you keep your JSON file valid." %}
-
 Note that you can create different JSON files that specialize in different content. For example, suppose you have some getting started information. You could put that into a different JSON file. Using the same structure, you might add an `if` tag that checks whether the page has frontmatter that says `type: getting_started` or something. Or you could put the content into separate collection entirely (different from tooltips).
 
 By chunking up your JSON files, you can provide a quicker lookup. (I'm not sure how big the JSON file can be before you experience any latency with the jQuery lookup.)
