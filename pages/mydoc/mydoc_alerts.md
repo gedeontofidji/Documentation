@@ -73,7 +73,6 @@ There are four types of alerts you can leverage:
 
 * note.html
 * tip.html
-* warning.html
 * important.html
 
 They function the same except they have a different color, icon, and alert word. You include the different types by selecting the include template you want. Here are samples of each alert:
@@ -81,8 +80,6 @@ They function the same except they have a different color, icon, and alert word.
 {% include note.html content="This is my note." %}
 
 {% include tip.html content="This is my tip." %}
-
-{% include warning.html content="This is my warning." %}
 
 {% include important.html content="This is my important info." %}
 
