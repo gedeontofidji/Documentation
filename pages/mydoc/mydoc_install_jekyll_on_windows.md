@@ -6,8 +6,6 @@ sidebar: mydoc_sidebar
 folder: mydoc
 ---
 
-{% include tip.html content="For a better terminal emulator on Windows, use [Git Bash](https://git-for-windows.github.io/). Git Bash gives you Linux-like control on Windows." %}
-
 ## Install Ruby and Ruby Development Kit
 
 First you must install Ruby because Jekyll is a Ruby-based program and needs Ruby to run.
