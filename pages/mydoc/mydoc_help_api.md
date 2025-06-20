@@ -242,8 +242,6 @@ The `url` in the demo is relative, but you could equally point it to an absolute
 
 The `each` method looks through all the JSON content to find the item whose `page.id` is equal to `basketball`. It then looks for an element on the page named `#basketball` and adds a `data-content` attribute to that element.
 
-{% include warning.html content="Make sure your JSON file is valid. Otherwise, this method won't work. I use the [JSON Formatter extension for Chrome](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en). When I go to the tooltips.json page in my browser, the JSON content &mdash; if valid &mdash; is nicely formatted (and includes some color coding). If the file isn't valid, it's not formatted and there isn't any color. You can also check the JSON formatting using [JSON Formatter and Validator](http://jsonformatter.curiousconcept.com/). If your JSON file isn't valid, identify the problem area using the validator and troubleshoot the file causing issues. It's usually due to some code that isn't escaping correctly." %}
-
 Why `data-content`? Well, in this case, I'm using [Bootstrap popovers](http://getbootstrap.com/javascript/#popovers) to display the tooltip content. The `data-content` attribute is how Bootstrap injects popovers.
 
 Here's the section on the page where the popover is inserted:
