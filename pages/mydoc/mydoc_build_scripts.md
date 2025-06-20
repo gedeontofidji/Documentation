@@ -41,8 +41,6 @@ To set up your projects:
 
 For the mydocs project, you'll see a series of build scripts for each project. There are 5 build scripts, described in the following sections. Note that you really only need to run the last one, e.g., mydoc_all.sh, because it runs all of the build scripts. But you have to make sure each script is correctly configured so that they all build successfully.
 
-{% include tip.html content="In the descriptions of the build scripts, \"mydoc\" is used as the sample project. Substitute in whatever your real project name is." %}
-
 ### mydoc_1_multiserve_pdf.sh
 
 Here's what this script looks like:
