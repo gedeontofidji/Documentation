@@ -48,18 +48,6 @@ entries:
       url: /mydoc_navtabs.html
       output: web, pdf
 
-  - title: Handling reviews
-    output: web, pdf
-
-    folderitems:
-    - title: Commenting on files
-      url: /mydoc_commenting_on_files.html
-      output: web, pdf
-
-#    - title: Git collaboration
-#      url: /mydoc_git_collaboration
-#      output: web, pdf
-
   - title: Publishing
     output: web, pdf
 
