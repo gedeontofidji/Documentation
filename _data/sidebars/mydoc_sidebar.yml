@@ -36,10 +36,6 @@ entries:
       url: /mydoc_about.html
       output: web, pdf
 
-    - title: Support
-      url: /mydoc_support.html
-      output: web, pdf
-
     - title: Navtabs
       url: /mydoc_navtabs.html
       output: web, pdf
