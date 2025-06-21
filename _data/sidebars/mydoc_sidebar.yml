@@ -48,43 +48,11 @@ entries:
       url: /mydoc_navtabs.html
       output: web, pdf
 
-  - title: Publishing
-    output: web, pdf
-
-    folderitems:
-    - title: Build arguments
-      url: /mydoc_build_arguments.html
-      output: web, pdf
-
-    - title: Themes
-      url: /mydoc_themes.html
-      output: web, pdf
-
     - title: Generating PDFs
       url: /mydoc_generating_pdfs.html
       output: web, pdf
 
-    - title: Help APIs and UI tooltips
-      url: /mydoc_help_api.html
-      output: web, pdf
-
-    - title: Search configuration
-      url: /mydoc_search_configuration.html
-      output: web, pdf
-
-    - title: iTerm profiles
-      url: /mydoc_iterm_profiles.html
-      output: web, pdf
-
-    - title: Pushing builds to server
-      url: /mydoc_push_build_to_server.html
-      output: web, pdf
-
-    - title: Publishing on Github Pages
-      url: /mydoc_publishing_github_pages.html
-      output: web, pdf
-
-  - title: Special layouts
+    - title: Special layouts
     output: web, pdf
 
     folderitems:
