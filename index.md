@@ -29,8 +29,9 @@ You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed 
 ## Dataverse connector
 If `The type of the current preview value is too complex to display` error appears when loading a dataverse table, write the query :
 ```
-= let Source = CommonDataService.Database("cveboost.crm4.dynamics.com"),
-TableOpportunity = Source{[Schema="dbo", Item="opportunity"]}[Data],
-ColonnesChoisies = Table.SelectColumns(TableOpportunity, {"name","cve_familledeprojet", "cve_businessunit","cve_typemarche"})
-in ColonnesChoisies
+=
+let Source = CommonDataService.Database("organisationName.crm4.dynamics.com"),
+SelectedTable = Source{[Schema="dbo", Item="opportunity"]}[Data],
+SelectedColumns = Table.SelectColumns(SelectedTable, {"column1","column2", "column3"})
+in SelectedColumns
 ```
