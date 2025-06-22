@@ -1,12 +1,12 @@
 ---
-title: "Getting started with the Documentation Theme for Jekyll"
+title: "PowerBI"
 keywords: sample homepage
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+summary: PowerBI.
 ---
 
-{% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>." %}
+{% include note.html content="I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>." %}
 
 ## General
 
@@ -16,18 +16,8 @@ Follow these instructions to build the theme.
 
 First, download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
 
-### 3. Install Bundler
-
-In case you haven't installed Bundler, install it: **dd**
-
-```
-gem install bundler
-```
-
-You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed work well with your project. Bundler sorts out dependencies and installs missing gems or matches up gems with the right versions based on gem dependencies.
-
 ## Dataverse connector
-If you encounter the error `The type of the current preview value is too complex to display` when loading a Dataverse table into Power BI, it usually means Power Query is trying to display complex objects such as nested records or navigation properties.
+If you encounter the error `The type of the current preview value is too complex to display` when loading a Dataverse table into Power BI, it usually means Power Query is trying to display complex objects such as nested records or navigation properties. To avoid this, you can simplify the query by :
 ```
 =
 let Source = CommonDataService.Database("organisationName.crm4.dynamics.com"),
