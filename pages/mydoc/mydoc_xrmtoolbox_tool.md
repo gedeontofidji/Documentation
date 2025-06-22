@@ -21,7 +21,8 @@ Navtabs are particularly useful for scenarios where you want to show a variety o
 <div role="tabpanel" class="tab-pane active" id="Webresources Manager" markdown="1">
 ## Webresources Manager
 
-Praesent sit amet fermentum leo. Aliquam feugiat, 
+* Allows you to edit client-side code
+* Press Ctrl+S, then Ctrl+U to publish
 
 1.  nibh in u ltrices mattis
 2.  felis ipsum venenatis metus, vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. 
