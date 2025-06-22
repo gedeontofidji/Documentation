@@ -18,7 +18,7 @@ First, download or clone the theme from the [Github repo](https://github.com/tom
 
 ### 3. Install Bundler
 
-In case you haven't installed Bundler, install it:
+In case you haven't installed Bundler, install it: **dd**
 
 ```
 gem install bundler
@@ -27,11 +27,11 @@ gem install bundler
 You'll want [Bundler](http://bundler.io/) to make sure all the Ruby gems needed work well with your project. Bundler sorts out dependencies and installs missing gems or matches up gems with the right versions based on gem dependencies.
 
 ## Dataverse connector
-If `The type of the current preview value is too complex to display` error appears when loading a dataverse table, write the query :
+If you encounter the error `The type of the current preview value is too complex to display` when loading a Dataverse table into Power BI, it usually means Power Query is trying to display complex objects such as nested records or navigation properties.
 ```
 =
 let Source = CommonDataService.Database("organisationName.crm4.dynamics.com"),
-SelectedTable = Source{[Schema="dbo", Item="opportunity"]}[Data],
+SelectedTable = Source{[Schema="dbo", Item="tableName"]}[Data],
 SelectedColumns = Table.SelectColumns(SelectedTable, {"column1","column2", "column3"})
 in SelectedColumns
 ```
