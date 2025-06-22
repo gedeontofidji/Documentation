@@ -1,7 +1,7 @@
 ---
 title:  XrmToolBox
 keywords: xrmtoolbox, webresources
-summary: "Navtabs provide a tab-based navagation directly in your content, allowing users to click from tab to tab to see different panels of condtent.
+summary: "Navtabs provide a tab-based navagation directly in your content, allowing users to click from tab to tab to see different panels of condtent."
 sidebar: mydoc_sidebar
 permalink: mydoc_xrmtoolbox_tool.html
 folder: mydoc
