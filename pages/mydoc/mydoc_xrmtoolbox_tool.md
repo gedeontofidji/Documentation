@@ -13,22 +13,19 @@ folder: mydoc
 Navtabs are particularly useful for scenarios where you want to show a variety of options, such as code samples for Java, .NET, or PHP, on the same page. `href`
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a class="noCrossRef" href="#profile" data-toggle="tab">Profile</a></li>
+    <li class="active"><a class="noCrossRef" href="#Webresources Manager" data-toggle="tab">Webresources Manager</a></li>
     <li><a class="noCrossRef" href="#about" data-toggle="tab">About</a></li>
     <li><a class="noCrossRef" href="#match" data-toggle="tab">Match</a></li>
 </ul>
   <div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="profile" markdown="1">
-## Profile
+<div role="tabpanel" class="tab-pane active" id="Webresources Manager" markdown="1">
+## Webresources Manager
 
 Praesent sit amet fermentum leo. Aliquam feugiat, 
 
 1.  nibh in u ltrices mattis
 2.  felis ipsum venenatis metus, vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. 
     * Quisque ut condimentum massa. 
-    * ut condimentum massa. 
-
-> Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit metus.
 </div>
 
 <div role="tabpanel" class="tab-pane" id="about">
@@ -44,8 +41,5 @@ Praesent sit amet fermentum leo. Aliquam feugiat,
 ## Match up ID tags
 
 Each tab's attribute must match the `id` attribute of the tab content's `div` section.
-
-
-By setting a cookie, if the user refreshes the page, the active tab is the tab the user last selected (rather than defaulting to the default active tab).
 
 {% include links.html %}
