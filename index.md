@@ -21,11 +21,6 @@ summary: PowerBI.
 
 <div role="tabpanel" class="tab-pane" id="dataverse-connector" markdown="1">
 ## Dataverse connector  
-### test  
-#### voicie mon texte  
-##### voici mo texts
-voici mon texte
-    <h2>Dataverse connector</h2>
 If you encounter the error `The type of the current preview value is too complex to display` when loading a Dataverse table into Power BI, it usually means Power Query is trying to display complex objects such as nested records or navigation properties. To avoid this, you can simplify the query by :
 ```
 =
