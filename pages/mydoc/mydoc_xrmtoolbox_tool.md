@@ -76,37 +76,11 @@ Here's the code for the above (with the filler text abbreviated):
 </div>
 ```
 
-## Design constraints
-
-Bootstrap automatically clears any floats after the navtab. Make sure you aren't trying to float any element to the right of your navtabs, or there will be some awkward space in your layout.
-
-## Appearance in the mini-TOC
-
-If you put a heading in the navtab content, that heading will appear in the mini-TOC as long as the heading tag has an ID. If you don't want the headings for each navtab section to appear in the mini-TOC, omit the ID attribute from the heading tag. Without this ID attribute in the heading, the mini-TOC won't insert the heading title into the mini-TOC.
-
-## Must use HTML
-
-You must use HTML within the navtab content because each navtab section is surrounded with HTML, and you can't use Markdown inside of HTML.
-
 ## Match up ID tags
 
 Each tab's `href` attribute must match the `id` attribute of the tab content's `div` section. So if your tab has `href="#acme"`, then you add `acme` as the ID attribute in `<div role="tabpanel" class="tab-pane" id="acme">`.
 
-## Set an active tab
-One of the tabs needs to be set ass active, depending on what tab you want to be open by default (usually the first one).
-
-```html
-<div role="tabpanel" class="tab-pane active" id="acme">
-```
-
-## Sets a cookie
-
-The navtabs are part of Bootstrap, but this theme sets a cookie to remember the last tab's state. The js/customscripts.js file has a long chunk of JavaScript that sets the cookie. The JavaScript comes from [this StackOverflow thread](http://stackoverflow.com/questions/10523433/how-do-i-keep-the-current-tab-active-with-twitter-bootstrap-after-a-page-reload).
 
 By setting a cookie, if the user refreshes the page, the active tab is the tab the user last selected (rather than defaulting to the default active tab).
-
-## Functionality to implement
-
-One piece of functionality I'd like to implement is the ability to set site-wide nav tab options. For example, if the user always chooses PHP instead of Java in the code samples, it would be great to set this option site-wide by default. However, this functionality isn't yet coded.
 
 {% include links.html %}
