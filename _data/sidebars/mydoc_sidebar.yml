@@ -43,7 +43,7 @@ entries:
     folderitems:
 
     - title: Tools
-      url: /index.html
+      url: /mydoc_xrmtoolbox_tool.html
       output: web, pdf
       type: homepage
       
