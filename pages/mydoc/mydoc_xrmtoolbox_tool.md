@@ -16,7 +16,7 @@ Navtabs are particularly useful for scenarios where you want to show a variety o
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#webresources-manager" data-toggle="tab">Webresources Manager</a></li>
-    <li><a class="noCrossRef" href="#plugin-trace-viewer" data-toggle="tab">Plugin Trace Viewer gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg</a></li>
+    <li><a class="noCrossRef" href="#plugin-trace-viewer" data-toggle="tab">Plugin Trace Viewer</a></li>
     <li><a class="noCrossRef" href="#match" data-toggle="tab">Match</a></li>
 </ul>
   <div class="tab-content">
