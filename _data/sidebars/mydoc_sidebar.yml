@@ -5,29 +5,16 @@ entries:
   product: Menu
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
-
   - title: Power Platform
     output: web, pdf
     folderitems:
 
-    - title: Get started
+    - title: Power BI
       url: /index.html
       output: web, pdf
       type: homepage
 
-    - title: Supported features
+    - title: Power Apps
       url: /mydoc_supported_features.html
       output: web, pdf
 
@@ -51,6 +38,15 @@ entries:
       url: /mydoc_shuffle.html
       output: web, pdf
 
+  - title: XrmToolBox
+    output: web, pdf
+    folderitems:
+
+    - title: Tools
+      url: /index.html
+      output: web, pdf
+      type: homepage
+      
   - title: Tag archives
     output: web
     folderitems:
