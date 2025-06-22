@@ -19,18 +19,19 @@ Navtabs are particularly useful for scenarios where you want to show a variety o
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="webresources-manager" markdown="1">
-## Webresources Manager
+##Webresources Manager
 
 * Allows you to edit client-side code
 * Press Ctrl+S, then Ctrl+U to publish
 </div>
 
-<div role="tabpanel" class="tab-pane" id="plugin-trace-viewer">
-## Plugin Trace Viewer
+<div role="tabpanel" class="tab-pane" id="plugin-trace-viewer" markdown="1">
+##Plugin Trace Viewer
+    
 * Allows you to debug and view all server-side code executions
 </div>
 
-<div role="tabpanel" class="tab-pane" id="match">
+<div role="tabpanel" class="tab-pane" id="match" markdown="1">
     <h2>Match</h2>
     <p>Vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. Quisque ut condimentum massa. Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit metus.</p>
 </div>
