@@ -11,15 +11,11 @@ folder: mydoc
 
 ## Common uses
 
-Navtabs are particularly useful for scenarios where you want to show a variety of options, such as
-
-## Navtabs demo
-
-The following is a demo of a navtab. Refresh your page to see the tab you selected remain active.
+Navtabs are particularly useful for scenarios where you want to show a variety of options, such as 'href'
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#webresources-manager" data-toggle="tab">Webresources Manager</a></li>
-    <li><a class="noCrossRef" href="#about" data-toggle="tab">About</a></li>
+    <li><a class="noCrossRef" href="#plugin-trace-viewer" data-toggle="tab">Plugin Trace Viewer</a></li>
     <li><a class="noCrossRef" href="#match" data-toggle="tab">Match</a></li>
 </ul>
   <div class="tab-content">
@@ -30,9 +26,12 @@ The following is a demo of a navtab. Refresh your page to see the tab you select
 * Press Ctrl+S, then Ctrl+U to publish  
 </div>
 
-<div role="tabpanel" class="tab-pane" id="about">
-    <h2>About</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel sollicitudin felis. Sed eu arcu sed ipsum semper luctus eu a tortor. Suspendisse id leo eu metus laoreet varius. Mauris consequat accumsan ex, a iaculis metus fermentum a. Praesent sit amet fermentum leo. Aliquam feugiat, nibh in u ltrices mattis, felis ipsum venenatis metus, vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. Quisque ut condimentum massa. Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit metus.about</p></div>
+<div role="tabpanel" class="tab-pane" id="plugin-trace-viewer">
+    <h2>Plugin Trace Viewer</h2>
+    <ul>
+      <li>Allows you to debug/view all server-side code executions</li>
+    </ul>
+</div>
 
 <div role="tabpanel" class="tab-pane" id="match">
     <h2>Match</h2>
