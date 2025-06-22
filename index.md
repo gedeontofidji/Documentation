@@ -1,6 +1,6 @@
 ---
 title: "PowerBI"
-keywords: dataverse
+keywords: dataverse, powerbi
 sidebar: mydoc_sidebar
 permalink: index.html
 toc: false
@@ -13,10 +13,7 @@ summary: PowerBI is a Microsofttool that allows users to visualize data, create 
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
-## General
-
-* Allows you to edit client-side code  
-* Press Ctrl+S, then Ctrl+U to publish  
+## General 
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dataverse-connector" markdown="1">
