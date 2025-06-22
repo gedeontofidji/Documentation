@@ -1,7 +1,7 @@
 ---
-title:  Navtabs
-keywords: navigation tabs, hide sections, tabbers, interface tabs
-summary: "Navtabs provide a tab-based navagation directly in your content, allowing users to click from tab to tab to see different panels of condtent. Navtabs are especially helpful for showing code samples for different programming languages. The only downside to using navtabs is that you must use HTML instead of Markdown."
+title:  XrmToolBox
+keywords: xrmtoolbox, webresources
+summary: "Navtabs provide a tab-based navagation directly in your content, allowing users to click from tab to tab to see different panels of condtent.
 sidebar: mydoc_sidebar
 permalink: mydoc_xrmtoolbox_tool.html
 folder: mydoc
@@ -10,15 +10,7 @@ folder: mydoc
 
 ## Common uses
 
-Navtabs are particularly useful for scenarios where you want to show a variety of options, such as code samples for Java, .NET, or PHP, on the same page.
-
-While you could resort to single-source publishing to provide different outputs for each unique programming language or role, you could also use navtabs to allow users to select the content you want.
-
-Navtabs are better for SEO since you avoid duplicate content and drive users to the same page.
-
-## Navtabs demo
-
-The following is a demo of a navtab. Refresh your page to see the tab you selected remain active.
+Navtabs are particularly useful for scenarios where you want to show a variety of options, such as code samples for Java, .NET, or PHP, on the same page. `href`
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#profile" data-toggle="tab">Profile</a></li>
@@ -51,7 +43,7 @@ Praesent sit amet fermentum leo. Aliquam feugiat,
 
 ## Match up ID tags
 
-Each tab's `href` attribute must match the `id` attribute of the tab content's `div` section.
+Each tab's attribute must match the `id` attribute of the tab content's `div` section.
 
 
 By setting a cookie, if the user refreshes the page, the active tab is the tab the user last selected (rather than defaulting to the default active tab).
