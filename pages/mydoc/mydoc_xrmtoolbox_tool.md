@@ -14,7 +14,7 @@ Navtabs are particularly useful for scenarios where you want to show a variety o
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#Webresources Manager" data-toggle="tab">Webresources Manager</a></li>
-    <li><a class="noCrossRef" href="#about" data-toggle="tab">About</a></li>
+    <li><a class="noCrossRef" href="#Plugin Trace Viewer" data-toggle="tab">Plugin Trace Viewer</a></li>
     <li><a class="noCrossRef" href="#match" data-toggle="tab">Match</a></li>
 </ul>
   <div class="tab-content">
@@ -23,13 +23,9 @@ Navtabs are particularly useful for scenarios where you want to show a variety o
 
 * Allows you to edit client-side code
 * Press Ctrl+S, then Ctrl+U to publish
-
-1.  nibh in u ltrices mattis
-2.  felis ipsum venenatis metus, vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. 
-    * Quisque ut condimentum massa. 
 </div>
 
-<div role="tabpanel" class="tab-pane" id="about">
+<div role="tabpanel" class="tab-pane" id="Plugin Trace Viewer">
     <h2>About</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel sollicitudin felis. Sed eu arcu sed ipsum semper luctus eu a tortor. Suspendisse id leo eu metus laoreet varius. Mauris consequat accumsan ex, a iaculis metus fermentum a. Praesent sit amet fermentum leo. Aliquam feugiat, nibh in u ltrices mattis, felis ipsum venenatis metus, vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. Quisque ut condimentum massa. Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit metus.about</p></div>
 
