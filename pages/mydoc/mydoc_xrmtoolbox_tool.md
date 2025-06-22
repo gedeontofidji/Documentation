@@ -49,36 +49,9 @@ Praesent sit amet fermentum leo. Aliquam feugiat,
 </div>
 </div>
 
-## Code
-
-Here's the code for the above (with the filler text abbreviated):
-
-```html
-<ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
-    <li><a href="#about" data-toggle="tab">About</a></li>
-    <li><a href="#match" data-toggle="tab">Match</a></li>
-</ul>
-  <div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="profile">
-    <h2>Profile</h2>
-<p>Praesent sit amet fermentum leo....</p>
-</div>
-
-<div role="tabpanel" class="tab-pane" id="about">
-    <h2>About</h2>
-    <p>Lorem ipsum ...</p></div>
-
-<div role="tabpanel" class="tab-pane" id="match">
-    <h2>Match</h2>
-    <p>Vel vehicula ....</p>
-</div>
-</div>
-```
-
 ## Match up ID tags
 
-Each tab's `href` attribute must match the `id` attribute of the tab content's `div` section. So if your tab has `href="#acme"`, then you add `acme` as the ID attribute in `<div role="tabpanel" class="tab-pane" id="acme">`.
+Each tab's `href` attribute must match the `id` attribute of the tab content's `div` section.
 
 
 By setting a cookie, if the user refreshes the page, the active tab is the tab the user last selected (rather than defaulting to the default active tab).
