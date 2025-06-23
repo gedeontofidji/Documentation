@@ -47,12 +47,12 @@ entries:
       output: web, pdf
       type: homepage
       
-  - title: Tag archives
+  - title: Miscellaneous
     output: web
     folderitems:
 
-    - title: Tag archives overview
-      url: /mydoc_tag_archives_overview.html
+    - title: Notes
+      url: /mydoc_notes.html
       output: web
 
       subfolders:
