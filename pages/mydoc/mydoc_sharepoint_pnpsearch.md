@@ -15,7 +15,7 @@ folder: mydoc
 <div role="tabpanel" class="tab-pane active" id="documentation" markdown="1">
 ## Documentation
 
-* [Pnp Modern Search](https://microsoft-search.github.io/pnp-modern-search/usage/search-results/layouts/)
+* [Pnp Modern Search](https://microsoft-search.github.io/pnp-modern-search/usage/search-results/layouts/)  
 💡Tips
 * If a managed property is mapped to multiple crawled properties with identical values, only one value will appear in the filters.  
 </div>
