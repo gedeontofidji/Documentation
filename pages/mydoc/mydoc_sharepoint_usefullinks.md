@@ -16,11 +16,12 @@ folder: mydoc
 ## General
 
 * [Admin Center](https://go.microsoft.com/fwlink/?linkid=2185220)
-* [View formatting]((https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/view-formatting)
+* [View formatting](https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/view-formatting)
 </div>
 
 <div role="tabpanel" class="tab-pane" id="other" markdown="1">
 ## Other
+Other
 </div>
 </div>
 
