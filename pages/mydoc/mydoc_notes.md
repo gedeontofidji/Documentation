@@ -7,7 +7,7 @@ toc: false
 folder: mydoc
 ---
 
-### To watch/read
+## To watch/read
 - https://www.microsoft.com/en-us/power-platform/blog/2025/06/09/long-term-retention/?utm_source=substack&utm_medium=email
 
 ## To do
@@ -26,7 +26,7 @@ OK  :
 - https://www.microsoft.com/en-us/power-platform/blog/2025/06/09/long-term-retention/?utm_source=substack&utm_medium=email
 
 
-### Evolutions to come
+## Evolutions to come
 - Dataverse Accelerator : permet de créer des plug-ins low-code, mais actuellement dépriorisée au profit des fonctions. Les fonctions sont en version beta pour le moment : https://learn.microsoft.com/en-us/power-apps/maker/data-platform/functions-overview.
 
 {% include links.html %}
