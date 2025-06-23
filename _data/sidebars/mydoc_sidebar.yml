@@ -47,7 +47,15 @@ entries:
     output: web
     folderitems:
 
-    - title: General
+    - title: Useful links
+      url: /mydoc_notes.html
+      output: web
+      
+    - title: List and library
+      url: /mydoc_notes.html
+      output: web
+
+    - title: Pnp Modern Search
       url: /mydoc_notes.html
       output: web
       
