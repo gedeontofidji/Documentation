@@ -48,7 +48,7 @@ entries:
       output: web
       
     - title: List and library
-      url: /mydoc_notes.html
+      url: /mydoc_sharepoint_listandlibrary.html
       output: web
 
     - title: Pnp Modern Search
