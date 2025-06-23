@@ -1,6 +1,7 @@
 ---
 title:  Useful links
 keywords:
+sidebar: mydoc_sidebar
 permalink: mydoc_sharepoint_usefullinks.html
 toc: false
 folder: mydoc
