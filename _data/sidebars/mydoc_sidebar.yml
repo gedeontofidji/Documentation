@@ -42,6 +42,25 @@ entries:
       url: /mydoc_xrmtoolbox_tool.html
       output: web, pdf
       type: homepage
+
+  - title: SharePoint
+    output: web, pdf
+    folderitems:
+
+    - title: List and library
+      url: /mydoc_sharepoint_listandlibrary.html
+      output: web, pdf
+      type: homepage
+
+      - title: Pnp Modern Search
+      url: /mydoc_sharepoint_pnpmodernsearch.html
+      output: web, pdf
+      type: homepage
+      
+    - title: Useful links
+      url: /mydoc_sharepoint_usefullinks.html
+      output: web, pdf
+      type: homepage
       
   - title: Miscellaneous
     output: web
