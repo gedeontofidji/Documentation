@@ -22,10 +22,6 @@ entries:
       url: /mydoc_navtabs.html
       output: web, pdf
 
-#    - title: Git collaboration
-#      url: /mydoc_git_collaboration
-#      output: web, pdf
-
     - title: Generating PDFs
       url: /mydoc_generating_pdfs.html
       output: web, pdf
@@ -48,7 +44,7 @@ entries:
     folderitems:
 
     - title: Useful links
-      url: /mydoc_notes.html
+      url: /mydoc_sharepoint_usefullinks.html
       output: web
       
     - title: List and library
