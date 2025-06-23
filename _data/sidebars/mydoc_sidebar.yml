@@ -52,7 +52,7 @@ entries:
       output: web
 
     - title: Pnp Modern Search
-      url: /mydoc_notes.html
+      url: /mydoc_sharepoint_pnpsearch.html
       output: web
       
   - title: Miscellaneous
