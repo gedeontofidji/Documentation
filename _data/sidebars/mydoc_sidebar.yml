@@ -48,16 +48,16 @@ entries:
     folderitems:
 
     - title: List and library
-      url: /mydoc_sharepoint_listandlibrary.html
+      url: /mydoc_xrmtoolbox_tool.html
       output: web, pdf
       type: homepage
 
       - title: Pnp Modern Search
-      url: /mydoc_sharepoint_pnpmodernsearch.html
+      url: /mydoc_xrmtoolbox_tool.html
       output: web, pdf
       
     - title: Useful links
-      url: /mydoc_sharepoint_usefullinks.html
+      url: /mydoc_xrmtoolbox_tool.html
       output: web, pdf
       
   - title: Miscellaneous
