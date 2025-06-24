@@ -55,7 +55,7 @@ entries:
       url: /mydoc_sharepoint_pnpsearch.html
       output: web
       
-    - title: Microsoft
+  - title: Microsoft
     output: web
     folderitems:
 
