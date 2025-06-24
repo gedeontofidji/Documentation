@@ -11,7 +11,7 @@ folder: mydoc
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#webresources-manager" data-toggle="tab">Webresources Manager</a></li>
     <li><a class="noCrossRef" href="#plugin-trace-viewer" data-toggle="tab">Plugin Trace Viewer</a></li>
-    <li><a class="noCrossRef" href="#match" data-toggle="tab">Match</a></li>
+    <li><a class="noCrossRef" href="#early-bound-generator" data-toggle="tab">Early Bound Generator</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="webresources-manager" markdown="1">
@@ -28,9 +28,10 @@ folder: mydoc
     </ul>
 </div>
 
-<div role="tabpanel" class="tab-pane" id="match">
-    <h2>Match</h2>
-    <p>Vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. Quisque ut condimentum massa. Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit metus.</p>
+<div role="tabpanel" class="tab-pane" id="early-bound-generator" markdown="1">
+## Early Bound Generator
+* Allows the generation of a new table or field
+* The generation includes all the fields of an entity.
 </div>
 </div>
 
