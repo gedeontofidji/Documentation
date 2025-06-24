@@ -9,11 +9,15 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Power BI
+    - title: General
       url: /index.html
       output: web, pdf
       type: homepage
 
+    - title: Power BI
+      url: /mydoc_powerbi.html
+      output: web, pdf
+      
     - title: Power Apps
       url: /mydoc_supported_features.html
       output: web, pdf
