@@ -55,6 +55,14 @@ entries:
       url: /mydoc_sharepoint_pnpsearch.html
       output: web
       
+    - title: Microsoft
+    output: web
+    folderitems:
+
+    - title: General
+      url: /mydoc_microsoft.html
+      output: web  
+      
   - title: Miscellaneous
     output: web
     folderitems:
