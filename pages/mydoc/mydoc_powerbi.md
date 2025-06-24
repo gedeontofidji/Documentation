@@ -1,0 +1,48 @@
+---
+title: "PowerBI"
+keywords: dataverse, powerbi
+sidebar: mydoc_sidebar
+permalink: mydoc_powerbi.html
+toc: false
+summary: PowerBI is a Microsofttool that allows users to visualize data, create interactive reports, and share insights across an organization. It connects to various data sources, enabling real-time data analysis.
+---
+
+<ul id="profileTabs" class="nav nav-tabs">
+    <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
+    <li><a class="noCrossRef" href="#dataverse-connection" data-toggle="tab">Dataverse connection</a></li>
+</ul>
+  <div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="general" markdown="1">
+## General 
+</div>
+
+<div role="tabpanel" class="tab-pane" id="dataverse-connection" markdown="1">
+### Dataverse connector  
+If you encounter the error `The type of the current preview value is too complex to display` when loading a Dataverse table into Power BI, it usually means Power Query is trying to display complex objects such as nested records or navigation properties. To avoid this, you can simplify the query by :
+```
+= let Source = CommonDataService.Database("organisationName.crm4.dynamics.com"),
+SelectedTable = Source{[Schema="dbo", Item="tableName"]}[Data],
+SelectedColumns = Table.SelectColumns(SelectedTable, {"column1","column2", "column3"})
+in SelectedColumns
+```
+
+### Retrieve option set piclist
+Option sets are not stored in any standard Dataverse table. To retrieve them, you need to use the Web connector with the following query :
+```
+= let Source = Json.Document(Web.Contents("https://organisationName.api.crm4.dynamics.com/api/data/v9.0/GlobalOptionSetDefinitions")),
+TableBase = Table.FromRecords({Source}),
+ExpandValue=Table.ExpandListColumn(TableBase,"value"),
+ExpandFields=Table.ExpandRecordColumn(ExpandValue,"value",{"Name","Description","DisplayName","IsCustomizable","Options"}),
+ExpandDescription=Table.ExpandRecordColumn(ExpandFields,"Description",{"UserLocalizedLabel"},{"Description.UserLocalizedLabel"}),
+ExpandDisplayName=Table.ExpandRecordColumn(ExpandDescription,"DisplayName",{"UserLocalizedLabel"},{"DisplayName.UserLocalizedLabel"}),
+ExpandIsCustomizable=Table.ExpandRecordColumn(ExpandDisplayName,"IsCustomizable",{"Value"}), ExpandOptions=Table.ExpandListColumn(ExpandIsCustomizable,"Options"),
+ExpandOptionsLabel=Table.ExpandRecordColumn(ExpandOptions,"Options",{"Label"}),
+ExpandOptionsUserLabel=Table.ExpandRecordColumn(ExpandOptionsLabel,"Label",{"UserLocalizedLabel"},{"Options.Label.UserLocalizedLabel"}),
+ExpandLabel=Table.ExpandRecordColumn(ExpandOptionsUserLabel,"Options.Label.UserLocalizedLabel",{"Label"},{"Options.Label.UserLocalizedLabel.Label"}),
+FinalTable=Table.RemoveColumns(ExpandLabel,{"Description.UserLocalizedLabel","DisplayName.UserLocalizedLabel","@odata.context","Value"})
+in FinalTable
+```
+</div>
+</div>
+
+{% include links.html %}
