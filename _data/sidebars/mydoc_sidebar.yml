@@ -18,16 +18,8 @@ entries:
       url: /mydoc_supported_features.html
       output: web, pdf
 
-    - title: Navtabs
-      url: /mydoc_navtabs.html
-      output: web, pdf
-
     - title: Generating PDFs
       url: /mydoc_generating_pdfs.html
-      output: web, pdf
-
-    - title: Knowledge-base layout
-      url: /mydoc_kb_layout.html
       output: web, pdf
 
   - title: XrmToolBox
