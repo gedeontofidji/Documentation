@@ -7,6 +7,12 @@ toc: false
 summary:
 ---
 
+<ul id="profileTabs" class="nav nav-tabs">
+    <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
+    <li><a class="noCrossRef" href="#useful-links" data-toggle="tab">Useful links</a></li>
+</ul>
+  <div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## To watch/read
 - https://www.microsoft.com/en-us/power-platform/blog/2025/06/09/long-term-retention/?utm_source=substack&utm_medium=email
 
@@ -30,5 +36,12 @@ OK  :
 
 ## Evolutions to come
 - Dataverse Accelerator : permet de créer des plug-ins low-code, mais actuellement dépriorisée au profit des fonctions. Les fonctions sont en version beta pour le moment : https://learn.microsoft.com/en-us/power-apps/maker/data-platform/functions-overview.
+</div>
+
+<div role="tabpanel" class="tab-pane" id="useful-links" markdown="1">
+### Links
+* [GitHub Jekyll theme](https://jekyllthemes.io/theme/documentation)
+</div>
+</div>
 
 {% include links.html %}
