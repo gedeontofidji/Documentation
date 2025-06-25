@@ -58,22 +58,3 @@ entries:
     - title: General
       url: /mydoc_microsoft.html
       output: web  
-      
-  - title: Miscellaneous
-    output: web
-    folderitems:
-
-    - title: Notes
-      url: /mydoc_notes.html
-      output: web
-
-      subfolders:
-      - title: Tag archive pages
-        output: web
-        subfolderitems:
-
-        - title: Formatting pages
-          url: /tag_formatting.html
-          output: web
-
-# Copyright 2021 Google LLC
