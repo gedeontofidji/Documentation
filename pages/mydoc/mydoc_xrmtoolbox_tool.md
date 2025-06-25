@@ -39,7 +39,7 @@ folder: mydoc
 <div role="tabpanel" class="tab-pane" id="fetchxml-builder" markdown="1">
 ## FetchXML Builder
 * Allows you to query data using a specific format (useful for Power Automate or server-side development).
-{% include image.html file="xrmfetchxmlbuilder.png" caption="FetchXML Builder" %}
+{% include image.html file="xrmfetchxmlbuilder.png" width="30%" %}
 </div>
 </div>
 
