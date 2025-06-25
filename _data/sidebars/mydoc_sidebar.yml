@@ -10,7 +10,7 @@ entries:
     folderitems:
 
     - title: General
-      url: /index.html
+      url: /mydoc_powerplatform.html
       output: web, pdf
       type: homepage
 
