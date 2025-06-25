@@ -40,9 +40,7 @@ folder: mydoc
 ## FetchXML Builder
 * Allows you to query data using a specific format (useful for Power Automate or server-side development).
 {% include image.html file="xrmfetchxmlbuilder.png" max-width="30%" %}
-{% include image.html file="xrmfetchxmlbuilder.png" style="width:10%" %}
-{% include image.html file="xrmfetchxmlbuilder.png" style="width:30%;" %}
-{% include image.html file="xrmfetchxmlbuilder.png" caption="FetchXML Builder" class="small-image" %}
+{% include image.html file="xrmfetchxmlbuilder.png" max-width="5%" %}
 </div>
 </div>
 
