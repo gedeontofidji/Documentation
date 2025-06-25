@@ -23,16 +23,12 @@ folder: mydoc
 </div>
 
 <div role="tabpanel" class="tab-pane" id="plugin-registration" markdown="1">
-{{ "
 ## Plugin Registration
 * Allows you to view and edit server-side code.  
-| Concept | Definition |
-|-------|--------|
-| Asynchronous | Blocks the user before saving |
-| Synchronous | Does not block the user before saving and runs after saving |
-| Pre-image | Captures data from a table before/after saving |
-| Post-image | Captures data from a table after saving |
-" | markdownify }}
+`Asynchronous` : Blocks the user before saving
+`Synchronous` : Does not block the user before saving and runs after saving
+`Pre-image` : Captures data from a table before/after saving
+`Post-image` : Captures data from a table after saving
 </div>
 
 <div role="tabpanel" class="tab-pane" id="plugin-trace-viewer" markdown="1">
