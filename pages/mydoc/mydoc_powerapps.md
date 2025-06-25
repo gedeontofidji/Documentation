@@ -10,7 +10,7 @@ folder: mydoc
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#documentation" data-toggle="tab">Documentation</a></li>
-    <li><a class="noCrossRef" href="#other" data-toggle="tab">Other</a></li>
+    <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Dynamics 365 App for Outlook</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="documentation" markdown="1">
@@ -19,8 +19,8 @@ folder: mydoc
 * [Virtual tables and lookup columns](https://mattruma.com/adventures-with-dataverse-virtual-tables-and-look-up-columns/?utm_source=substack&utm_medium=email)  
 </div>
 
-<div role="tabpanel" class="tab-pane" id="other" markdown="1">
-### Other
+<div role="tabpanel" class="tab-pane" id="dynamics-app-outlook" markdown="1">
+### Dynamics 365 App for Outlook
 </div>
 </div>
 
