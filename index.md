@@ -30,6 +30,7 @@ summary:
 * How to create a solution C# project from srcatch with all the references
 * BPG Manager
 * Etapes fecth ribbon
+* if (context.ui.tabs.get("Générer document").getDisplayState() === "collapsed") return;
 
 OK  :
 - dataverse stockage : https://learn.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq
