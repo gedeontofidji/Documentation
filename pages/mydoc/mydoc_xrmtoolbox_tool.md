@@ -24,7 +24,7 @@ folder: mydoc
 
 <div role="tabpanel" class="tab-pane" id="plugin-registration" markdown="1">
 ## Plugin Registration
-* Allows you to view and edit server-side code.
+* Allows you to view and edit server-side code.  
 | Concept | Definition |
 |-------|--------|
 | Asynchronous | Blocks the user before saving |
