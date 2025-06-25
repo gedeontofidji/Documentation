@@ -15,7 +15,7 @@ entries:
       type: homepage
 
     - title: Power Apps
-      url: /mydoc_supported_features.html
+      url: /mydoc_powerapps.html
       output: web, pdf
 
     - title: Power Automate
@@ -24,10 +24,6 @@ entries:
       
     - title: Power BI
       url: /mydoc_powerbi.html
-      output: web, pdf
-
-    - title: Generating PDFs
-      url: /mydoc_powerapps.html
       output: web, pdf
 
   - title: XrmToolBox
