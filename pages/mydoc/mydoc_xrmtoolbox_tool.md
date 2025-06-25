@@ -10,6 +10,7 @@ folder: mydoc
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#webresources-manager" data-toggle="tab">Webresources Manager</a></li>
+    <li><a class="noCrossRef" href="#plugin-registration" data-toggle="tab">Plugin Registration</a></li>
     <li><a class="noCrossRef" href="#plugin-trace-viewer" data-toggle="tab">Plugin Trace Viewer</a></li>
     <li><a class="noCrossRef" href="#early-bound-generator" data-toggle="tab">Early Bound Generator</a></li>
     <li><a class="noCrossRef" href="#fetchxml-builder" data-toggle="tab">FetchXML Builder</a></li>
@@ -17,16 +18,24 @@ folder: mydoc
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="webresources-manager" markdown="1">
 ## Webresources Manager
-
 * Allows you to edit client-side code  
 * Press Ctrl+S, then Ctrl+U to publish  
 </div>
 
-<div role="tabpanel" class="tab-pane" id="plugin-trace-viewer">
-    <h2>Plugin Trace Viewer</h2>
-    <ul>
-      <li>Allows you to debug/view all server-side code executions</li>
-    </ul>
+<div role="tabpanel" class="tab-pane" id="plugin-registration" markdown="1">
+## Plugin Registration
+* Allows you to view and edit server-side code.
+| Concept | Definition |
+|-------|--------|
+| Asynchronous | Blocks the user before saving |
+| Synchronous | Does not block the user before saving and runs after saving |
+| Pre-image | Captures data from a table before/after saving |
+| Post-image | Captures data from a table after saving |
+</div>
+
+<div role="tabpanel" class="tab-pane" id="plugin-trace-viewer" markdown="1">
+## Plugin Trace Viewer
+* Allows you to debug/view all server-side code executions.
 </div>
 
 <div role="tabpanel" class="tab-pane" id="early-bound-generator" markdown="1">
