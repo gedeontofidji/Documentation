@@ -1,6 +1,6 @@
 ---
 title: Power Apps
-keywords: power apps, outlook, power fx, js, javascript
+keywords: power apps, outlook, power fx, js, javascript, c#, csharp
 summary: "Power Apps is a Microsoft tool that allows users to build custom applications, simplify business processes, and enhance productivity across an organization. It connects to various data sources, enabling real-time data interaction and app development without extensive coding"
 sidebar: mydoc_sidebar
 toc: false
@@ -10,8 +10,10 @@ folder: mydoc
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#documentation" data-toggle="tab">Documentation</a></li>
+    <li><a class="noCrossRef" href="#csharp" data-toggle="tab">C#</a></li>
     <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Dynamics 365 App for Outlook</a></li>
     <li><a class="noCrossRef" href="#javascript" data-toggle="tab">JavaScript</a></li>
+    <li><a class="noCrossRef" href="#mscrm" data-toggle="tab">Mscrm - Document Core Pack</a></li>
     <li><a class="noCrossRef" href="#plan-designer" data-toggle="tab">Plan Designer</a></li>
     <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power Fx</a></li>
 </ul>
@@ -20,6 +22,10 @@ folder: mydoc
 ## Documentation
 * [Restricted tables requiring Dynamics 365 licenses](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-restricted-entities)
 * [Virtual tables and lookup columns](https://mattruma.com/adventures-with-dataverse-virtual-tables-and-look-up-columns/?utm_source=substack&utm_medium=email)  
+</div>
+
+<div role="tabpanel" class="tab-pane" id="csharp" markdown="1">
+#### Csharp
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dynamics-app-outlook" markdown="1">
@@ -31,11 +37,15 @@ folder: mydoc
 
 <div role="tabpanel" class="tab-pane" id="javascript" markdown="1">
 * [JavaScript API](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference)
-##### To help you debug during development, you can either display an alert popup on the UI or write a message to the debug console:
+To help you debug during development, you can either display an alert popup on the UI or write a message to the debug console:
 ```
 alert("Field update with succes with the value :" + nom);
 console.log("Field update with succes with the value :" + nom );
 ```
+</div>
+
+<div role="tabpanel" class="tab-pane" id="mscrm" markdown="1">
+d
 </div>
 
 <div role="tabpanel" class="tab-pane" id="plan-designer" markdown="1">
