@@ -19,7 +19,6 @@ summary:
 ## To do
 * Microsoft certification
 * Agent Power App (make filter with natural language / find records and sum up them, add the agent in the sitemap)
-* Cartes
 * Embed PowerBI eaily in Power App
 * How to create a plugin assembly from scratch
 * GitHub pour Power App (versionning and edit code directly outisde of power app and commit it)
