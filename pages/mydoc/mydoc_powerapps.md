@@ -20,7 +20,10 @@ folder: mydoc
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dynamics-app-outlook" markdown="1">
-### Dynamics 365 App for Outlook
+### Add-in that connects Outlook with Power Apps, allowing users to track emails or appointments, access or create records directly from Outlook.
+* To enable integration of a table with Outlook through the plugin, make sure the table is included in the 'Dynamics 365 App for Outlook' application.
+* To install the plugin on a email user, go in the `application > Advanced setting > Email configuration > Mailboxes` and follow the steps :
+{% include image.html file="powerapps_outlookconfiguration.png" max-width="50%" %}
 </div>
 </div>
 
