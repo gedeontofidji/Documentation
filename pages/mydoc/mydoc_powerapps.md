@@ -12,7 +12,7 @@ folder: mydoc
     <li class="active"><a class="noCrossRef" href="#documentation" data-toggle="tab">Documentation</a></li>
     <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Dynamics 365 App for Outlook</a></li>
     <li><a class="noCrossRef" href="#plan-designer" data-toggle="tab">Plan Designer</a></li>
-    <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power fx formulas</a></li>
+    <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power Fx</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="documentation" markdown="1">
@@ -46,5 +46,5 @@ Value(field);
 )
 ```
 </div>
-
+</div>
 {% include links.html %}
