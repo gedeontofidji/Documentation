@@ -30,11 +30,11 @@ folder: mydoc
 </div>
 
 <div role="tabpanel" class="tab-pane" id="javascript" markdown="1">
-### To help you to debug when developping you can popup an alerte on the UI or write a trace in the debug console :
+#### To help you debug during development, you can either display an alert popup on the UI or write a message to the debug console:
 ```
 alert("Field update with succes with the value :" + nom);
+console.log("Field update with succes with the value :" + nom );
 ```
-`console.log("Field update with succes with the value :" + nom );`
 ###
 </div>
 
