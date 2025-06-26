@@ -1,6 +1,6 @@
 ---
 title: Power Apps
-keywords: power apps, outlook
+keywords: power apps, outlook, power fx
 summary: "Power Apps is a Microsoft tool that allows users to build custom applications, simplify business processes, and enhance productivity across an organization. It connects to various data sources, enabling real-time data interaction and app development without extensive coding"
 sidebar: mydoc_sidebar
 toc: false
@@ -12,6 +12,7 @@ folder: mydoc
     <li class="active"><a class="noCrossRef" href="#documentation" data-toggle="tab">Documentation</a></li>
     <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Dynamics 365 App for Outlook</a></li>
     <li><a class="noCrossRef" href="#plan-designer" data-toggle="tab">Plan Designer</a></li>
+    <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power fx formulas</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="documentation" markdown="1">
@@ -33,6 +34,17 @@ folder: mydoc
 #### Documentation
 * [Overview of Plan Designer](https://learn.microsoft.com/en-us/power-apps/maker/plan-designer/plan-designer)
 </div>
+
+<div role="tabpanel" class="tab-pane" id="power-fx" markdown="1">
+#### Switch
+```
+Switch(
+Value(field);
+917140000;"text1";
+917140001;"text2";
+917140002;"text3";""
+)
+```
 </div>
 
 {% include links.html %}
