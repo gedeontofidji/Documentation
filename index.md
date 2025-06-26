@@ -25,7 +25,7 @@ summary:
 * Formation powerbi
 * flux powee app sharepoint
 * exporter fluw powee automate
-* How to create a solution C# project from srcatch with all the references
+* How to create a solution C# project from srcatch with all the references (https://youtu.be/nxnMvBkoS0k?si=FSd1XPs8HNAY7mC_)
 * BPG Manager
 * Etapes fecth ribbon + bpf manager
 * if (context.ui.tabs.get("Générer document").getDisplayState() === "collapsed") return;
