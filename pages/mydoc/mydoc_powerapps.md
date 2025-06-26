@@ -31,7 +31,9 @@ folder: mydoc
 
 <div role="tabpanel" class="tab-pane" id="javascript" markdown="1">
 Alert to help you to debug when developping
-``` alert("Step completed with field :" + nom ); ```
+```
+alert("Step completed with field :" + nom );
+```
 </div>
 
 <div role="tabpanel" class="tab-pane" id="plan-designer" markdown="1">
