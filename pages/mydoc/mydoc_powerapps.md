@@ -40,9 +40,9 @@ folder: mydoc
 ```
 Switch(
 Value(field);
-917140000;"text1";
-917140001;"text2";
-917140002;"text3";""
+917140001;"text1";
+917140002;"text2";
+917140003;"text3";""
 )
 ```
 </div>
