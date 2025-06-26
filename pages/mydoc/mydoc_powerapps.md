@@ -30,10 +30,12 @@ folder: mydoc
 </div>
 
 <div role="tabpanel" class="tab-pane" id="javascript" markdown="1">
-Alert to help you to debug when developping
+### To help you to debug when developping you can popup an alerte on the UI or write a trace in the debug console :
 ```
-alert("Step completed with field :" + nom );
+alert("Field update with succes with the value :" + nom);
 ```
+`console.log("Field update with succes with the value :" + nom );`
+###
 </div>
 
 <div role="tabpanel" class="tab-pane" id="plan-designer" markdown="1">
