@@ -17,7 +17,6 @@ summary:
 - https://www.microsoft.com/en-us/power-platform/blog/2025/06/09/long-term-retention/?utm_source=substack&utm_medium=email
 
 ## To do
-* Code exemple de formule powerfx (espagne)
 * Microsoft certification
 * Agent Power App (make filter with natural language / find records and sum up them, add the agent in the sitemap)
 * Cartes
