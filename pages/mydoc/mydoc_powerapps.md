@@ -11,6 +11,7 @@ folder: mydoc
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#documentation" data-toggle="tab">Documentation</a></li>
     <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Dynamics 365 App for Outlook</a></li>
+    <li><a class="noCrossRef" href="#javascript" data-toggle="tab">JavaScript</a></li>
     <li><a class="noCrossRef" href="#plan-designer" data-toggle="tab">Plan Designer</a></li>
     <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power Fx</a></li>
 </ul>
@@ -26,6 +27,11 @@ folder: mydoc
 * To enable integration of a table with Outlook, make sure the table is included in the 'Dynamics 365 App for Outlook' application.
 * To install the plugin on a email user, go in the `application > Advanced setting > Email configuration > Mailboxes` and follow the steps :
 {% include image.html file="powerapps_outlookconfiguration.png" max-width="50%" %}
+</div>
+
+<div role="tabpanel" class="tab-pane" id="javascript" markdown="1">
+Alert to help you to debug when developping
+``` alert("Step completed with field :" + nom ); ```
 </div>
 
 <div role="tabpanel" class="tab-pane" id="plan-designer" markdown="1">
