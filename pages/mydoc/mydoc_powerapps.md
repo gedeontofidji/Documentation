@@ -1,6 +1,6 @@
 ---
 title: Power Apps
-keywords: power apps, outlook, power fx
+keywords: power apps, outlook, power fx, js, javascript
 summary: "Power Apps is a Microsoft tool that allows users to build custom applications, simplify business processes, and enhance productivity across an organization. It connects to various data sources, enabling real-time data interaction and app development without extensive coding"
 sidebar: mydoc_sidebar
 toc: false
