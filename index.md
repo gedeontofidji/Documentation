@@ -28,9 +28,9 @@ summary:
 * exporter fluw powee automate
 * How to create a solution C# project from srcatch with all the references
 * BPG Manager
-* Etapes fecth ribbon
+* Etapes fecth ribbon + bpf manager
 * if (context.ui.tabs.get("Générer document").getDisplayState() === "collapsed") return;
-* fecth dans les filtres
+* fecth dans les filtres + dynammic ribbon + securite equiê
 
 OK  :
 - dataverse stockage : https://learn.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq
