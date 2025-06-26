@@ -30,7 +30,7 @@ summary:
 * BPG Manager
 * Etapes fecth ribbon + bpf manager
 * if (context.ui.tabs.get("Générer document").getDisplayState() === "collapsed") return;
-* fecth dans les filtres + dynammic ribbon + securite equiê
+* fecth dans les filtres + dynammic ribbon + securite equiê + ne jamais url dans l'ID
 
 OK  :
 - dataverse stockage : https://learn.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq
