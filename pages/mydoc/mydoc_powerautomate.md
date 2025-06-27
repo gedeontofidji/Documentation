@@ -13,10 +13,14 @@ summary: Power Automate is a Microsoft tool that allows users to automate workfl
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
-## Get the value of a lookup field with Dataverse
+## Get the value of a lookup field with Dataverse connector
 Write the following expression in a “Apply to each” loop :  
-``` items('Apply_to_each')?[_my_field_value@OData.Community.Display.V1.FormattedValue] ```
+```
+items('Apply_to_each')?[_my_field_value@OData.Community.Display.V1.FormattedValue]
+```
 
+## Set a lookup field with Dataverse connector
+Write the following expression : /table_name(tableNameId)
 </div>
 
 <div role="tabpanel" class="tab-pane" id="useful-links" markdown="1">
