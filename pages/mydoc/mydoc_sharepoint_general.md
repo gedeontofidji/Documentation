@@ -15,7 +15,6 @@ folder: mydoc
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## Useful links
 * [Admin Center](https://go.microsoft.com/fwlink/?linkid=2185220)
-* [View formatting](https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/view-formatting)
 
 ## Change the interface language
 1. Select your name or profile on a Sharepoint Site
