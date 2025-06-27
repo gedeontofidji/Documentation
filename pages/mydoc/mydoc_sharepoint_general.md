@@ -2,7 +2,7 @@
 title:  Useful links
 keywords:
 sidebar: mydoc_sidebar
-permalink: mydoc_sharepoint_usefullinks.html
+permalink: mydoc_sharepoint_general.html
 toc: false
 folder: mydoc
 ---
@@ -13,10 +13,15 @@ folder: mydoc
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
-## General
-
+## Useful links
 * [Admin Center](https://go.microsoft.com/fwlink/?linkid=2185220)
 * [View formatting](https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/view-formatting)
+
+## Change the interface language
+1. Select your name or profile on a Sharepoint Site
+2. Select My profile Office => Update profile
+3. Select the link “here”
+4. Modify the language in the section Language and region”
 </div>
 
 <div role="tabpanel" class="tab-pane" id="other" markdown="1">
