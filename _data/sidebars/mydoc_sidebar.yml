@@ -39,8 +39,8 @@ entries:
     output: web
     folderitems:
 
-    - title: Useful links
-      url: /mydoc_sharepoint_usefullinks.html
+    - title: General
+      url: /mydoc_sharepoint_general.html
       output: web
       
     - title: List and library
