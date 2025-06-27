@@ -20,7 +20,8 @@ items('Apply_to_each')?[_my_field_value@OData.Community.Display.V1.FormattedValu
 ```
 
 ## Set a lookup field with Dataverse connector
-Write the following expression : /table_name(tableNameId)
+Write the following expression : /entityName(entityId)
+{% include image.html file="powerautomate_setlookupfield.png" max-width="70%" %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="useful-links" markdown="1">
