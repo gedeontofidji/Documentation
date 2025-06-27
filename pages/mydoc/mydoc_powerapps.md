@@ -25,10 +25,10 @@ folder: mydoc
 </div>
 
 <div role="tabpanel" class="tab-pane" id="csharp" markdown="1">
-#### Csharp
+#### Coding process
 Pull the code stored on Git > Add your code and save it > Build the solution to generates the DLL in the solution folder > Open Plugin Registration in XrmToolBox to update the plugin with the generated DLL > Test > Enter the commit message, then push the changes to Git.
 {% include image.html file="visualstudio_pull.png" max-width="50%" %}
-{% include image.html file="visualstudio_push.png"50%" %}
+{% include image.html file="visualstudio_push.png" max-width="50%" %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dynamics-app-outlook" markdown="1">
