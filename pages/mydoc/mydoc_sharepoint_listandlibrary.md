@@ -15,6 +15,7 @@ folder: mydoc
 <div role="tabpanel" class="tab-pane active" id="documentation" markdown="1">
 ## Documentation
 
+* [View formatting](https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/view-formatting)
 * [Formula columns](https://support.microsoft.com/fr-fr/office/exemples-de-formules-courantes-dans-des-listes-d81f5f21-2b4e-45ce-b170-bf7ebf6988b3)
 </div>
 
