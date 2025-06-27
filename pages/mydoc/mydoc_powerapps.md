@@ -26,9 +26,8 @@ folder: mydoc
 
 <div role="tabpanel" class="tab-pane" id="csharp" markdown="1">
 ### ⌘ Keyboard shortcuts (Microsoft Visual Studio)
-* `[Ctrl+Maj+B]`: Build the solution
-* `[Ctrl+Espace]` : Autocompletion
-    
+* [Ctrl+Maj+B]: Build the solution
+* [Ctrl+Espace]: Autocompletion
 `The logic must be implemented in the service (e.g: CodeNasService) and not in the class (e.g: CodeNas).`
     
 #### Coding process
