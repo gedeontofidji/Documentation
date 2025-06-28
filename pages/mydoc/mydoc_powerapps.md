@@ -15,6 +15,7 @@ folder: mydoc
     <li><a class="noCrossRef" href="#javascript" data-toggle="tab">JavaScript</a></li>
     <li><a class="noCrossRef" href="#mscrm" data-toggle="tab">Mscrm - Document Core Pack</a></li>
     <li><a class="noCrossRef" href="#plan-designer" data-toggle="tab">Plan Designer</a></li>
+    <li><a class="noCrossRef" href="#power-bi" data-toggle="tab">Power BI</a></li>
     <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power Fx</a></li>
 </ul>
   <div class="tab-content">
@@ -64,6 +65,14 @@ d
 
 #### Documentation
 * [Overview of Plan Designer](https://learn.microsoft.com/en-us/power-apps/maker/plan-designer/plan-designer)
+</div>
+
+<div role="tabpanel" class="tab-pane" id="power-bi" markdown="1">
+### Embed Power BI report on the dashboard
+<a href="https://learn.microsoft.com/en-us/power-apps/user/add-powerbi-dashboards" target="_blank" rel="noopener noreferrer">Power BI dashboard</a>
+
+### Embed Power BI report in a form
+<a href="https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/embed-powerbi-report-in-system-form" target="_blank" rel="noopener noreferrer">Power BI form</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="power-fx" markdown="1">
