@@ -72,7 +72,10 @@ d
 <a href="https://learn.microsoft.com/en-us/power-apps/user/add-powerbi-dashboards" target="_blank" rel="noopener noreferrer">Power BI dashboard</a>
 
 ### Embed Power BI report in a form
-<a href="https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/embed-powerbi-report-in-system-form" target="_blank" rel="noopener noreferrer">Power BI form</a>
+#### Method 1: Built-in PowerBI control
+<a href="https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/embed-powerbi-report-in-system-form" target="_blank" rel="noopener noreferrer">Power BI form</a>  
+#### Method 2: Built-in PowerBI control
+
 </div>
 
 <div role="tabpanel" class="tab-pane" id="power-fx" markdown="1">
