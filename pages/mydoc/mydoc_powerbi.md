@@ -14,6 +14,7 @@ summary: PowerBI is a Microsofttool that allows users to visualize data, create 
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="documentation" markdown="1">
 * <a href="https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards" target="_blank" rel="noopener noreferrer">Share Power BI reports with coworkers</a>
+* <a href="https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-per-user-faq" target="_blank" rel="noopener noreferrer">Premium license</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dataverse-connection" markdown="1">
