@@ -75,7 +75,9 @@ folder: mydoc
 
 
 
-* Etapes fecth ribbon /fecth dans les filtres + dynammic ribbon + securite equiê + ne jamais url dans l'ID
+* Explain how to get a fetch with advancer filters
+* Explain that the name of link entity in the relationship name that you can get in fetch
+* Explain ID item don't support url
 * By default, the button will not appear after reopening RIbbon workbench, you need to export the solution and edit the solution.xml to change "Location="Mscrm.Form.lead.MainTab.Save.Controls._children" to this "Location="Mscrm.Form.lead.MainTab.ModernClient.Controls._children" 
 </div>
 
