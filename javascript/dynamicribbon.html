@@ -7,6 +7,9 @@ search: exclude
 <head>
 <title>Dynamic Ribbon Function</title>
 <style> body {padding-left:50px;} </style>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+
 </head>
 <body>
 
@@ -97,7 +100,7 @@ Cve.Ribbon.Lead = function ()
 		{
 			var Name = result.value[i].cve_nouvellecolonne;
             var Value = result.value[i].cve_nouvellecolonne;
-			menuRibbonXml += "<Button Id='" + Value + "' Command='" + command + "'  Sequence='" + ((i + 1) * 10) + "' LabelText='" + Name + "' />"
+	menuRibbonXml += "<Button Id='" + Value + "' Command='" + command + "'  Sequence='" + ((i + 1) * 10) + "' LabelText='" + Name + "' />"
 		}
 
 		menuRibbonXml += "</Controls></MenuSection>";
