@@ -67,7 +67,7 @@ folder: mydoc
 
 <div role="tabpanel" class="tab-pane" id="ribbon-workbench" markdown="1">
 ## Allows you to custom button properties, including display and enable rules.
-See [Code](/Documentation/javascript/dynamicribbon.html) for more details.
+See [Code](/Documentation/javascript/dynamicribbon.js) for more details.
 * Etapes fecth ribbon /fecth dans les filtres + dynammic ribbon + securite equiê + ne jamais url dans l'ID
 * By default, the button will not appear after reopening RIbbon workbench, you need to export the solution and edit the solution.xml to change "Location="Mscrm.Form.lead.MainTab.Save.Controls._children" to this "Location="Mscrm.Form.lead.MainTab.ModernClient.Controls._children" 
 </div>
