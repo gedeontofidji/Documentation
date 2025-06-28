@@ -74,7 +74,7 @@ d
 ### Embed Power BI report in a form
 #### Method 1: Built-in PowerBI control
 <a href="https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/embed-powerbi-report-in-system-form" target="_blank" rel="noopener noreferrer">Power BI form</a>  
-#### Method 2: Built-in PowerBI control
+#### Method 2: HTML WebResource with custom framework
 
 </div>
 
