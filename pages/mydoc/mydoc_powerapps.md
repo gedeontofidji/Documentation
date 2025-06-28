@@ -29,6 +29,8 @@ folder: mydoc
 * [Ctrl+Shift+B]: Build the solution
 * [Ctrl+Space]: Autocompletion
 `The logic must be implemented in the service (e.g: CodeNasService) and not in the class (e.g: CodeNas).`
+* [Ctrl+Shift+B]: Build the solution
+* [Ctrl+Space]: Autocompletion
     
 #### Coding process
 Pull the code stored on Git > Add your code and save it > Build the solution to generates the DLL in the solution folder > Open Plugin Registration in XrmToolBox to update the plugin with the generated DLL > Test > Enter the commit message, then push the changes to Git.
