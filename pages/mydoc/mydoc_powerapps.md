@@ -49,14 +49,22 @@ Pull the code stored on Git > Add your code and save it > Build the solution to 
 
 <div role="tabpanel" class="tab-pane" id="javascript" markdown="1">
 ### 📚 Documentation
-* <a href=https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference" target="_blank" rel="noopener noreferrer">JavaScript API</a>  
+* <a href="https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference" target="_blank" rel="noopener noreferrer">JavaScript API</a>  
 
-### 📚 Debugging
+### 🐞 Debugging
 To help you debug during development, you can either display an alert popup on the UI,write a message in the debug console or stop the code at a specific moment:
 ```
 alert("Field update with succes with the value :" + nom); OR
 console.log("Field update with succes with the value :" + nom ); OR
 debugger;
+```
+
+### 🗂️ Tab functions
+To check whether a tab is open or closed
+```
+formContext.ui.tabs.get("TabName").getDisplayState();
+return a string: expanded or collapsed
+if (context.ui.tabs.get("TabName").getDisplayState() === "collapsed");
 ```
 </div>
 
