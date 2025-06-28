@@ -21,8 +21,6 @@ summary:
 * How to create a plugin assembly and a C# solution project with all the references from scratch (https://youtu.be/nxnMvBkoS0k?si=FSd1XPs8HNAY7mC_)
 * GitHub pour Power App (versionning and edit code directly outisde of power app and commit it)
 * Formation powerbi
-* Etapes fecth ribbon /fecth dans les filtres + dynammic ribbon + securite equiê + ne jamais url dans l'ID / By default, the button will not appear after reopening RIbbon workbench, you need to export the solution and edit the solution.xml to change "Location="Mscrm.Form.lead.MainTab.Save.Controls._children" to this "Location="Mscrm.Form.lead.MainTab.ModernClient.Controls._children"
-
 
 ## Evolutions to come
 - Dataverse Accelerator : permet de créer des plug-ins low-code, mais actuellement dépriorisée au profit des fonctions. Les fonctions sont en version beta pour le moment : https://learn.microsoft.com/en-us/power-apps/maker/data-platform/functions-overview.
