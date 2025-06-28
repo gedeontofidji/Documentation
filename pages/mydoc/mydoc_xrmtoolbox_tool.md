@@ -26,6 +26,7 @@ folder: mydoc
 3. Select the target stage of BPF
 4. Choose the Yes option
 5. Migrate the records
+    
 </div>
 
 <div role="tabpanel" class="tab-pane" id="plugin-registration" markdown="1">
