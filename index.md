@@ -30,10 +30,6 @@ summary:
 * if (context.ui.tabs.get("Générer document").getDisplayState() === "collapsed") return;
 * fecth dans les filtres + dynammic ribbon + securite equiê + ne jamais url dans l'ID
 
-OK  :
-- dataverse stockage : https://learn.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq
-- https://www.microsoft.com/en-us/power-platform/blog/2025/06/09/long-term-retention/?utm_source=substack&utm_medium=email
-
 
 ## Evolutions to come
 - Dataverse Accelerator : permet de créer des plug-ins low-code, mais actuellement dépriorisée au profit des fonctions. Les fonctions sont en version beta pour le moment : https://learn.microsoft.com/en-us/power-apps/maker/data-platform/functions-overview.
