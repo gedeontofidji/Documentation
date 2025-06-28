@@ -28,9 +28,9 @@ folder: mydoc
 ### ⌘ Keyboard shortcuts (Microsoft Visual Studio)  
 * Ctrl+Shift+B: Build the solution
 * Ctrl+Space: Autocompletion  
-`The logic must be implemented in the service (e.g: CodeNasService) and not in the class (e.g: CodeNas).`
     
 #### Coding process
+`The logic must be implemented in the service (e.g: CodeNasService) and not in the class (e.g: CodeNas).`  
 Pull the code stored on Git > Add your code and save it > Build the solution to generates the DLL in the solution folder > Open Plugin Registration in XrmToolBox to update the plugin with the generated DLL > Test > Enter the commit message, then push the changes to Git.
 {% include image.html file="visualstudio_pull.png" max-width="30%" %}
 {% include image.html file="visualstudio_push.png" max-width="30%" %}
