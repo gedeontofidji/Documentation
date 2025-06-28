@@ -9,18 +9,23 @@ folder: mydoc
 ---
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a class="noCrossRef" href="#webresources-manager" data-toggle="tab">Webresources Manager</a></li>
-    <li><a class="noCrossRef" href="#plugin-registration" data-toggle="tab">Plugin Registration</a></li>
-    <li><a class="noCrossRef" href="#plugin-trace-viewer" data-toggle="tab">Plugin Trace Viewer</a></li>
+    <li class="active"><a class="noCrossRef" href="#bpf-manager" data-toggle="tab">BPF Manager</a></li>
     <li><a class="noCrossRef" href="#early-bound-generator" data-toggle="tab">Early Bound Generator</a></li>
     <li><a class="noCrossRef" href="#early-translator" data-toggle="tab">Early Translator</a></li>
     <li><a class="noCrossRef" href="#fetchxml-builder" data-toggle="tab">FetchXML Builder</a></li>
+    <li><a class="noCrossRef" href="#plugin-registration" data-toggle="tab">Plugin Registration</a></li>
+    <li><a class="noCrossRef" href="#plugin-trace-viewer" data-toggle="tab">Plugin Trace Viewer</a></li>
+    <li><a class="noCrossRef" href="#webresources-manager" data-toggle="tab">Webresources Manager</a></li>
 </ul>
-  <div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="webresources-manager" markdown="1">
-## Webresources Manager
-* Allows you to edit client-side code  
-* Press Ctrl+S, then Ctrl+U to publish  
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="bpf-manager" markdown="1">
+## Allows you to change BPFs on individual or multiple records
+### 🪜 Steps
+1. Select the records through a view or with FetchXMLBuilder
+2. Retrieve the records
+3. Select the target stage of BPF
+4. Choose the Yes option
+5. Migrate the records
 </div>
 
 <div role="tabpanel" class="tab-pane" id="plugin-registration" markdown="1">
@@ -55,6 +60,12 @@ folder: mydoc
 ## FetchXML Builder
 * Allows you to query data using a specific format (useful for Power Automate or server-side development).
 {% include image.html file="xrmfetchxmlbuilder.png" max-width="50%" %}
+</div>
+
+<div role="tabpanel" class="tab-pane" id="webresources-manager" markdown="1">
+## Webresources Manager
+* Allows you to edit client-side code  
+* Press Ctrl+S, then Ctrl+U to publish  
 </div>
 </div>
 
