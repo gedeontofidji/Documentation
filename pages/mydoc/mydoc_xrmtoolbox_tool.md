@@ -20,13 +20,13 @@ folder: mydoc
 <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="bpf-manager" markdown="1">
 ## Allows you to change BPFs on individual or multiple records
-### 🪜 Steps
+#### 🪜 Steps
 1. Select the records through a view or with FetchXMLBuilder
 2. Retrieve the records
 3. Select the target stage of BPF
 4. Choose the Yes option
 5. Migrate the records
-    
+{% include image.html file="bpfmanager.png" max-width="50%" %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="plugin-registration" markdown="1">
