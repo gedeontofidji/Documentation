@@ -1,8 +1,8 @@
 ---
-title:  XrmToolBox
+title:  JavaScript template
 keywords: ribbon
 sidebar: mydoc_sidebar
-permalink: javascript_dynamicribbon.html
+permalink: dynamicribbon.html
 toc: false
 folder: javascript
 ---
