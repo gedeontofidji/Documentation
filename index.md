@@ -18,11 +18,9 @@ summary:
 
 ## To do
 * Agent Power App (make filter with natural language / find records and sum up them, add the agent in the sitemap)
-* Embed PowerBI easily in Power App
 * How to create a plugin assembly and a C# solution project with all the references from scratch (https://youtu.be/nxnMvBkoS0k?si=FSd1XPs8HNAY7mC_)
 * GitHub pour Power App (versionning and edit code directly outisde of power app and commit it)
 * Formation powerbi
-* exporter fluw power automate
 * Etapes fecth ribbon + bpf manager
 * if (context.ui.tabs.get("Générer document").getDisplayState() === "collapsed") return;
 * fecth dans les filtres + dynammic ribbon + securite equiê + ne jamais url dans l'ID
