@@ -23,7 +23,6 @@ summary:
 * How to create a plugin assembly and a C# solution project with all the references from scratch (https://youtu.be/nxnMvBkoS0k?si=FSd1XPs8HNAY7mC_)
 * GitHub pour Power App (versionning and edit code directly outisde of power app and commit it)
 * Formation powerbi
-* flux power app sharepoint
 * exporter fluw power automate
 * BPG Manager
 * Etapes fecth ribbon + bpf manager
