@@ -1,7 +1,4 @@
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-
-<pre><code class="language-js">
+```javascript
 var Cve = Cve || {};
 Cve.Ribbon = Cve.Ribbon || {};
 Cve.Ribbon.Lead = function ()
@@ -156,6 +153,6 @@ Cve.Ribbon.Lead = function ()
         PopulateTemplateClick: populateTemplateClick,
 	};
 }();
-</code></pre>
+```
 
 <script>hljs.highlightAll();</script>
