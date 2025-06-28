@@ -63,7 +63,7 @@ debugger;
 To check whether a tab is open or closed. `Return a string: expanded or collapsed`
 ```
 formContext.ui.tabs.get("TabName").getDisplayState();
-if (context.ui.tabs.get("TabName").getDisplayState() === "collapsed");
+if (formContext.ui.tabs.get("TabName").getDisplayState() === "collapsed");
 ```
 </div>
 
