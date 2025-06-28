@@ -1,65 +1,36 @@
-var Cve = Cve || {};
-Cve.Ribbon = Cve.Ribbon || {};
-Cve.Ribbon.Lead = function ()
+var Cto = Cto || {};
+Cto.Ribbon = Cto.Ribbon || {};
+Cto.Ribbon.entityName = function ()
 {
-    var formContext;
-    var populationXML = "";
-    
-    function createAccount(formContext)
-    {
-        let entityFormOptions = {};
-        let accountHasSiren = formContext.getAttribute("cve_tiersavecsiren").getValue();
+	var formContext;
+    	var populationXML = "";
 
-        if(accountHasSiren===null) return;
-        if( accountHasSiren === true )
-        {
-            entityFormOptions["entityName"] = "dq_pluginentity";
-            entityFormOptions["entityId"] = "8a2a13c8-8755-46e8-8e34-d669dcd91819";
-            entityFormOptions["openInNewWindow"] = true;
-        }
-        else
-        {
-            entityFormOptions["entityName"] = "account";
-            entityFormOptions["useQuickCreateForm"] = true;
-        }
-
-        Xrm.Navigation.openForm(entityFormOptions).then(
-            function (success){ console.log(success); },
-            function (error) { console.log(error); });
-        debugger;
-    }
-    
-    //Edited on 25/06/2025
-    function populateTemplateMenu(commandProperties, context)
+    	function populateRibbonMenu(commandProperties, context)
 	{
-		var userSettings = Xrm.Utility.getGlobalContext().userSettings
-		var fetchData = {
-			systemuserid: userSettings.userId
-		};
+		var userSettings = Xrm.Utility.getGlobalContext().userSettings;
+		var fetchData = { systemuserid: userSettings.userId };
 		var fetchXml = [
-        "<fetch distinct='true'>",
-        "  <entity name='cve_wordtemplate'>",
-        "    <attribute name='cve_nouvellecolonne' />",
-        "    <attribute name='cve_url' />",
-        "    <attribute name='cve_lead' />",
-        "    <filter>",
-        "      <condition attribute='cve_lead' operator='eq' value='1' />",
-        "    </filter>",
-        "    <link-entity name='cve_wordtemplate_team' from='cve_wordtemplateid' to='cve_wordtemplateid' alias='t' intersect='true'>",
-        "      <link-entity name='teammembership' from='teamid' to='teamid' alias='tm' intersect='true'>",
-        "        <filter>",
-        "           <condition attribute='systemuserid' operator='eq' value='", fetchData.systemuserid, "'/>",
-        "        </filter>",
-        "     </link-entity>",
-        "   </link-entity>",
-        "  </entity>",
-        "</fetch>",
-            ].join("");
-		var result = executeFetchXml("cve_wordtemplates", fetchXml)
+	        "<fetch distinct='true'>",
+	        "  <entity name='cto_entityName'>",
+	        "    <attribute name='cto_field1' />",
+	        "    <attribute name='cto_field2' />",
+	        "    <attribute name='cto_field3' />", //fields to retrieve
+	        "    <filter>",
+	        "    	<condition attribute='cto_entityName' operator='eq' value='1' />",
+	        "    </filter>",
+	        "    <link-entity name='cto_entityName_team' from='cto_entityNameid' to='cto_entityNameid' alias='t' intersect='true'>",
+	        "      <link-entity name='teammembership' from='teamid' to='teamid' alias='tm' intersect='true'>",
+	        "        <filter>",
+	        "          <condition attribute='systemuserid' operator='eq' value='", fetchData.systemuserid, "'/>",
+	        "        </filter>",
+	        "      </link-entity>",
+	        "    </link-entity>",
+	        "  </entity>",
+	        "</fetch>",
+	        ].join("");
+		var result = executeFetchXml("cto_entityPluralName", fetchXml)
         
-        console.log("Result from FetchXML:", result);
-        
-		var command = "cve.lead.ClickTemplateMenu";
+		var command = "cto.entityName.ClickRibbonMenu"; //Id in Ribbon Workbench of the click command
 		//This code is used to build the command string for UCI
 		if (commandProperties.SourceControlId != null)
 		{
@@ -71,57 +42,27 @@ Cve.Ribbon.Lead = function ()
 			}
 		}
         
-		var menuRibbonXml = "<MenuSection Id='cve.lead.SelectTemplate.MenuSection' Sequence='10'><Controls Id='cve.lead.SelectTemplate.Control'>";
+		var menuRibbonXml = "<MenuSection Id='cto.entityName.SelectTemplate.MenuSection' Sequence='10'><Controls Id='cto.entityName.SelectTemplate.Control'>";
 		for (var i = 0; i < result.value.length; i++)
 		{
-			var Name = result.value[i].cve_nouvellecolonne;
-            var Value = result.value[i].cve_nouvellecolonne;
+			var Name = result.value[i].cto_field1; //Name that will be displayed on the button items
+            		var Value = result.value[i].cto_field2 + "|" + result.value[i].cto_field3; //Id of each item that can be used in the populateRibbonClick to know which item was triggered
 			menuRibbonXml += "<Button Id='" + Value + "' Command='" + command + "'  Sequence='" + ((i + 1) * 10) + "' LabelText='" + Name + "' />"
 		}
-
 		menuRibbonXml += "</Controls></MenuSection>";
-        
-        console.log("Menu XML généré :", menuRibbonXml);
-        console.log("PopulationXML complet :", '<Menu Id="cve.lead.SelectTemplate.Menu">' + menuRibbonXml + "</Menu>");
-
-		commandProperties["PopulationXML"] = '<Menu Id="cve.lead.SelectTemplate.Menu">' + menuRibbonXml + "</Menu>";
-    }
-    
-    //Edited on 25/06/2025
-    function populateTemplateClick(commandProperties, context)
-	{        
-        // Get the current ID record
-        var entityId = context.data.entity.getId().replace(/[{}]/g, "").toLowerCase();
-
-        Xrm.WebApi.updateRecord("lead", entityId, {
-            "cve_templatecreatedon": new Date().toISOString() // format ISO 8601 requis
-        }).then(function(result) {
-            console.log("Champ date mis à jour, le flux devrait se déclencher.");
-            
-        // Téléchargement ici, dans le succès
-        /*var fileUrl = "https://sfrbt1011133.sharepoint.com/sites/CRM-BOOST-DEV/_layouts/15/download.aspx?SourceUrl=https%3A%2F%2Fsfrbt1011133.sharepoint.com%2Fsites%2FCRM-BOOST-DEV%2Ftemplate%2FTest_2025-06-26T14_47_09.7438640Z.docx";
-        var fileName = "Test_Template.docx";
-        downloadFileFromUrl(fileUrl, fileName);*/
-        
-        
-        }, function(error) {
-            console.error("Erreur : " + error.message);
-        });
-        
-        /*function downloadFileFromUrl(fileUrl, fileName)
-        {
-            const link = document.createElement("a");
-            link.href = fileUrl;
-            link.download = fileName || "";
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            alert("Fichier disponible en téléchargement");
-        }*/
+		commandProperties["PopulationXML"] = '<Menu Id="cto.entityName.SelectRibbon.Menu">' + menuRibbonXml + "</Menu>";
 	}
     
-    //Edited on 25/06/2025
-    function executeFetchXml(entityPluralName, fetchXml)
+    	function populateRibbonClick(commandProperties, context)
+	{        
+        var entityId = context.data.entity.getId().replace(/[{}]/g, "").toLowerCase(); // Get the current ID record
+	var itemId = commandProperties.SourceControlId; //Id of the item triggered
+	var itemsId = itemId.split('|');
+	var field1 = itemsId[0]; //Get the first field of the ID
+        //Define here the actions you want to execute when a user clicks an item.
+	}
+    
+    	function executeFetchXml(entityPluralName, fetchXml)
 	{
 		var data = null;
 		var req = new XMLHttpRequest();
@@ -140,15 +81,14 @@ Cve.Ribbon.Lead = function ()
 			else
 			{
 				var error = JSON.parse(req.response).error;
-				console.log(error.message);
+				console.log("Oops, something went wrong:" + error.message);
 			}
 		}
 		return data;
 	}
 
 	return {
-        CreateAccount: createAccount,
-        PopulateTemplateMenu: populateTemplateMenu,
-        PopulateTemplateClick: populateTemplateClick,
+        PopulateRibbonMenu: populateRibbonMenu,
+        PopulateRibbonClick: populateRibbonClick,
 	};
 }();
