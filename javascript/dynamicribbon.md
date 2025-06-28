@@ -2,7 +2,7 @@
 title:  JavaScript template
 keywords: ribbon
 sidebar: mydoc_sidebar
-permalink: dynamicribbon.html
+permalink: /Documentation/javascript/dynamicribbon.html
 toc: false
 folder: javascript
 ---
