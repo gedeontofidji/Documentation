@@ -14,6 +14,10 @@ entries:
       output: web, pdf
       type: homepage
 
+    - title: Dataverse
+      url: /mydoc_dataverse.html
+      output: web, pdf
+      
     - title: Power Apps
       url: /mydoc_powerapps.html
       output: web, pdf
