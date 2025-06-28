@@ -154,5 +154,3 @@ Cve.Ribbon.Lead = function ()
 	};
 }();
 ```
-
-<script>hljs.highlightAll();</script>
