@@ -8,12 +8,12 @@ summary: PowerBI is a Microsofttool that allows users to visualize data, create 
 ---
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
+    <li class="active"><a class="noCrossRef" href="#documenation" data-toggle="tab">Documentation</a></li>
     <li><a class="noCrossRef" href="#dataverse-connection" data-toggle="tab">Dataverse connection</a></li>
 </ul>
   <div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="general" markdown="1">
-## General 
+<div role="tabpanel" class="tab-pane active" id="documentation" markdown="1">
+* <a href="https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards" target="_blank" rel="noopener noreferrer">Share Power BI reports with coworkers</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dataverse-connection" markdown="1">
