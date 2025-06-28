@@ -15,6 +15,7 @@ folder: mydoc
     <li><a class="noCrossRef" href="#fetchxml-builder" data-toggle="tab">FetchXML Builder</a></li>
     <li><a class="noCrossRef" href="#plugin-registration" data-toggle="tab">Plugin Registration</a></li>
     <li><a class="noCrossRef" href="#plugin-trace-viewer" data-toggle="tab">Plugin Trace Viewer</a></li>
+    <li><a class="noCrossRef" href="#ribbon-workbench" data-toggle="tab">Ribbon Workbench</a></li>
     <li><a class="noCrossRef" href="#webresources-manager" data-toggle="tab">Webresources Manager</a></li>
 </ul>
 <div class="tab-content">
@@ -62,6 +63,13 @@ folder: mydoc
 ## FetchXML Builder
 * Allows you to query data using a specific format (useful for Power Automate or server-side development).
 {% include image.html file="xrmfetchxmlbuilder.png" max-width="50%" %}
+</div>
+
+<div role="tabpanel" class="tab-pane" id="ribbon-workbench" markdown="1">
+## Allows you to custom button properties, including display and enable rules.
+
+* Etapes fecth ribbon /fecth dans les filtres + dynammic ribbon + securite equiê + ne jamais url dans l'ID
+* By default, the button will not appear after reopening RIbbon workbench, you need to export the solution and edit the solution.xml to change "Location="Mscrm.Form.lead.MainTab.Save.Controls._children" to this "Location="Mscrm.Form.lead.MainTab.ModernClient.Controls._children" 
 </div>
 
 <div role="tabpanel" class="tab-pane" id="webresources-manager" markdown="1">
