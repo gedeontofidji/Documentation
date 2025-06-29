@@ -9,7 +9,7 @@ folder: mydoc
 ---
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a class="noCrossRef" href="#documentation" data-toggle="tab">Documentation</a></li>
+    <li class="active"><a class="noCrossRef" href="general" data-toggle="tab">General</a></li>
     <li><a class="noCrossRef" href="#csharp" data-toggle="tab">C#</a></li>
     <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Dynamics 365 App for Outlook</a></li>
     <li><a class="noCrossRef" href="#javascript" data-toggle="tab">JavaScript</a></li>
@@ -19,10 +19,21 @@ folder: mydoc
     <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power Fx</a></li>
 </ul>
   <div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="documentation" markdown="1">
-## Documentation
+<div role="tabpanel" class="tab-pane active" id="general" markdown="1">
+## 📚 Documentation
 * [Restricted tables requiring Dynamics 365 licenses](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-restricted-entities)
-* [Virtual tables and lookup columns](https://mattruma.com/adventures-with-dataverse-virtual-tables-and-look-up-columns/?utm_source=substack&utm_medium=email)  
+* [Virtual tables and lookup columns](https://mattruma.com/adventures-with-dataverse-virtual-tables-and-look-up-columns/?utm_source=substack&utm_medium=email)
+
+## General
+#### ⚙️ How to make a view editable
+In the environment:
+1. Go to Settings > Customize > Customize the system
+2. Select the entity you want to enable the editable grid feature
+3. Select the Controls tab > Add Control
+4. Choose Editable Grid
+5. Make sure the radio button under Web is selected then publish your customizations
+{% include image.html file="editableview1.png" max-width="30%" %}
+{% include image.html file="editableview2.png" max-width="30%" %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="csharp" markdown="1">
