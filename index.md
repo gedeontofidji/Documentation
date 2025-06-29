@@ -15,7 +15,7 @@ summary:
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## To watch/read
-- https://www.microsoft.com/en-us/power-platform/blog/2025/06/09/long-term-retention/?utm_source=substack&utm_medium=email
+* /
 
 ## To do
 * Agent Power App (make filter with natural language / find records and sum up them, add the agent in the sitemap)
@@ -32,7 +32,7 @@ summary:
 * [GitHub Jekyll theme](https://jekyllthemes.io/theme/documentation)
 </div>
 
-<div role="tabpanel" class="tab-pane" id="useful-links" markdown="1">
+<div role="tabpanel" class="tab-pane" id="emoji" markdown="1">
 * 📚 Documentation
 * 🪜 Steps
 * 🐞 Debugging
