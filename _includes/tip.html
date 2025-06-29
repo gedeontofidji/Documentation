@@ -2,7 +2,7 @@
 
   {% if include.file %}
     <br>
-    <figure>
+    <figure style="margin: 0; padding: 0;">
       {% if include.url %}
         <a class="no_icon" target="_blank" rel="noopener" href="{{ include.url }}">
       {% endif %}
@@ -10,7 +10,7 @@
       <img class="docimage" 
            src="images/{{ include.file }}" 
            alt="{{ include.alt | default: '' }}" 
-           {% if include.max-width %}style="max-width: {{ include['max-width'] }};"{% endif %} />
+           style="display: block; margin: 0; padding: 0; {% if include.max-width %}style="max-width: {{ include['max-width'] }};"{% endif %} />
       
       {% if include.url %}
         </a>
