@@ -1,6 +1,6 @@
 var Cto = Cto || {};
 Cto.Ribbon = Cto.Ribbon || {};
-Cto.Ribbon.entityName = function ()
+Cto.Ribbon.entityLogicalName = function ()
 {
 	var formContext;
     	var populationXML = "";
@@ -11,14 +11,14 @@ Cto.Ribbon.entityName = function ()
 		var fetchData = { systemuserid: userSettings.userId };
 		var fetchXml = [
 	        "<fetch distinct='true'>",
-	        "  <entity name='cto_entityName'>",
+	        "  <entity name='cto_entityLogicalName'>",
 	        "    <attribute name='cto_field1' />",
 	        "    <attribute name='cto_field2' />",
 	        "    <attribute name='cto_field3' />", //fields to retrieve
 	        "    <filter>",
-	        "    	<condition attribute='cto_entityName' operator='eq' value='1' />",
+	        "    	<condition attribute='cto_entityLogicalName' operator='eq' value='1' />",
 	        "    </filter>",
-	        "    <link-entity name='cto_entityName_team' from='cto_entityNameid' to='cto_entityNameid' alias='t' intersect='true'>",
+	        "    <link-entity name='cto_entityLogicalName_team' from='cto_entityLogicalNameid' to='cto_entityLogicalNameid' alias='t' intersect='true'>",
 	        "      <link-entity name='teammembership' from='teamid' to='teamid' alias='tm' intersect='true'>",
 	        "        <filter>",
 	        "          <condition attribute='systemuserid' operator='eq' value='", fetchData.systemuserid, "'/>",
@@ -30,7 +30,7 @@ Cto.Ribbon.entityName = function ()
 	        ].join("");
 		var result = executeFetchXml("cto_entityPluralName", fetchXml)
         
-		var command = "cto.entityName.ClickRibbonMenu"; //Id in Ribbon Workbench of the click command
+		var command = "cto.entityLogicalName.ClickRibbonMenu"; //Id in Ribbon Workbench of the click command
 		//This code is used to build the command string for UCI
 		if (commandProperties.SourceControlId != null)
 		{
@@ -42,7 +42,7 @@ Cto.Ribbon.entityName = function ()
 			}
 		}
         
-		var menuRibbonXml = "<MenuSection Id='cto.entityName.SelectTemplate.MenuSection' Sequence='10'><Controls Id='cto.entityName.SelectTemplate.Control'>";
+		var menuRibbonXml = "<MenuSection Id='cto.entityLogicalName.SelectTemplate.MenuSection' Sequence='10'><Controls Id='cto.entityLogicalName.SelectTemplate.Control'>";
 		for (var i = 0; i < result.value.length; i++)
 		{
 			var Name = result.value[i].cto_field1; //Name that will be displayed on the button items
@@ -50,7 +50,7 @@ Cto.Ribbon.entityName = function ()
 			menuRibbonXml += "<Button Id='" + Value + "' Command='" + command + "'  Sequence='" + ((i + 1) * 10) + "' LabelText='" + Name + "' />"
 		}
 		menuRibbonXml += "</Controls></MenuSection>";
-		commandProperties["PopulationXML"] = '<Menu Id="cto.entityName.SelectRibbon.Menu">' + menuRibbonXml + "</Menu>";
+		commandProperties["PopulationXML"] = '<Menu Id="cto.entityLogicalName.SelectRibbon.Menu">' + menuRibbonXml + "</Menu>";
 	}
     
     	function populateRibbonClick(commandProperties, context)
