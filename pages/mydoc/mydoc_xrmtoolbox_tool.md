@@ -76,8 +76,8 @@ folder: mydoc
 {% include tip.html content="To simplify your FetchXML creation, use a table view to define filters. Then download the FetchXML from the view for use in your code. This also helps you identify the names of linked entity relationships more easily." file="downloadfetchxml.png" max-width="85%" %}
 
 3. Create two commands linked to your javascript functions
-{% include image.html file="clickribbonmenucommand.png.png" max-width="100%" %}
-{% include image.html file="populateribbonmenucommand.png.png" max-width="100%" %}
+{% include image.html file="clickribbonmenucommand.png" max-width="100%" %}
+{% include image.html file="populateribbonmenucommand.png" max-width="100%" %}
 4. Finish to set the button parameters
 {% include image.html file="flyoutbutton.png" max-width="100%" %}
 
