@@ -10,7 +10,7 @@
       <img class="docimage" 
            src="images/{{ include.file }}" 
            alt="{{ include.alt | default: '' }}" 
-           style="display: block; margin: 0; padding: 0; {% if include.max-width %}style="max-width: {{ include['max-width'] }};"{% endif %} />
+           style="display: block; margin: 0; padding: 0; {% if include.max-width %}max-width: {{ include['max-width'] }};{% endif %}" />
       
       {% if include.url %}
         </a>
