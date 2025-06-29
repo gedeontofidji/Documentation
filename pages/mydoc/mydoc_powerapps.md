@@ -52,6 +52,7 @@ Pull the code stored on Git > Add your code and save it > Build the solution to 
 * <a href="https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference" target="_blank" rel="noopener noreferrer">JavaScript API</a>  
 
 ### 🐞 Debugging
+Press `Fn+f12` to open the debug console  
 To help you debug during development, you can either display an alert popup on the UI,write a message in the debug console or stop the code at a specific moment:
 ```
 alert("Field update with succes with the value :" + nom); OR
