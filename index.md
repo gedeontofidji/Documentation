@@ -22,9 +22,6 @@ summary:
 * How to create a plugin assembly and a C# solution project with all the references from scratch (https://youtu.be/nxnMvBkoS0k?si=FSd1XPs8HNAY7mC_)
 * GitHub pour Power App (versionning and edit code directly outisde of power app and commit it)
 * Formation powerbi
-
-## Evolutions to come
-- Dataverse Accelerator : permet de créer des plug-ins low-code, mais actuellement dépriorisée au profit des fonctions. Les fonctions sont en version beta pour le moment : https://learn.microsoft.com/en-us/power-apps/maker/data-platform/functions-overview.
 </div>
 
 <div role="tabpanel" class="tab-pane" id="useful-links" markdown="1">
