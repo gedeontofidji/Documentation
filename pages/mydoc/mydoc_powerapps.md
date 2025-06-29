@@ -32,8 +32,8 @@ In the environment:
 3. Select the Controls tab > Add Control
 4. Choose Editable Grid
 5. Make sure the radio button under Web is selected then publish your customizations
-{% include image.html file="editableview1.png" max-width="30%" %}
-{% include image.html file="editableview2.png" max-width="30%" %}
+{% include image.html file="editableview1.png" max-width="50%" %}
+{% include image.html file="editableview2.png" max-width="800%" %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="csharp" markdown="1">
