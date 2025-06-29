@@ -68,7 +68,7 @@ folder: mydoc
 <div role="tabpanel" class="tab-pane" id="ribbon-workbench" markdown="1">
 ## Allows you to custom button properties, including display and enable rules.
 #### 📚 Documentation
-* <a href="[/Documentation/javascript/dynamicribbon.js](https://learn.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/gg309332(v=crm.8))" target="_blank" rel="noopener noreferrer">Crm Parameters</a>
+* <a href="https://learn.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/gg309332(v=crm.8)" target="_blank" rel="noopener noreferrer">Crm Parameters</a>
 
 #### ⚙️ How to create a dynamic button based on record's table
 1. In Ribbon workbench, drag and drop the flyout button in the form section of the ribbon
