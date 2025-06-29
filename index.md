@@ -1,6 +1,6 @@
 ---
 title: "Notes"
-keywords:
+keywords: emoji
 sidebar: mydoc_sidebar
 permalink: index.html
 toc: false
