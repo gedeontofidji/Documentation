@@ -52,7 +52,7 @@ Pull the code stored on Git > Add your code and save it > Build the solution to 
 * <a href="https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference" target="_blank" rel="noopener noreferrer">JavaScript API</a>  
 
 ### 🐞 Debugging
-Press `Fn+f12` to open the debug console  
+Press `Fn+f12` to open the debug console.  
 To help you debug during development, you can either display an alert popup on the UI,write a message in the debug console or stop the code at a specific moment:
 ```
 alert("Field update with succes with the value :" + nom); OR
@@ -65,6 +65,27 @@ To check whether a tab is open or closed. `Return a string: expanded or collapse
 ```
 formContext.ui.tabs.get("TabName").getDisplayState();
 if (formContext.ui.tabs.get("TabName").getDisplayState() === "collapsed");
+```
+
+### 🔀 Multi-select option set functions
+Show/hide fields based on multi-select option set
+```
+function visibleField(executionContext)
+{
+    var formContext = executionContext.getFormContext();
+    var optionSet = formContext.getAttribute("cto_myoptionset").getValue(); // Returns an array of integers (selected values)
+    
+    var control = formContext.getControl("cto_fieldtohideorshow");
+
+    // First hide the field
+    control.setVisible(false);
+
+    // Replace '123456' with the actual integer value (option set value) you're checking for
+    if (optionSet && optionSet.includes(123456))
+    {
+        control.setVisible(true);
+    }
+}
 ```
 </div>
 
