@@ -73,10 +73,7 @@ folder: mydoc
 * populateRibbonMenu: for generating the dynamic button items. Using FetchXML, you can retrieve the records to show in the items. `You can add a subgrid in the form to associate teams to the record and display button items only to users who belong to those linked teams.`
 * populateRibbonClick: for handling click events on those items. Define here the actions you want to execute when a user clicks an item.  
 
-{% include tip.html content="To simplify your FetchXML creation, use a table view to define filters. Then download the FetchXML from the view for use in your code. This also helps you identify the names of linked entity relationships more easily." file="downloadfetchxml.png" max-width="70%" %}
-
-
-{% include image.html file="downloadfetchxml.png" max-width="70%" %}
+{% include tip.html content="To simplify your FetchXML creation, use a table view to define filters. Then download the FetchXML from the view for use in your code. This also helps you identify the names of linked entity relationships more easily." file="downloadfetchxml.png" max-width="85%" %}
 
 
 * Explain that the name of link entity in the relationship name that you can get in fetch
