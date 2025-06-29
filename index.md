@@ -22,6 +22,7 @@ summary:
 * How to create a plugin assembly and a C# solution project with all the references from scratch (https://youtu.be/nxnMvBkoS0k?si=FSd1XPs8HNAY7mC_)
 * GitHub pour Power App (versionning and edit code directly outisde of power app and commit it)
 * Formation powerbi
+* Node.js
 </div>
 
 <div role="tabpanel" class="tab-pane" id="useful-links" markdown="1">
