@@ -36,7 +36,7 @@ In the environment:
 {% include image.html file="editableview2.png" max-width="800%" %}
 
 #### 🙈 Hide “Create new” on a lookup field
-<a href="https://orby.com.au/hide-new-button-on-lookup-controls-in-model-driven-apps-2/" target="_blank" rel="noopener noreferrer">Hide new button on lookup controls</a> 
+* <a href="https://orby.com.au/hide-new-button-on-lookup-controls-in-model-driven-apps-2/" target="_blank" rel="noopener noreferrer">Hide new button on lookup controls</a> 
 </div>
 
 <div role="tabpanel" class="tab-pane" id="csharp" markdown="1">
