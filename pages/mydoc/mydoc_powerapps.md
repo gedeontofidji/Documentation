@@ -117,7 +117,7 @@ Get the parent record reference of a quick create form
 Xrm.Utility.getPageContext().input.data.parentrecordtype;
 Xrm.Utility.getPageContext().input.createFromEntity.entityType;
 ```
-{% include image.html file="quickcreateformparent.png" max-width="90%" %}
+{% include image.html file="quickcreateformparent.png" max-width="65%" %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="mscrm" markdown="1">
