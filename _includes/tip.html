@@ -1,21 +1,16 @@
 <div markdown="span" class="alert alert-info" role="alert"><i class="fa fa-lightbulb-o"></i> <b>Tip:</b> {{include.content}}
-
   {% if include.file %}
     <figure style="margin: 0.5em 0 0 0; padding: 0;">
       {% if include.url %}
         <a class="no_icon" target="_blank" rel="noopener" href="{{ include.url }}">
       {% endif %}
-      
       <img class="docimage" src="images/{{ include.file }}" alt="{{ include.alt | default: '' }}" style="display: block; margin: 0; padding: 0; {% if include.max-width %}max-width: {{ include['max-width'] }};{% endif %}" />
-      
       {% if include.url %}
         </a>
       {% endif %}
-      
       {% if include.caption %}
         <figcaption>{{ include.caption }}</figcaption>
       {% endif %}
     </figure>
   {% endif %}
-
 </div>
