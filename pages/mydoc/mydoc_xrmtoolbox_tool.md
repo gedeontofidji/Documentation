@@ -81,7 +81,7 @@ folder: mydoc
 4.Finish to set the button parameters
 {% include image.html file="flyoutbutton.png" max-width="100%" %}
 
-{% include tip.html content="By default, the flyout button will not appear after reopening Ribbon Workbench. To fix this, you need to export the solution as unmanaged and edit the solution.xml to change Location=\"Mscrm.Form.entityName.MainTab.Save.Controls._children\" to Location=\"Mscrm.Form.entityName.MainTab.ModernClient.Controls._children\". Reimport the solution." %}
+{% include tip.html content="By default, the flyout button will not appear after reopening Ribbon Workbench. To fix this, you need to export the solution as unmanaged and edit the solution.xml to change Location=\"Mscrm.Form.entityLogicalName.MainTab.Save.Controls._children\" to Location=\"Mscrm.Form.entityLogicalName.MainTab.ModernClient.Controls._children\". Reimport the solution." %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="webresources-manager" markdown="1">
