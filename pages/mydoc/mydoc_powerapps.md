@@ -34,6 +34,9 @@ In the environment:
 5. Make sure the radio button under Web is selected then publish your customizations
 {% include image.html file="editableview1.png" max-width="50%" %}
 {% include image.html file="editableview2.png" max-width="800%" %}
+
+#### 🙈 Hide “Create new” on a lookup field
+<a href="https://orby.com.au/hide-new-button-on-lookup-controls-in-model-driven-apps-2/" target="_blank" rel="noopener noreferrer">Hide new button on lookup controls</a> 
 </div>
 
 <div role="tabpanel" class="tab-pane" id="csharp" markdown="1">
