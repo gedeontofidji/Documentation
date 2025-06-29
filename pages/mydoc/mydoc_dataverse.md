@@ -16,6 +16,9 @@ folder: mydoc
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## Useful links
 * <a href="https://www.microsoft.com/en-us/power-platform/blog/2025/06/09/long-term-retention/" target="_blank" rel="noopener noreferrer">Long-term retention data</a>
+
+## Evolutions to come
+* <a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/functions-overview" target="_blank" rel="noopener noreferrer">Dataverse Accelerator</a>: allows you to create low-code plug-ins, but it's currently being deprioritized in favor of functions. Beta version.
 </div>
 
 <div role="tabpanel" class="tab-pane" id="other" markdown="1">
