@@ -77,11 +77,11 @@ folder: mydoc
 
 3.Create two commands linked to your javascript functions
 {% include image.html file="clickribbonmenucommand.png" max-width="100%" %}
-{% include image.html file="populateribbonmenucommand.png" max-width="100%" %}
+{% include image.html file="populateribbonmenucommand.png" max-width="100%" %}  
 4.Finish to set the button parameters
 {% include image.html file="flyoutbutton.png" max-width="100%" %}
 
-* By default, the button will not appear after reopening RIbbon workbench, you need to export the solution and edit the solution.xml to change "Location="Mscrm.Form.lead.MainTab.Save.Controls._children" to this "Location="Mscrm.Form.lead.MainTab.ModernClient.Controls._children" 
+{% include tip.html content="By default, the flyout button will not appear after reopening Ribbon Workbench. To fix this, you need to export the solution as unmanaged and edit the solution.xml to change Location=\"Mscrm.Form.lead.MainTab.Save.Controls._children\" to Location=\"Mscrm.Form.lead.MainTab.ModernClient.Controls._children\". Reimport the solution." %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="webresources-manager" markdown="1">
