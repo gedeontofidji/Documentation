@@ -87,6 +87,29 @@ function visibleField(executionContext)
     }
 }
 ```
+
+### 📝 Set lookup field value
+```
+function getLookupDetails(executionContext)
+{
+    var formContext = executionContext.getFormContext();
+    var lookupField = formContext.getAttribute("cto_myfield").getValue(); //getValue() returns an array with one element
+
+    if (lookupField)
+    {
+        var id = lookupField[0].id;
+        var name = lookupField[0].name;
+        var entityType = lookupField[0].entityType;
+
+        var lookupToSet = [{
+            id: id,
+            name: name,
+            entityType: entityType
+        }];
+        formContext.getAttribute("cto_otherfield").setValue(lookupToSet);
+    }
+}
+```
 </div>
 
 <div role="tabpanel" class="tab-pane" id="mscrm" markdown="1">
