@@ -74,7 +74,7 @@ folder: mydoc
 * populateRibbonClick: for handling click events on those items. Define here the actions you want to execute when a user clicks an item.  
 
 {% include note.html content="To simplify your FetchXML creation, use a table view to define filters. Then download the FetchXML from the view for use in your code. This also helps you identify the names of linked entity relationships more easily." %}
-{% include image.html file="downloadfetchxml.png" max-width="100%" %}
+{% include image.html file="downloadfetchxml.png" max-width="50%" %}
 
 
 * Explain that the name of link entity in the relationship name that you can get in fetch
