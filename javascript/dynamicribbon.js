@@ -46,7 +46,7 @@ Cto.Ribbon.entityName = function ()
 		for (var i = 0; i < result.value.length; i++)
 		{
 			var Name = result.value[i].cto_field1; //Name that will be displayed on the button items
-            		var Value = result.value[i].cto_field2 + "|" + result.value[i].cto_field3; //Id of each item that can be used in the populateRibbonClick to know which item was triggered
+            		var Value = result.value[i].cto_field2 + "|" + result.value[i].cto_field3; //Id of each item that can be used in the populateRibbonClick to know which item was triggered. Do not use url or anything with special characters.
 			menuRibbonXml += "<Button Id='" + Value + "' Command='" + command + "'  Sequence='" + ((i + 1) * 10) + "' LabelText='" + Name + "' />"
 		}
 		menuRibbonXml += "</Controls></MenuSection>";
