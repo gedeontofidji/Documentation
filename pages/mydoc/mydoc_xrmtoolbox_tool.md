@@ -72,11 +72,11 @@ folder: mydoc
 2. Define two functions in your javascript file (<a href="/Documentation/javascript/dynamicribbon.js" target="_blank" rel="noopener noreferrer">See the code here</a>) :
 * populateRibbonMenu: for generating the dynamic button items. Using FetchXML, you can retrieve the records to show in the items. `You can add a subgrid in the form to associate teams to the record and display button items only to users who belong to those linked teams.`
 * populateRibbonClick: for handling click events on those items. Define here the actions you want to execute when a user clicks an item.  
-{% include note.html content="To simplify your FetchXML creation, use a table view to define filters visually. Then download the FetchXML from the view for use in your code." %}
+
+{% include note.html content="To simplify your FetchXML creation, use a table view to define filters. Then download the FetchXML from the view for use in your code. This also helps you identify the names of linked entity relationships more easily." %}
+{% include image.html file="downloadfetchxml.png" max-width="100%" %}
 
 
-
-* Explain how to get a fetch with advancer filters
 * Explain that the name of link entity in the relationship name that you can get in fetch
 * Explain ID item don't support url
 * By default, the button will not appear after reopening RIbbon workbench, you need to export the solution and edit the solution.xml to change "Location="Mscrm.Form.lead.MainTab.Save.Controls._children" to this "Location="Mscrm.Form.lead.MainTab.ModernClient.Controls._children" 
