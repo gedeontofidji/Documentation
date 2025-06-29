@@ -10,6 +10,7 @@ summary:
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
     <li><a class="noCrossRef" href="#useful-links" data-toggle="tab">Useful links</a></li>
+    <li><a class="noCrossRef" href="#emoji" data-toggle="tab">Emoji</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
@@ -29,6 +30,16 @@ summary:
 <div role="tabpanel" class="tab-pane" id="useful-links" markdown="1">
 ### Links
 * [GitHub Jekyll theme](https://jekyllthemes.io/theme/documentation)
+</div>
+
+<div role="tabpanel" class="tab-pane" id="useful-links" markdown="1">
+* 📚 Documentation
+* 🪜 Steps
+* 🐞 Debugging
+* 🗂️ Tab functions
+* ⚙️ How to ...
+* 🔍 Get a field value
+* 📝 Set a field value
 </div>
 </div>
 
