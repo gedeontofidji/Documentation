@@ -38,6 +38,7 @@ summary:
 * ⚙️ How to ...
 * 🔍 Get a field value
 * 📝 Set a field value
+* 🙈 Hide ...
 </div>
 </div>
 
