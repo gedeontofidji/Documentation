@@ -114,10 +114,10 @@ function getLookupDetails(executionContext)
 ### ⚡ Quick create
 Get the parent record reference of a quick create form
 ```
-Xrm.Utility.getPageContext().input.data.parentrecordtype
-Xrm.Utility.getPageContext().input.createFromEntity.entityType
-{% include image.html file="quickcreateformparent.png" max-width="90%" %}
+Xrm.Utility.getPageContext().input.data.parentrecordtype;
+Xrm.Utility.getPageContext().input.createFromEntity.entityType;
 ```
+{% include image.html file="quickcreateformparent.png" max-width="90%" %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="mscrm" markdown="1">
