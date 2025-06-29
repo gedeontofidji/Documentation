@@ -67,7 +67,10 @@ folder: mydoc
 
 <div role="tabpanel" class="tab-pane" id="ribbon-workbench" markdown="1">
 ## Allows you to custom button properties, including display and enable rules.
-### ⚙️ How to create a dynamic button based on record's table
+#### 📚 Documentation
+* <a href="[/Documentation/javascript/dynamicribbon.js](https://learn.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/gg309332(v=crm.8))" target="_blank" rel="noopener noreferrer">Crm Parameters</a>
+
+#### ⚙️ How to create a dynamic button based on record's table
 1. In Ribbon workbench, drag and drop the flyout button in the form section of the ribbon
 2. Define two functions in your javascript file (<a href="/Documentation/javascript/dynamicribbon.js" target="_blank" rel="noopener noreferrer">See the code here</a>) :
 * populateRibbonMenu: for generating the dynamic button items. Using FetchXML, you can retrieve the records to show in the items. `You can add a subgrid in the form to associate teams to the record and display button items only to users who belong to those linked teams.`
