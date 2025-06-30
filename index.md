@@ -11,6 +11,7 @@ summary:
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
     <li><a class="noCrossRef" href="#useful-links" data-toggle="tab">Useful links</a></li>
     <li><a class="noCrossRef" href="#emoji" data-toggle="tab">Emoji</a></li>
+    <li><a class="noCrossRef" href="#freelance" data-toggle="tab">Freelance</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
@@ -39,6 +40,12 @@ summary:
 * 🔍 Get a field value
 * 📝 Set a field value
 * 🙈 Hide ...
+</div>
+
+<div role="tabpanel" class="tab-pane" id="freelance" markdown="1">
+## Licences
+* Les clients peuvent m'ajouter dans leur entraID et ma licence suffit pour que je développe, ils n'ont pas besoin de m'acheter une lince
+* Je peux inviter mes prospects à tester mon application s'ils prennent la licence essai. Pour cela, les ajouter en tant qu'invité dans l'AD puis leur partager l'application. Bien gérer les rôles de sécurité.
 </div>
 </div>
 
