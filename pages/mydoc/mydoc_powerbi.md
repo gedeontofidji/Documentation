@@ -37,7 +37,7 @@ ExpandFields=Table.ExpandRecordColumn(ExpandValue,"value",{"Name","Description",
 ExpandDescription=Table.ExpandRecordColumn(ExpandFields,"Description",{"UserLocalizedLabel"},{"Description.UserLocalizedLabel"}),
 ExpandDisplayName=Table.ExpandRecordColumn(ExpandDescription,"DisplayName",{"UserLocalizedLabel"},{"DisplayName.UserLocalizedLabel"}),
 ExpandIsCustomizable=Table.ExpandRecordColumn(ExpandDisplayName,"IsCustomizable",{"Value"}), ExpandOptions=Table.ExpandListColumn(ExpandIsCustomizable,"Options"),
-ExpandOptionsLabel=Table.ExpandRecordColumn(ExpandOptions,"Options",{"Label"}),
+ExpandOptionsLabel=Table.ExpandRecordColumn(ExpandOptions,"Options",{"Label","Value"},{"Label", "Options.Value"}),
 ExpandOptionsUserLabel=Table.ExpandRecordColumn(ExpandOptionsLabel,"Label",{"UserLocalizedLabel"},{"Options.Label.UserLocalizedLabel"}),
 ExpandLabel=Table.ExpandRecordColumn(ExpandOptionsUserLabel,"Options.Label.UserLocalizedLabel",{"Label"},{"Options.Label.UserLocalizedLabel.Label"}),
 FinalTable=Table.RemoveColumns(ExpandLabel,{"Description.UserLocalizedLabel","DisplayName.UserLocalizedLabel","@odata.context","Value"})
