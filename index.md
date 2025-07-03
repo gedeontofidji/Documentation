@@ -43,6 +43,9 @@ summary:
 </div>
 
 <div role="tabpanel" class="tab-pane" id="freelance" markdown="1">
+## Nom freelance
+* Crm Core
+
 ## Licences
 * Les clients peuvent m'ajouter dans leur entraID et ma licence suffit pour que je développe, ils n'ont pas besoin de m'en fournir une.
 * Je peux inviter mes prospects à tester mon application s'ils prennent la licence essai ou je leur attribue la licence essai Sales. Pour cela, les ajouter en tant qu'invité dans l'AD puis leur partager l'application. Bien gérer les rôles de sécurité.
