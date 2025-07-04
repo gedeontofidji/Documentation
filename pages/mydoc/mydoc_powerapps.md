@@ -133,7 +133,7 @@ Xrm.Utility.getPageContext().input.createFromEntity.entityType;
 ```
 {% include image.html file="quickcreateformparent.png" max-width="60%" %}
 
-### Nvigation
+* Form functions : <a href="/Documentation/javascript/shared_form.js" target="_blank" rel="noopener noreferrer">open JavaScript file</a>
 To refresh a form, use this function
 ```
 function refreshRecord(formContext) {
