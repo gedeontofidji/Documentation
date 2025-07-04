@@ -134,25 +134,6 @@ Xrm.Utility.getPageContext().input.createFromEntity.entityType;
 {% include image.html file="quickcreateformparent.png" max-width="60%" %}
 
 * <a href="/Documentation/javascript/shared_form.js" target="_blank" rel="noopener noreferrer">Form functions</a>
-To refresh a form, use this function
-```
-function refreshRecord(formContext) {
-    var entityFormOptions = {
-        entityName: formContext.data.entity.getEntityName(),
-        entityId: formContext.data.entity.getId(),
-        openInNewWindow: false // optionnal, to open in a new window
-    };
-
-    Xrm.Navigation.openForm(entityFormOptions).then(
-        function (success) {
-            console.log("Form opened with success:", success);
-        },
-        function (error) {
-            console.error(Error while opening the form :", error.message);
-        }
-    );
-}
-```
 </div>
 
 <div role="tabpanel" class="tab-pane" id="mscrm" markdown="1">
