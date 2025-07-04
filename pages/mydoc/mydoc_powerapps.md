@@ -102,14 +102,6 @@ function visibleField(executionContext)
 }
 ```
 
-### ⚡ Quick create
-Get the parent record reference of a quick create form
-```
-Xrm.Utility.getPageContext().input.data.parentrecordtype;
-Xrm.Utility.getPageContext().input.createFromEntity.entityType;
-```
-{% include image.html file="quickcreateformparent.png" max-width="60%" %}
-
 * <a href="/Documentation/javascript/shared_form.js" target="_blank" rel="noopener noreferrer">Form functions</a>
 </div>
 
