@@ -241,6 +241,8 @@ Crm.Utils.Form = function ()
         ///   - formContext   : object   → The form context.
         ///   - fieldToClear  : string   → Logical name of the field to clear.
         ///   - eventType     : string   → The event type (e.g., "onChange").
+	var attr = formContext.getAttribute(attribute);
+	if (!attr) return;
         if (eventType==="onChange")
         {
             formContext.getAttribute(fieldToClear).setValue(null);
