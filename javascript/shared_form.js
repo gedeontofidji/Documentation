@@ -241,12 +241,28 @@ Crm.Utils.Form = function ()
         ///   - formContext   : object   → The form context.
         ///   - fieldToClear  : string   → Logical name of the field to clear.
         ///   - eventType     : string   → The event type (e.g., "onChange").
-	var attr = formContext.getAttribute(attribute);
-	if (!attr) return;
         if (eventType==="onChange")
         {
             formContext.getAttribute(fieldToClear).setValue(null);
         }
+    }
+
+    function getParentRecordFromQuickCreate()
+    {
+        /// Summary:
+        /// Retrieves the parent record reference when the quick Create form is opened from another record.
+        var context = Xrm.Utility.getPageContext();
+
+        if (context.input && context.input.createFromEntity)
+        {
+            return {
+                id: context.input.createFromEntity.id,
+                name: context.input.createFromEntity.name,
+                entityType: context.input.createFromEntity.entityType
+            };
+        }
+        return null;
+        /// Returns: object → { id, name, entityType } or null
     }
 
 	return {
@@ -261,6 +277,7 @@ Crm.Utils.Form = function ()
 		SetTabsVisibility: setTabsVisibility,
 		CheckUserSecurityRole: checkUserSecurityRole,
         ClearFieldOnChange:clearFieldOnChange,
-        RefreshForm:refreshForm
+        RefreshForm:refreshForm,
+        GetParentRecordFromQuickCreate: getParentRecordFromQuickCreate,
 	};
 }();
