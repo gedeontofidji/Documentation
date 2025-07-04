@@ -2,31 +2,15 @@ var Crm = Crm || {};
 Crm.Utils = Crm.Utils || {};
 Crm.Utils.Form = function ()
 {
-	function disableFormSelector(formContext)
-	{
-		formContext.ui.formSelector.items.forEach(function (f)
-		{
-			f.setVisible(false);
-		});
-	}
-
 	function filterOptionSet(formContext, attribute, allValues, values)
 	{
-		///<summary>
-		/// Filtre un contrôle de type OptionSet en ne présentant que les valeurs dans "values"
-		///</summary>
-		///<param name="formContext" type="object">
-		/// Contexte du formulaire.
-		///</param>
-		///<param name="attribute" type="String">
-		/// Nom de l'attribut pour le contrôle OptionSet à filtrer.
-		///</param>
-		///<param name="allValues" type="Array">
-		/// Liste de toutes les options du contrôle OptionSet.
-		///</param>
-		///<param name="values" type="Array">
-		/// Liste des options à présenter dnas le contrôle OptionSet.
-		///</param>
+        /// Summary: 
+        /// Filters an OptionSet control to display only the values specified in "values".
+        /// Variables:
+        ///   - formContext : object    → The form context.
+        ///   - attribute   : string    → Logical name of the OptionSet attribute to be filtered.
+        ///   - allValues   : Array     → List of all available options for the OptionSet control.
+        ///   - values      : Array     → List of option values to display in the OptionSet control.
 		var ctrl = formContext.getControl(attribute);
 		var attr = formContext.getAttribute(attribute);
 		if (!attr) return;
@@ -47,15 +31,11 @@ Crm.Utils.Form = function ()
 
 	function getLookupValue(formContext, attribute)
 	{
-		///<summary>
-		/// Obtient l'objet représentant la valeur d'un lookup
-		///</summary>
-		///<param name="formContext" type="object">
-		/// Contexte du formulaire.
-		///</param>
-		///<param name="attribute" type="String">
-		/// Nom de l'attribut Lookup.
-		///</param>
+        /// Summary:
+        /// Get the object representing the value of a lookup field.
+        /// Variables:
+        ///   - formContext : object    → The form context.
+        ///   - attribute   : string    → Logical name of the lookup attribute.
 		var attr = formContext.getAttribute(attribute);
 		if (!attr) return null;
 		var value = attr.getValue();
@@ -64,30 +44,14 @@ Crm.Utils.Form = function ()
 		return value[0];
 	}
 
-	function getOptionSet(form, attribute)
+	function setAttributesRequiredLevel(formContext, arrayOfAttributes, level)
 	{
-		var attr = form.getAttribute(attribute);
-		if (!attr) return null;
-		return {
-			value: attr.getValue(),
-			label: attr.getText()
-		};
-	}
-
-	function setAttributesRequiredLevel(formContext, level, arrayOfAttributes)
-	{
-		///<summary>
-		/// Définit le niveau requis d'une liste d'attributs
-		///</summary>
-		///<param name="formContext" type="object">
-		/// Contexte du formulaire.
-		///</param>
-		///<param name="level" type="String">
-		/// Niveau requis ("none"/"recommended"/"required").
-		///</param>
-		///<param name="arrayOfControls" type="String[]">
-		/// Noms des contrôles.
-		///</param>
+        /// Summary:
+        /// Sets the required level for a list of attributes.
+        /// Variables:
+        ///   - formContext       : object    → The form context.
+        ///   - level             : string    → Required level ("none", "recommended", or "required").
+        ///   - arrayOfAttributes : string[]  → Array of attribute logical names.
 		for (let i = 0; i < arrayOfAttributes.length; i++)
 		{
 			var attr = formContext.getAttribute(arrayOfAttributes[i]);
@@ -95,20 +59,14 @@ Crm.Utils.Form = function ()
 		}
 	}
 
-	function setControlsVisibility(formContext, isVisible, arrayOfControls)
+	function setControlsVisibility(formContext, arrayOfControls, isVisible)
 	{
-		///<summary>
-		/// Définit la visibilité d'une liste de contrôles
-		///</summary>
-		///<param name="formContext" type="object">
-		/// Contexte du formulaire.
-		///</param>
-		///<param name="isVisible" type="Boolean">
-		/// Indicateur de visibilité.
-		///</param>
-		///<param name="arrayOfControls" type="String[]">
-		/// Noms des contrôles.
-		///</param>
+        /// Summary:
+        /// Sets the visibility of a list of controls.
+        /// Variables:
+        ///   - formContext     : object    → The form context.
+        ///   - isVisible       : boolean   → Visibility flag (true or false).
+        ///   - arrayOfControls : string[]  → Array of control names.
 		for (let i = 0; i < arrayOfControls.length; i++)
 		{
 			var ctrl = formContext.getControl(arrayOfControls[i]);
@@ -116,45 +74,14 @@ Crm.Utils.Form = function ()
 		}
 	}
 
-	function setAttributesVisibility(formContext, isVisible, arrayOfControls)
+	function setControlsDisabled(formContext, arrayOfAttributes, isDisabled)
 	{
-		///<summary>
-		/// Définit la visibilité d'une liste de contrôles
-		///</summary>
-		///<param name="formContext" type="object">
-		/// Contexte du formulaire.
-		///</param>
-		///<param name="isVisible" type="Boolean">
-		/// Indicateur de visibilité.
-		///</param>
-		///<param name="arrayOfControls" type="String[]">
-		/// Noms des contrôles.
-		///</param>
-		for (let i = 0; i < arrayOfControls.length; i++)
-		{
-			var attr = formContext.getAttribute(arrayOfControls[i]);
-			if (!attr) continue;
-			attr.controls.forEach(function (ctrl)
-			{
-				if (ctrl && ctrl.setVisible) ctrl.setVisible(isVisible);
-			});
-		}
-	}
-
-	function setControlsDisabled(formContext, isDisabled, arrayOfControls)
-	{
-		///<summary>
-		/// Définit la visibilité d'une liste de contrôles
-		///</summary>
-		///<param name="formContext" type="object">
-		/// Contexte du formulaire.
-		///</param>
-		///<param name="isDisabled" type="Boolean">
-		/// Indicateur de lecture seule.
-		///</param>
-		///<param name="arrayOfControls" type="String[]">
-		/// Noms des contrôles.
-		///</param>
+        /// Summary:
+        /// Sets the read-only state of a list of controls.
+        /// Variables:
+        ///   - formContext     : object    → The form context.
+        ///   - isDisabled      : boolean   → Read-only flag (true to disable, false to enable).
+        ///   - arrayOfControls : string[]  → Array of control names.
 		for (let i = 0; i < arrayOfControls.length; i++)
 		{
 			var attr = formContext.getAttribute(arrayOfControls[i]);
@@ -168,15 +95,11 @@ Crm.Utils.Form = function ()
 
 	function setDateToday(formContext, attribute)
 	{
-		///<summary>
-		/// Définit la valeur d'un attribut date avec la date du jour
-		///</summary>
-		///<param name="formContext" type="object">
-		/// Contexte du formulaire.
-		///</param>
-		///<param name="attribute" type="String">
-		/// Nom de l'attribut Lookup à définir.
-		///</param>
+        /// Summary:
+        /// Sets the value of a date attribute to today's date with time set to midnight.
+        /// Variables:
+        ///   - formContext : object → The form context.
+        ///   - attribute   : string → Logical name of the date attribute to set.
 		var attr = formContext.getAttribute(attribute);
 		if (!attr) return;
 		if (attr.getAttributeType() !== "datetime") throw "L'attribut n'est pas de type datetime (Crm.Utils.Form.setDateToday)";
@@ -185,29 +108,19 @@ Crm.Utils.Form = function ()
 		attr.setValue(new Date(today));
 	}
 
-	function setLookupValue(formContext, attribute, id, type, name)
+	function setLookupValue(formContext, attribute, id, entityType, name)
 	{
-		///<summary>
-		/// Définit une valeur d'un champ Lookup
-		///</summary>
-		///<param name="formContext" type="object">
-		/// Contexte du formulaire.
-		///</param>
-		///<param name="attribute" type="String">
-		/// Nom de l'attribut Lookup à définir.
-		///</param>
-		///<param name="id" type="String">
-		/// Identifiant de l'enregistrement à lier.
-		///</param>
-		///<param name="type" type="String">
-		/// Type de l'enregistrement à lier.
-		///</param>
-		///<param name="name" type="String">
-		/// Nom d'affichage de l'enregistrement à lier.
-		///</param>
+        /// Summary:
+        /// Sets the value of a Lookup field on the form.
+        /// Variables:
+        ///   - formContext : object  → The form context.
+        ///   - attribute   : string  → Logical name of the lookup attribute to set.
+        ///   - id          : string  → ID of the record to link.
+        ///   - entityType  : string  → Entity type name of the record to link.
+        ///   - name        : string  → Display name of the record to link.
 		var item = {
 			id: id,
-			entityType: type,
+			entityType: entityType,
 			name: name
 		};
 		var array = new Array();
@@ -219,59 +132,15 @@ Crm.Utils.Form = function ()
 		}
 	}
 
-	function setLookupValueFromRecord(formContext, attribute, record, sourceAttribute)
-	{
-		///<summary>
-		/// Définit une valeur d'un champ Lookup
-		///</summary>
-		///<param name="formContext" type="object">
-		/// Contexte du formulaire.
-		///</param>
-		///<param name="attribute" type="String">
-		/// Nom de l'attribut Lookup à définir.
-		///</param>
-		///<param name="record" type="object">
-		/// Identifiant de l'enregistrement à lier.
-		///</param>
-		///<param name="sourceAttribute" type="String">
-		/// Type de l'enregistrement à lier.
-		///</param>
-		if (sourceAttribute.indexOf("_") != 0)
-		{
-			sourceAttribute = "_" + sourceAttribute + "_value";
-		}
-		if (!record[sourceAttribute]) return;
-		var item = {
-			id: record[sourceAttribute],
-			entityType: record[sourceAttribute + "@Microsoft.Dynamics.CRM.lookuplogicalname"],
-			name: record[sourceAttribute + "@OData.Community.Display.V1.FormattedValue"]
-		};
-		var array = [];
-		array.push(item);
-		var attr = formContext.getAttribute(attribute);
-		if (attr)
-		{
-			attr.setValue(array);
-		}
-	}
-
 	function setSectionVisibility(formContext, tabName, sectionName, isVisible)
 	{
-		///<summary>
-		/// Définit la visibilité d'une section
-		///</summary>
-		///<param name="formContext" type="object">
-		/// Contexte du formulaire.
-		///</param>
-		///<param name="tabName" type="String">
-		/// Nom de l'onglet contenant la section.
-		///</param>
-		///<param name="sectionName" type="String">
-		/// Nom de la section.
-		///</param>
-		///<param name="isVisible" type="Boolean">
-		/// Indicateur de visibilité.
-		///</param>
+        /// Summary:
+        /// Sets the visibility of a section within a specific tab on the form.
+        /// Variables:
+        ///   - formContext : object   → The form context.
+        ///   - tabName     : string   → The name of the tab containing the section.
+        ///   - sectionName : string   → The name of the section to show/hide.
+        ///   - isVisible   : boolean  → Visibility flag (true to show, false to hide).
 		var tab = formContext.ui.tabs.get(tabName);
 		if (!tab) return;
 		var section = tab.sections.get(sectionName);
@@ -279,47 +148,14 @@ Crm.Utils.Form = function ()
 		section.setVisible(isVisible);
 	}
 
-	function setState(formContext, disabled)
-	{
-		formContext.ui.controls.forEach(function (ctrl)
-		{
-			if (ctrl.setDisabled) ctrl.setDisabled(disabled);
-		});
-	}
-
-	function setTabVisibility(formContext, tabName, isVisible)
-	{
-		///<summary>
-		/// Définit la visibilité d'une section
-		///</summary>
-		///<param name="formContext" type="object">
-		/// Contexte du formulaire.
-		///</param>
-		///<param name="tabName" type="String">
-		/// Nom de l'onglet.
-		///</param>
-		///<param name="isVisible" type="Boolean">
-		/// Indicateur de visibilité.
-		///</param>
-		var tab = formContext.ui.tabs.get(tabName);
-		if (!tab) return;
-		tab.setVisible(isVisible);
-	}
-
 	function setTabsVisibility(formContext, tabsNames, isVisible)
 	{
-		///<summary>
-		/// Définit la visibilité d'une section
-		///</summary>
-		///<param name="formContext" type="object">
-		/// Contexte du formulaire.
-		///</param>
-		///<param name="tabsNames" type="Array">
-		/// Noms des onglet.
-		///</param>
-		///<param name="isVisible" type="Boolean">
-		/// Indicateur de visibilité.
-		///</param>
+        /// Summary:
+        /// Sets the visibility of multiple tabs on the form.
+        /// Variables:
+        ///   - formContext : object    → The form context.
+        ///   - tabsNames   : string[]     → Array of tab names to show or hide.
+        ///   - isVisible   : boolean   → Visibility flag (true to show, false to hide).
 		for (let tabName of tabsNames)
 		{
 			var tab = formContext.ui.tabs.get(tabName);
@@ -328,85 +164,83 @@ Crm.Utils.Form = function ()
 		}
 	}
 
-	function checkUserSecurityRole(formContext, userId, roleName)
-	///<summary>
-	/// Vérifie si un utilisateur est configurer avec un rôle de sécurité
-	///</summary>
-	///<param name="formContext" type="object">
-	/// Contexte du formulaire.
-	///</param>
-	///<param name="userId" type="Guid">
-	/// Id du systemuser
-	///</param>
-	///<param name="roleName" type="Boolean">
-	/// Nom du rôle de sécurité
-	///</param>
-	{
+	function checkUserSecurityRole(userId, roleName)
+    {
+        /// Summary:
+        /// Checks if a user has a specific security role.
+        /// Variables:
+        ///   - userId      : string  → GUID of the system user.
+        ///   - roleName    : string  → Name of the security role to check.
 		return new Promise((successCallback, failureCallback) => {
 			var fetchData = {
 				"name": roleName,
 				"systemuserid": userId
 			};
 			var fetchXml = [
-"?fetchXml=<fetch>",
-"  <entity name='role'>",
-"    <attribute name='name'/>",
-"    <filter>",
-"      <condition attribute='name' operator='in'>",
-"        <value>", fetchData.name, "</value>",
-"      </condition>",
-"    </filter>",
-"    <link-entity name='systemuserroles' from='roleid' to='roleid' intersect='true'>",
-"      <attribute name='systemuserid'/>",
-"      <filter>",
-"        <condition attribute='systemuserid' operator='eq' value='", fetchData.systemuserid, "'/>",
-"      </filter>",
-"    </link-entity>",
-"  </entity>",
-"</fetch>"
-].join("");
-			Xrm.WebApi.retrieveMultipleRecords("role", fetchXml).then(
-
-			function success(result)
-			{
-				if (result.entities.length > 0) successCallback(true);
-				else successCallback(false);
-			},
-
-			function (error)
-			{
+            "?fetchXml=<fetch>",
+            "  <entity name='role'>",
+            "    <attribute name='name'/>",
+            "    <filter>",
+            "      <condition attribute='name' operator='in'>",
+            "        <value>", fetchData.name, "</value>",
+            "      </condition>",
+            "    </filter>",
+            "    <link-entity name='systemuserroles' from='roleid' to='roleid' intersect='true'>",
+            "      <attribute name='systemuserid'/>",
+            "      <filter>",
+            "        <condition attribute='systemuserid' operator='eq' value='", fetchData.systemuserid, "'/>",
+            "      </filter>",
+            "    </link-entity>",
+            "  </entity>",
+            "</fetch>"
+            ].join("");
+			Xrm.WebApi.retrieveMultipleRecords("role", fetchXml).then
+            (
+                function success(result)
+                {
+                    if (result.entities.length > 0) successCallback(true);
+                    else successCallback(false);
+                },
+			    function (error)
+			    {
 				console.log(error.message);
 				failureCallback("Erreur");;
-			});
+			    }
+            );
 		});
 	}
-
-	function checkFieldFormat(formContext, regex, field)
-	{
-		///<summary>
-		/// Vérifie le format d'un champ texte
-		///</summary>
-		///<param name="formContext" type="object">
-		/// Contexte du formulaire.
-		///</param>
-		///<param name="regex" type="Regex">
-		/// Regex du format à véérifier.
-		///</param>
-		///<param name="field" type="String">
-		/// Nom du champ à vérifier
-		///</param>
-		var fieldValue = formContext.getAttribute(field).getValue();
-		var notification = {};
-		notification.messages = ['Format non conforme'];
-		notification.notificationLevel = 'ERROR';
-		notification.uniqueId = '0';
-		if (!regex.test(fieldValue)) return notification;
-		else return null;
-	}
     
-    //Created on 06/06/25
-    function clearFieldOnChange(formContext,fieldToClear, eventType){
-        /// Clear a field depending on if the form is loaded or not
+    function refreshForm(formContext)
+    {
+        /// Summary:
+        /// Reopens the current record form to simulate a full refresh of the entity data.
+        /// Variables:
+        ///   - formContext : object → The form context.
+        var entityFormOptions = {
+            entityName: formContext.data.entity.getEntityName(),
+            entityId: formContext.data.entity.getId(),
+            openInNewWindow: false
+        };
+
+        Xrm.Navigation.openForm(entityFormOptions).then
+        (
+            function (success) {
+                console.log("Form refreshed with success:", success);
+            },
+            function (error) {
+                console.error("Error while refreshing the form :", error.message);
+            }
+        );
+    }
+
+    function clearFieldOnChange(formContext,fieldToClear, eventType)
+    {
+        /// Summary:
+        /// Clears the value of a field when the event type is "onChange".
+        /// Variables:
+        ///   - formContext   : object   → The form context.
+        ///   - fieldToClear  : string   → Logical name of the field to clear.
+        ///   - eventType     : string   → The event type (e.g., "onChange").
         if (eventType==="onChange")
         {
             formContext.getAttribute(fieldToClear).setValue(null);
@@ -414,23 +248,17 @@ Crm.Utils.Form = function ()
     }
 
 	return {
-		DisableFormSelector: disableFormSelector,
 		FilterOptionSet: filterOptionSet,
 		GetLookupValue: getLookupValue,
-		GetOptionSet: getOptionSet,
 		SetAttributesRequiredLevel: setAttributesRequiredLevel,
-		SetAttributesVisibility: setAttributesVisibility,
 		SetDateToday: setDateToday,
 		SetLookupValue: setLookupValue,
-		SetLookupValueFromRecord: setLookupValueFromRecord,
 		SetControlsDisabled: setControlsDisabled,
 		SetControlsVisibility: setControlsVisibility,
 		SetSectionVisibility: setSectionVisibility,
-		SetState: setState,
-		SetTabVisibility: setTabVisibility,
 		SetTabsVisibility: setTabsVisibility,
 		CheckUserSecurityRole: checkUserSecurityRole,
-		CheckFieldFormat: checkFieldFormat,
-        ClearFieldOnChange:clearFieldOnChange
+        ClearFieldOnChange:clearFieldOnChange,
+        RefreshForm:refreshForm
 	};
 }();
