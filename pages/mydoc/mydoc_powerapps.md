@@ -43,7 +43,10 @@ In the environment:
 ### ⌘ Keyboard shortcuts (Microsoft Visual Studio)  
 * Ctrl+Shift+B: Build the solution
 * Ctrl+Space: Autocompletion  
-    
+
+### Create a new plugin from scratch
+* In Visual Studio, create a new project with `Class Library (.Net Framework)` model
+
 #### Coding process
 `The logic must be implemented in the service (e.g: CodeNasService) and not in the class (e.g: CodeNas).`  
 Pull the code stored on Git > Add your code and save it > Build the solution to generates the DLL in the solution folder > Open Plugin Registration in XrmToolBox to update the plugin with the generated DLL > Test > Enter the commit message, then push the changes to Git.
