@@ -21,5 +21,6 @@ $solutionFile = "$basePath\$editor.Xrm.sln"
 CreateSolution -SolutionName $solutionName -BasePath $basePath #create the solution
 CreateProject -ProjectName $projectName -ProjectPath $projectPath -CsprojPath $csprojPath -SolutionFile $solutionFile #create the project
 CreateClass -ProjectName $projectName -ProjectPath $projectPath #create a basic Class1.cs file
+InstallNugetPackage -BasePath $basePath #install nuget package and Microsoft.CrmSdk.CoreAssemblies
 
 Write-Host "SOLUTION $clientApplicationName CREATED FOR $editor WITH SUCCESS (targeting .NET Framework 4.6.2)" -ForegroundColor Green
