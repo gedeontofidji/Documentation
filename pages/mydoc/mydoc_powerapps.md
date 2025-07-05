@@ -9,7 +9,7 @@ folder: mydoc
 ---
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a class="noCrossRef" href="general" data-toggle="tab">General</a></li>
+    <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
     <li><a class="noCrossRef" href="#csharp" data-toggle="tab">C#</a></li>
     <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Dynamics 365 App for Outlook</a></li>
     <li><a class="noCrossRef" href="#javascript" data-toggle="tab">JavaScript</a></li>
@@ -47,9 +47,6 @@ In the environment:
 ### Create a new plugin from scratch
 * In PowerShell, navigate to the folder where <a href="/Documentation/powershell/CreatePlugin.ps1" target="_blank" rel="noopener noreferrer">CreatePlugin.ps1</a> is located (e.g. cd C:\Temp)
 * Run the script by entering .\CreatePlugin.ps1
-
-
-* In Visual Studio, create a new project with `Class Library (.Net Framework)` modelp
 
 #### Coding process
 `The logic must be implemented in the service (e.g: CodeNasService) and not in the class (e.g: CodeNas).`  
