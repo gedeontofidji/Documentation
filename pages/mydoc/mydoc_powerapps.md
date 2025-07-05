@@ -45,7 +45,11 @@ In the environment:
 * Ctrl+Space: Autocompletion  
 
 ### Create a new plugin from scratch
-* In Visual Studio, create a new project with `Class Library (.Net Framework)` model
+* In PowerShell, navigate to the folder where <a href="/Documentation/powershell/CreatePlugin.ps1" target="_blank" rel="noopener noreferrer">CreatePlugin.ps1</a> is located (e.g. cd C:\Temp)
+* Run the script by entering .\CreatePlugin.ps1
+
+
+* In Visual Studio, create a new project with `Class Library (.Net Framework)` modelp
 
 #### Coding process
 `The logic must be implemented in the service (e.g: CodeNasService) and not in the class (e.g: CodeNas).`  
