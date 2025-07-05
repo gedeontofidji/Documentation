@@ -1,5 +1,5 @@
 # Variables
-$clientName = "ClientTest"
+$clientName = Read-Host "Entrez le nom du client"
 $basePath = "C:\Temp\Plugins\$clientName"
 
 # Crée le dossier s'il n'existe pas
