@@ -44,9 +44,10 @@ In the environment:
 * Ctrl+Shift+B: Build the solution
 * Ctrl+Space: Autocompletion  
 
-### Create a new plugin from scratch
-* In PowerShell, navigate to the folder where <a href="/Documentation/powershell/CreatePlugin.ps1" target="_blank" rel="noopener noreferrer">CreatePlugin.ps1</a> is located (e.g. cd C:\Temp)
-* Run the script by entering .\CreatePlugin.ps1
+### Create a new plugin solution from scratch
+* <a href="https://github.com/gedeontofidji/Documentation/tree/main/powershell/CreateNewCrmSolution" target="_blank" rel="noopener noreferrer">Download the repository locally</a>
+* In Main.ps1, configure the basePath variable to the location where you want to create the solution
+* Open PowerShell navigate to the folder where Main.ps1 is located, and run it with .\CreatePlugin.ps1
 
 #### Coding process
 `The logic must be implemented in the service (e.g: CodeNasService) and not in the class (e.g: CodeNas).`  
