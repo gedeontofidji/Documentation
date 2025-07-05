@@ -40,20 +40,20 @@ In the environment:
 </div>
 
 <div role="tabpanel" class="tab-pane" id="csharp" markdown="1">
-### ⌘ Keyboard shortcuts (Microsoft Visual Studio)  
-* Ctrl+Shift+B: Build the solution
-* Ctrl+Space: Autocompletion  
-
 ### Create a new plugin solution from scratch
-* <a href="https://github.com/gedeontofidji/Documentation/tree/main/powershell/CreateNewCrmSolution" target="_blank" rel="noopener noreferrer">Download the repository locally</a>
-* In Main.ps1, configure the basePath variable to the location where you want to create the solution
-* Open PowerShell navigate to the folder where Main.ps1 is located, and run it with .\CreatePlugin.ps1
+* <a href="https://github.com/gedeontofidji/Documentation/tree/main/powershell/CreateNewCrmSolution" target="_blank" rel="noopener noreferrer">Download the repository locally</a>. `PowerShell may not run the script due to execution policy. In that case, create each script file manually by copying the content.`
+* In Main.ps1 script, configure the `basePath` variable to the location where you want to create the solution
+* In PowerShell, navigate to the folder where Main.ps1 is located, and run it with .\CreatePlugin.ps1
 
 #### Coding process
 `The logic must be implemented in the service (e.g: CodeNasService) and not in the class (e.g: CodeNas).`  
 Pull the code stored on Git > Add your code and save it > Build the solution to generates the DLL in the solution folder > Open Plugin Registration in XrmToolBox to update the plugin with the generated DLL > Test > Enter the commit message, then push the changes to Git.
 {% include image.html file="visualstudio_pull.png" max-width="30%" %}
 {% include image.html file="visualstudio_push.png" max-width="30%" %}
+
+### ⌘ Keyboard shortcuts (Microsoft Visual Studio)  
+* Ctrl+Shift+B: Build the solution
+* Ctrl+Space: Autocompletion
 
 ### Functions
 * To create an entity: UserService.Create(entity)
