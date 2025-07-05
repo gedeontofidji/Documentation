@@ -27,6 +27,7 @@ function InstallNugetPackage
     if ($LASTEXITCODE -ne 0) {
         Write-Error "Failed to install NuGet package $PackageName."
     } else {
-        Write-Host "Package $PackageName successfully installed in $packageOutputDir" -ForegroundColor Green
+        Write-Host "Package $PackageName successfully installed in $packageOutputDir" -ForegroundColor Yellow
+        Write-Host
     }
 }
