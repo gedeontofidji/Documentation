@@ -3,7 +3,8 @@ function CreateProject
     param (
         [string]$ProjectName,
         [string]$ProjectPath,
-        [string]$CsprojPath
+        [string]$CsprojPath,
+        [string]$SolutionFile
     )
     #Create the folder project
     New-Item -ItemType Directory -Path $ProjectPath | Out-Null
@@ -106,5 +107,10 @@ function CreateProject
     Set-Content -Path (Join-Path $propertiesPath "AssemblyInfo.cs") -Value $assemblyContent
 
     Write-Host "Project properties folder created with AssemblyInfo.cs at $propertiesPath" -ForegroundColor Yellow
+
+    # Add the project to the solution
+    dotnet sln $SolutionFile add $CsprojPath
+
+    Write-Host "Project added to the solution" -ForegroundColor Yellow
     Write-Host
 }
