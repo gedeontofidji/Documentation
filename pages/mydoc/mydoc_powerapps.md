@@ -44,7 +44,9 @@ In the environment:
 1. <a href="https://github.com/gedeontofidji/Documentation/tree/main/powershell/CreateNewCrmSolution" target="_blank" rel="noopener noreferrer">Download the repository locally</a>. `PowerShell may not run the script due to execution policy. In that case, create each script file manually by copying the content.`
 2. In Main.ps1 script, configure the `basePath` variable to the location where you want to create the solution
 3. In PowerShell, navigate to the folder where Main.ps1 is located, and run it with .\Main.ps1
-4. Add <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/System/Cor.Xrm.Plugins/AppCode" target="_blank" rel="noopener noreferrer">AppCode folder</a> in System/editorName.Xrm.Plugins.  
+4. Add :
+* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/System/Cor.Xrm.Plugins/AppCode" target="_blank" rel="noopener noreferrer">AppCode folder</a> in System/editorName.Xrm.Plugins.
+* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/Extensions" target="_blank" rel="noopener noreferrer">Extensions folder</a>, <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/SerializerHelper.cs">SerializerHelper.cs</a> and <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/SharingHelper.cs">SharingHelper.cs</a> in Shared/editorName.Xrm.Utilities.
 In VisualStudio: 
 5. Replace `Cor` everywhere by the editorName.
 6. Add to System/editorName.Xrm.Plugins the reference to Shared/editorName.Xrm.Service and Shared/editorName.Xrm.Utilities
