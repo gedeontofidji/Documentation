@@ -44,9 +44,14 @@ In the environment:
 1. <a href="https://github.com/gedeontofidji/Documentation/tree/main/powershell/CreateNewCrmSolution" target="_blank" rel="noopener noreferrer">Download the repository locally</a>. `PowerShell may not run the script due to execution policy. In that case, create each script file manually by copying the content.`
 2. In Main.ps1 script, configure the `basePath` variable to the location where you want to create the solution
 3. In PowerShell, navigate to the folder where Main.ps1 is located, and run it with .\Main.ps1
-4. When all folders and projects are created, open the solution in Visual Studio and install the Microsoft.CrmSdk.CoreAssemblies NuGet package in all relevant projects, such as:
+4. Add <a href="/Documentation/csharp/CrmSolution/CORE/Cor.Xrm/System/Cor.Xrm.Plugins/AppCode" target="_blank" rel="noopener noreferrer">AppCode folder</a> in System/editorName.Xrm.Plugins.
+In VisualStudio: 
+5. replace `Cor` everywhere by the editorName.
+6. Add to System/editorName.Xrm.Plugins the reference to Shared/editorName.Xrm.Service and Shared/editorName.Xrm.Utilities
+7. Install the Microsoft.CrmSdk.CoreAssemblies NuGet package in all relevant projects, such as:
 * Shared/editorName/Xrm.Service
 * Shared/editorName/Xrm.Utilities
+* System/editorName.Xrm.Plugins
 
 #### Coding process
 `The logic must be implemented in the service (e.g: CodeNasService) and not in the class (e.g: CodeNas).`  
