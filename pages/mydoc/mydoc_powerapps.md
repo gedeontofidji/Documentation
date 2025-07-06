@@ -51,8 +51,8 @@ In the environment:
 5. In VisualStudio: 
 * Replace `Cor` everywhere by the editorName
 * Add to System/Cor.Xrm.Plugins the reference to Shared/Cor.Xrm.Service and Shared/Cor.Xrm.Utilities
-* Install `Microsoft.CrmSdk.CoreAssemblies` NuGet package in all relevant projects, such as: Shared/Cor/Xrm.Service, Shared/Cor/Xrm.Utilities and System/Cor.Xrm.Plugins
-* Right click in the solution > Add new project > Search for 'C# shared project' and create it `Cor.Xrm.EntityWrappers` in the Shared folder
+* Install `Microsoft.CrmSdk.CoreAssemblies` NuGet package in all relevant projects, such asShared/Cor/Xrm.Service, Shared/Cor/Xrm.Utilities and System/Cor.Xrm.Plugins
+* Right click on the solution > Add new project > Search for `C# shared project` and create `Cor.Xrm.EntityWrappers` in the Shared folder
 
 
 #### Coding process
