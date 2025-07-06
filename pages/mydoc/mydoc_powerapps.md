@@ -45,16 +45,16 @@ In the environment:
 2. In Main.ps1 script, configure the `basePath` variable to the location where you want to create the solution
 3. In PowerShell, navigate to the folder where Main.ps1 is located, and run it with .\Main.ps1
 4. Add :
-* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/System/Cor.Xrm.Plugins/AppCode" target="_blank" rel="noopener noreferrer">AppCode folder</a> in System/editorName.Xrm.Plugins
-* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/Extensions" target="_blank" rel="noopener noreferrer">Extensions folder</a>, <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/SerializerHelper.cs">SerializerHelper.cs</a> and <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/SharingHelper.cs">SharingHelper.cs</a> in Shared/editorName.Xrm.Utilities
-* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Service/Base" target="_blank" rel="noopener noreferrer">Base folder</a> in Shared/editorName.Xrm.Service  
-In VisualStudio: 
-5. Replace `Cor` everywhere by the editorName.
-6. Add to System/editorName.Xrm.Plugins the reference to Shared/editorName.Xrm.Service and Shared/editorName.Xrm.Utilities
-7. Install the Microsoft.CrmSdk.CoreAssemblies NuGet package in all relevant projects, such as:
-* Shared/editorName/Xrm.Service
-* Shared/editorName/Xrm.Utilities
-* System/editorName.Xrm.Plugins
+* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/System/Cor.Xrm.Plugins/AppCode" target="_blank" rel="noopener noreferrer">AppCode folder</a> in System/Cor.Xrm.Plugins
+* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/Extensions" target="_blank" rel="noopener noreferrer">Extensions folder</a>, <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/SerializerHelper.cs" target="_blank" rel="noopener noreferrer">SerializerHelper.cs</a> and <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/SharingHelper.cs target="_blank" rel="noopener noreferrer"">SharingHelper.cs</a> in Shared/Cor.Xrm.Utilities
+* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Service/Base" target="_blank" rel="noopener noreferrer">Base folder</a> in Shared/Cor.Xrm.Service
+5. In VisualStudio: 
+* Replace `Cor` everywhere by the editorName
+* Add to System/Cor.Xrm.Plugins the reference to Shared/Cor.Xrm.Service and Shared/Cor.Xrm.Utilities
+7. Install `Microsoft.CrmSdk.CoreAssemblies` NuGet package in all relevant projects, such as:
+* Shared/Cor/Xrm.Service
+* Shared/Cor/Xrm.Utilities
+* System/Cor.Xrm.Plugins
 
 #### Coding process
 `The logic must be implemented in the service (e.g: CodeNasService) and not in the class (e.g: CodeNas).`  
