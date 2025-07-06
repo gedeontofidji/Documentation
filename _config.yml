@@ -29,6 +29,8 @@ exclude:
   - .gitignore
   - vendor
   - csharp/
+  - javascript/
+  - powershell/
 # these are the files and directories that jekyll will exclude from the build
 
 feedback_subject_line: Jekyll documentation theme
