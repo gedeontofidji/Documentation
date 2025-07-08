@@ -43,7 +43,7 @@ In the environment:
 ### Create a new plugin solution from scratch
 1. <a href="https://github.com/gedeontofidji/Documentation/tree/main/powershell/CreateNewCrmSolution" target="_blank" rel="noopener noreferrer">Download the repository locally</a>. `PowerShell may not run the script due to execution policy. In that case, create each script file manually by copying the content.`
 2. In Main.ps1 script, configure the `basePath` variable to the location where you want to create the solution
-3. In PowerShell, navigate to the folder where Main.ps1 is located, and run it with .\Main.ps1
+3. In PowerShell, navigate to the folder where Main.ps1 is located, and run it
 4. Add :
 * <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/System/Cor.Xrm.Plugins/AppCode" target="_blank" rel="noopener noreferrer">AppCode folder</a> in System/Cor.Xrm.Plugins
 * <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/Extensions" target="_blank" rel="noopener noreferrer">Extensions folder</a>, <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/SerializerHelper.cs" target="_blank" rel="noopener noreferrer">SerializerHelper.cs</a> and <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/SharingHelper.cs" target="_blank" rel="noopener noreferrer">SharingHelper.cs</a> in Shared/Cor.Xrm.Utilities
