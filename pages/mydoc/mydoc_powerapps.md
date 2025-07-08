@@ -55,6 +55,7 @@ In the environment:
 * Install `Microsoft.CrmSdk.CoreAssemblies` NuGet package in Shared/Cor/Xrm.Service, Shared/Cor/Xrm.Utilities and System/Cor.Xrm.Plugins
 * Install `MscrmTools.FluentQueryExpressions` NuGet package in Shared/Cor/Xrm.Service
 * Right click on the solution > Add new project > Search for `C# shared project` and create `Cor.Xrm.EntityWrappers` in the Shared folder
+* Right click on the plugin projet > Properties > Signing and sign the assembly to be able to register it in XrmToolBox.
 6. Use EarlyBoundGenerator to generate classes. `Copy the settings from another environment`
 
 #### Coding process
