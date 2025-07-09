@@ -16,7 +16,7 @@ summary:
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## AI with driven model app
-* [AI features overview](https://learn.microsoft.com/en-us/power-apps/user/ai-in-apps)
+* <a href="https://learn.microsoft.com/en-us/power-apps/user/ai-in-apps" target="_blank" rel="noopener noreferrer">AI features overview</a>
 
 ## To do
 * Agent Power App (make filter with natural language / find records and sum up them, add the agent in the sitemap)
