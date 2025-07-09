@@ -120,7 +120,7 @@ function visibleField(executionContext)
 }
 ```
 
-* <a href="/Documentation/javascript/shared_form.js" target="_blank" rel="noopener noreferrer">Form functions</a>
+* <a href="https://github.com/gedeontofidji/JavaScript/blob/main/Shared/Form.js" target="_blank" rel="noopener noreferrer">Form functions</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="mscrm" markdown="1">
