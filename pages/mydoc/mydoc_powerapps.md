@@ -81,39 +81,17 @@ Pull the code stored on Git > Add your code and save it > Build the solution to 
 
 <div role="tabpanel" class="tab-pane" id="javascript" markdown="1">
 ### 📚 Documentation
-* <a href="https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference" target="_blank" rel="noopener noreferrer">JavaScript API</a>  
+* <a href="https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference" target="_blank" rel="noopener noreferrer">JavaScript API</a>
+* <a href="https://github.com/gedeontofidji/JavaScript/blob/main/Shared/Form.js" target="_blank" rel="noopener noreferrer">Form.js functions</a>
 
 ### 🐞 Debugging
-Press `Fn+f12` to open the debug console.  
-To help you debug during development, you can either display an alert popup on the UI,write a message in the debug console or stop the code at a specific moment:
+* Press `Fn+f12` to open the debug console
+* To help you debug, you can either display an alert popup, write a message in the debug console or stop the code at a specific moment:
 ```
 alert("Field update with succes with the value :" + nom); OR
 console.log("Field update with succes with the value :" + nom ); OR
 debugger;
 ```
-
-### 🔀 Multi-select option set functions
-Show/hide fields based on multi-select option set
-```
-function visibleField(executionContext)
-{
-    var formContext = executionContext.getFormContext();
-    var optionSet = formContext.getAttribute("cto_myoptionset").getValue(); // Returns an array of integers (selected values)
-    
-    var control = formContext.getControl("cto_fieldtohideorshow");
-
-    // First hide the field
-    control.setVisible(false);
-
-    // Replace '123456' with the actual integer value (option set value) you're checking for
-    if (optionSet && optionSet.includes(123456))
-    {
-        control.setVisible(true);
-    }
-}
-```
-
-* <a href="https://github.com/gedeontofidji/JavaScript/blob/main/Shared/Form.js" target="_blank" rel="noopener noreferrer">Form functions</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="mscrm" markdown="1">
