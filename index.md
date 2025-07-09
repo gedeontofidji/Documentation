@@ -23,7 +23,11 @@ summary:
 * How to create a plugin assembly and a C# solution project with all the references from scratch (https://youtu.be/nxnMvBkoS0k?si=FSd1XPs8HNAY7mC_)
 * GitHub pour Power App (versionning and edit code directly outisde of power app and commit it)
 * Formation powerbi
-* Node.js
+
+## Synchronous
+A synchronous process executes sequentially, where each operation waits for the previous one to complete before starting. The program is blocked until the current operation finishes.
+## Asynchronous
+An asynchronous process allows an operation to start and continue without waiting for it to finish. The program can keep running, and the result or response is handled later using callbacks, promises, or events.
 </div>
 
 <div role="tabpanel" class="tab-pane" id="useful-links" markdown="1">
