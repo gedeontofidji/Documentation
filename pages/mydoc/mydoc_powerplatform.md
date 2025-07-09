@@ -1,5 +1,5 @@
 ---
-title: Tag archives overview
+title: General
 keywords: power platform, licensing
 sidebar: mydoc_sidebar
 permalink: mydoc_powerplatform.html
