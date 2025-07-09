@@ -15,8 +15,8 @@ summary:
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
-## To watch/read
-* /
+## AI with driven model app
+* [AI features overview](https://learn.microsoft.com/en-us/power-apps/user/ai-in-apps)
 
 ## To do
 * Agent Power App (make filter with natural language / find records and sum up them, add the agent in the sitemap)
