@@ -21,7 +21,7 @@ folder: mydoc
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## 📚 Documentation
-* [Restricted tables requiring Dynamics 365 licenses](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-restricted-entities)
+* <a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-restricted-entities" target="_blank" rel="noopener noreferrer">Restricted tables requiring Dynamics 365 licenses</a>
 * [Virtual tables and lookup columns](https://mattruma.com/adventures-with-dataverse-virtual-tables-and-look-up-columns/?utm_source=substack&utm_medium=email)
 
 ## General
