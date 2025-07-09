@@ -92,13 +92,6 @@ console.log("Field update with succes with the value :" + nom ); OR
 debugger;
 ```
 
-### 🗂️ Tab functions
-To check whether a tab is open or closed. `Return a string: expanded or collapsed`
-```
-formContext.ui.tabs.get("TabName").getDisplayState();
-if (formContext.ui.tabs.get("TabName").getDisplayState() === "collapsed");
-```
-
 ### 🔀 Multi-select option set functions
 Show/hide fields based on multi-select option set
 ```
