@@ -10,7 +10,6 @@ folder: mydoc
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
-    <li><a class="noCrossRef" href="#other" data-toggle="tab">Other</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
@@ -21,9 +20,6 @@ folder: mydoc
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/functions-overview" target="_blank" rel="noopener noreferrer">Dataverse Accelerator</a>: allows you to create low-code plug-ins, but it's currently being deprioritized in favor of functions. Beta version.
 </div>
 
-<div role="tabpanel" class="tab-pane" id="other" markdown="1">
-### Other
-</div>
 </div>
 
 {% include links.html %}
