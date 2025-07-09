@@ -24,6 +24,12 @@ summary:
 * GitHub pour Power App (versionning and edit code directly outisde of power app and commit it)
 * Formation powerbi
 
+## PowerShell
+* [Link 1](https://pnp.github.io/powershell/)
+* [Link 2](https://learn.microsoft.com/fr-fr/training/courses/az-040t00)
+* [Link 3](https://pnp.github.io/powershell/articles/installation.html)
+* [Link 4](https://www.powershellgallery.com/)
+
 ## Synchronous
 A synchronous process executes sequentially, where each operation waits for the previous one to complete before starting. The program is blocked until the current operation finishes.
 ## Asynchronous
