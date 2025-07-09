@@ -88,8 +88,8 @@ Pull the code stored on Git > Add your code and save it > Build the solution to 
 * Press `Fn+f12` to open the debug console
 * To help you debug, you can either display an alert popup, write a message in the debug console or stop the code at a specific moment:
 ```
-alert("Field update with succes with the value :" + nom); OR
-console.log("Field update with succes with the value :" + nom ); OR
+alert("Field update with succes with the value :" + nom);
+console.log("Field update with succes with the value :" + nom );
 debugger;
 ```
 </div>
