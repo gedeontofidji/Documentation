@@ -52,16 +52,14 @@ An asynchronous process allows an operation to start and continue without waitin
 </div>
 
 <div role="tabpanel" class="tab-pane" id="freelance" markdown="1">
+## Message LinkedIn
+Bonjour,  
+Je me permets de vous contacter car je suis développeur CRM, spécialisé sur les technologies Microsoft, notamment la Power Platform (Power Apps, Dynamics 365, Dataverse) ainsi que SharePoint.
+J’accompagne les entreprises dans la conception et le déploiement de solutions métier adaptées à leurs besoins. Je serais ravi de savoir si votre entreprise fait appel à des prestataires externes pour ce type de profil, ou de pouvoir échanger avec la personne en charge des besoins IT.
+Merci d'avance pour votre retour  
+Gédéon Tofidji  
+Mail : gtofidji@gmail.com
 
-Bonjour [Prénom],
-Je me permets de vous contacter car je propose mes services en freelance en tant que développeur CRM, avec un intérêt particulier pour le secteur du BTP. Je sais combien la gestion des projets et des ressources est cruciale pour garantir le bon déroulement des chantiers.
-Pour vous accompagner, je propose notamment l’automatisation des processus métiers, la création automatique de documents (devis, rapports, etc.), ainsi que la mise en place de tableaux de bord pour un suivi en temps réel de vos projets et ressources. Ces solutions visent à digitaliser vos processus et à gagner en efficacité opérationnelle.
-Votre entreprise évolue dans un secteur où ces enjeux sont primordiaux, et j’aimerais mieux comprendre vos besoins spécifiques en matière de digitalisation.
-Seriez-vous disponible pour en discuter ? Cela me permettrait de voir comment je pourrais vous accompagner dans l’amélioration de vos process.
-Merci d’avance pour votre temps et votre retour.
-Cordialement,
-Gédéon
-Veux-tu que je te prépare une version un peu plus courte ou plus formelle ?
 
 
 ## Nom freelance
