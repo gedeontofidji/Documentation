@@ -8,7 +8,7 @@ summary: PowerBI is a Microsofttool that allows users to visualize data, create 
 ---
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a class="noCrossRef" href="#documenation" data-toggle="tab">Documentation</a></li>
+    <li class="active"><a class="noCrossRef" href="#documentation" data-toggle="tab">Documentation</a></li>
     <li><a class="noCrossRef" href="#dataverse-connection" data-toggle="tab">Dataverse connection</a></li>
 </ul>
   <div class="tab-content">
