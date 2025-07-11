@@ -13,7 +13,7 @@ summary: Power Automate is a Microsoft tool that allows users to automate workfl
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## 📚 Documentation
-* <a href="https://powerpro.nl/power-automate-check-user-role-for-authorization/?utm_source=substack&utm_medium=email">Check User Role for authorization</a>
+* <a href="https://powerpro.nl/power-automate-check-user-role-for-authorization/?utm_source=substack&utm_medium=email" target="_blank" rel="noopener noreferrer">Check User Role for authorization</a>
 
 ## 🔍 Get the value of a lookup field with Dataverse connector
 Write the following expression in a “Apply to each” loop :  
