@@ -13,8 +13,6 @@ folder: mydoc
     <li><a class="noCrossRef" href="#csharp" data-toggle="tab">C#</a></li>
     <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Dynamics 365 App for Outlook</a></li>
     <li><a class="noCrossRef" href="#javascript" data-toggle="tab">JavaScript</a></li>
-    <li><a class="noCrossRef" href="#mscrm" data-toggle="tab">Mscrm - Document Core Pack</a></li>
-    <li><a class="noCrossRef" href="#plan-designer" data-toggle="tab">Plan Designer</a></li>
     <li><a class="noCrossRef" href="#power-bi" data-toggle="tab">Power BI</a></li>
     <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power Fx</a></li>
 </ul>
@@ -22,7 +20,9 @@ folder: mydoc
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## 📚 Documentation
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-restricted-entities" target="_blank" rel="noopener noreferrer">Restricted tables requiring Dynamics 365 licenses</a>
-* [Virtual tables and lookup columns](https://mattruma.com/adventures-with-dataverse-virtual-tables-and-look-up-columns/?utm_source=substack&utm_medium=email)
+* <a href="https://mattruma.com/adventures-with-dataverse-virtual-tables-and-look-up-columns/?utm_source=substack&utm_medium=email" target="_blank" rel="noopener noreferrer">Virtual tables and lookup columns</a>
+* <a href="https://orby.com.au/hide-new-button-on-lookup-controls-in-model-driven-apps-2/" target="_blank" rel="noopener noreferrer">Hide new button on lookup controls</a>
+* <a href="https://learn.microsoft.com/en-us/power-apps/maker/plan-designer/plan-designer" target="_blank" rel="noopener noreferrer">Overview of Plan Designer</a>: It helps to create a plan for your existing solution or a new one using copilot. It generates a detailed document that describes your solution. The plan covers the business problem, user requirements like user roles and stories, the data model, and technologies like apps. This feature saves time when you're trying to understand a solution's content and helps makers improve an existing solution.
 
 ## General
 #### ⚙️ How to make a view editable
@@ -34,9 +34,6 @@ In the environment:
 5. Make sure the radio button under Web is selected then publish your customizations
 {% include image.html file="editableview1.png" max-width="50%" %}
 {% include image.html file="editableview2.png" max-width="800%" %}
-
-#### 🙈 Hide “Create new” on a lookup field
-* <a href="https://orby.com.au/hide-new-button-on-lookup-controls-in-model-driven-apps-2/" target="_blank" rel="noopener noreferrer">Hide new button on lookup controls</a> 
 </div>
 
 <div role="tabpanel" class="tab-pane" id="csharp" markdown="1">
@@ -92,17 +89,6 @@ alert("Field update with succes with the value :" + nom);
 console.log("Field update with succes with the value :" + nom );
 debugger;
 ```
-</div>
-
-<div role="tabpanel" class="tab-pane" id="mscrm" markdown="1">
-d
-</div>
-
-<div role="tabpanel" class="tab-pane" id="plan-designer" markdown="1">
-#### Plan designer helps to create a plan for your existing solution or a new one using copilot. It generates a detailed document that describes your solution. The plan covers the business problem, user requirements like user roles and stories, the data model, and technologies like apps. This feature saves time when you're trying to understand a solution's content and helps makers improve an existing solution.
-
-#### Documentation
-* [Overview of Plan Designer](https://learn.microsoft.com/en-us/power-apps/maker/plan-designer/plan-designer)
 </div>
 
 <div role="tabpanel" class="tab-pane" id="power-bi" markdown="1">
