@@ -49,6 +49,7 @@ In the environment:
 5. In VisualStudio: 
 * Replace `Cor` everywhere by the editorName
 * Add to System/Cor.Xrm.Plugins the reference to Shared/Cor.Xrm.Service and Shared/Cor.Xrm.Utilities
+* Install `ILMerge` NuGet package in System/Cor.Xrm.Plugins
 * Install `Microsoft.CrmSdk.CoreAssemblies` NuGet package in Shared/Cor/Xrm.Service, Shared/Cor/Xrm.Utilities and System/Cor.Xrm.Plugins
 * Install `MscrmTools.FluentQueryExpressions` NuGet package in Shared/Cor/Xrm.Service
 * Right click on the solution > Add new project > Search for `C# shared project` and create `Cor.Xrm.EntityWrappers` in the Shared folder
