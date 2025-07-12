@@ -49,8 +49,8 @@ In the environment:
 * <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/DLaB.EarlyBoundGenerator.DefaultSettings.xml" target="_blank" rel="noopener noreferrer">EarlyBoundGenerator.DefaultSettings.xml</a> in Cor.Xrm and edit it with the editorName
 6. In VisualStudio: 
 * Replace `Cor` everywhere by the editorName
-* Add to System/Cor.Xrm.Plugins the reference to Shared/Cor.Xrm.Service and Shared/Cor.Xrm.Utilities
-* Install `ILMerge` NuGet package in System/Cor.Xrm.Plugins
+* Add to Cor.Xrm.Plugins the reference to Shared/Cor.Xrm.Service and Shared/Cor.Xrm.Utilities
+* Install `ILMerge` NuGet package in Cor.Xrm.Plugins
 * Install `Microsoft.CrmSdk.CoreAssemblies` NuGet package in Shared/Cor/Xrm.Service, Shared/Cor/Xrm.Utilities and System/Cor.Xrm.Plugins
 * Install `MscrmTools.FluentQueryExpressions` NuGet package in Shared/Cor/Xrm.Service and System/Cor.Xrm.Plugins
 * Right click on the solution > Add new project > Search for `C# shared project` and create `Cor.Xrm.EntityWrappers` in the Shared folder
