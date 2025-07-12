@@ -17,10 +17,22 @@ $projectPath = "$basePath\$projectName"
 $csprojPath = "$projectPath\$projectName.csproj"
 $solutionFile = "$basePath\$editor.Xrm.sln"
 
+# Define projects with correct folders (System vs Shared)
+$projects = @(
+    @{ Name = "$editor.Xrm.Plugins";        Path = "$basePath\System\$editor.Xrm.Plugins" },
+    @{ Name = "$editor.Xrm.Utilities";      Path = "$basePath\Shared\$editor.Xrm.Utilities" },
+    @{ Name = "$editor.Xrm.Service";        Path = "$basePath\Shared\$editor.Xrm.Service" }
+)
+
 # Execute steps
-CreateSolution -SolutionName $solutionName -BasePath $basePath #create the solution
-CreateProject -ProjectName $projectName -ProjectPath $projectPath -CsprojPath $csprojPath -SolutionFile $solutionFile #create the project
-CreateClass -ProjectName $projectName -ProjectPath $projectPath #create a basic Class1.cs file
-InstallNugetPackage -BasePath $basePath #install nuget package and Microsoft.CrmSdk.CoreAssemblies
+CreateSolution -SolutionName $solutionName -BasePath $basePath -ProjectPath $projectPath #create the solution
+
+foreach ($proj in $projects) {
+    $csprojPath = "$($proj.Path)\$($proj.Name).csproj"
+    CreateProject -ProjectName $proj.Name -ProjectPath $proj.Path -CsprojPath $csprojPath -SolutionFile $solutionFile #create the project
+}
+
+CreateOpportunityPlugin -EditorName $editor -ProjectName "$editor.Xrm.Plugins" -ProjectPath "$basePath\System\$editor.Xrm.Plugins" #create OpportunityPlugin.cs
+CreateOpportunityService -EditorName $editor -ProjectName "$editor.Xrm.Service" -ProjectPath "$basePath\Shared\$editor.Xrm.Service" #create OpportunityService.cs
 
 Write-Host "SOLUTION $clientApplicationName CREATED FOR $editor WITH SUCCESS (targeting .NET Framework 4.6.2)" -ForegroundColor Green
