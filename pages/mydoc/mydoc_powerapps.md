@@ -15,6 +15,7 @@ folder: mydoc
     <li><a class="noCrossRef" href="#javascript" data-toggle="tab">JavaScript</a></li>
     <li><a class="noCrossRef" href="#power-bi" data-toggle="tab">Power BI</a></li>
     <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power Fx</a></li>
+    <li><a class="noCrossRef" href="#copilot" data-toggle="tab">Copilot</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
@@ -22,7 +23,8 @@ folder: mydoc
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-restricted-entities" target="_blank" rel="noopener noreferrer">Restricted tables requiring Dynamics 365 licenses</a>
 * <a href="https://mattruma.com/adventures-with-dataverse-virtual-tables-and-look-up-columns/?utm_source=substack&utm_medium=email" target="_blank" rel="noopener noreferrer">Virtual tables and lookup columns</a>
 * <a href="https://orby.com.au/hide-new-button-on-lookup-controls-in-model-driven-apps-2/" target="_blank" rel="noopener noreferrer">Hide new button on lookup controls</a>
-* <a href="https://learn.microsoft.com/en-us/power-apps/maker/plan-designer/plan-designer" target="_blank" rel="noopener noreferrer">Overview of Plan Designer</a>: It helps to create a plan for your existing solution or a new one using copilot. It generates a detailed document that describes your solution. The plan covers the business problem, user requirements like user roles and stories, the data model, and technologies like apps. This feature saves time when you're trying to understand a solution's content and helps makers improve an existing solution.
+* <a href="https://learn.microsoft.com/en-us/power-apps/maker/plan-designer/plan-designer" target="_blank" rel="noopener noreferrer">Overview of Plan Designer</a>  
+It helps to create a plan for your existing solution or a new one using copilot. It generates a detailed document that describes your solution. The plan covers the business problem, user requirements like user roles and stories, the data model, and technologies like apps. This feature saves time when you're trying to understand a solution's content and helps makers improve an existing solution.
 
 ## General
 #### ⚙️ How to make a view editable
@@ -114,6 +116,11 @@ Value(field);
 917140003;"text3";""
 )
 ```
+</div>
+
+<div role="tabpanel" class="tab-pane" id="copilot" markdown="1">
+## 📚 Documentation
+* <a href="https://www.microsoft.com/en-us/power-platform/blog/power-apps/customize-model-driven-forms-to-leverage-copilot-studio-content-preview/" target="_blank" rel="noopener noreferrer">Customize model-driven forms to leverage Copilot</a>
 </div>
 </div>
 {% include links.html %}
