@@ -43,16 +43,16 @@ In the environment:
 3. In PowerShell, navigate to the folder where Main.ps1 is located, and run it
 4. Edit Cor.Xrm.Plugins.csproj to add `<PropertyGroup><PostBuildEvent>.....</PostBuildEvent></PropertyGroup>` with the right editorName
 5. Add :
-* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/System/Cor.Xrm.Plugins/AppCode" target="_blank" rel="noopener noreferrer">AppCode folder</a> in System/Cor.Xrm.Plugins
-* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/Extensions" target="_blank" rel="noopener noreferrer">Extensions folder</a>, <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/SerializerHelper.cs" target="_blank" rel="noopener noreferrer">SerializerHelper.cs</a> and <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/SharingHelper.cs" target="_blank" rel="noopener noreferrer">SharingHelper.cs</a> in Shared/Cor.Xrm.Utilities
-* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Service/Base" target="_blank" rel="noopener noreferrer">Base folder</a> in Shared/Cor.Xrm.Service
+* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/System/Cor.Xrm.Plugins/AppCode" target="_blank" rel="noopener noreferrer">AppCode folder</a> in Plugins project
+* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/Extensions" target="_blank" rel="noopener noreferrer">Extensions folder</a>, <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/SerializerHelper.cs" target="_blank" rel="noopener noreferrer">SerializerHelper.cs</a> and <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Utilities/SharingHelper.cs" target="_blank" rel="noopener noreferrer">SharingHelper.cs</a> in Utilities project
+* <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/tree/main/CORE/Cor.Xrm/Shared/Cor.Xrm.Service/Base" target="_blank" rel="noopener noreferrer">Base folder</a> in Service project
 * <a href="https://github.com/gedeontofidji/ClassLibrary_NetFramework/blob/main/CORE/Cor.Xrm/DLaB.EarlyBoundGenerator.DefaultSettings.xml" target="_blank" rel="noopener noreferrer">EarlyBoundGenerator.DefaultSettings.xml</a> in Cor.Xrm and edit it with the editorName
 6. In VisualStudio: 
 * Replace `Cor` everywhere by the editorName
-* Add to Cor.Xrm.Plugins the reference to Shared/Cor.Xrm.Service and Shared/Cor.Xrm.Utilities
-* Install `ILMerge` NuGet package in Cor.Xrm.Plugins
-* Install `Microsoft.CrmSdk.CoreAssemblies` NuGet package in Shared/Cor/Xrm.Service, Shared/Cor/Xrm.Utilities and System/Cor.Xrm.Plugins
-* Install `MscrmTools.FluentQueryExpressions` NuGet package in Shared/Cor/Xrm.Service and System/Cor.Xrm.Plugins
+* Add to Plugins project the reference to Service and Utilities projects
+* Install `ILMerge` NuGet package in Plugins project
+* Install `Microsoft.CrmSdk.CoreAssemblies` NuGet package in Service, Utilities and Plugins projects
+* Install `MscrmTools.FluentQueryExpressions` NuGet package in Service and Plugins projects
 * Right click on the solution > Add new project > Search for `C# shared project` and create `Cor.Xrm.EntityWrappers` in the Shared folder
 * Right click on the plugin projet > Properties > Signing and sign the assembly with `Cor.Xrm.snk file` to be able to register it in XrmToolBox.
 7. Use EarlyBoundGenerator to generate classes. `Copy the settings from another environment`
