@@ -14,6 +14,7 @@ folder: mydoc
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## Useful links
+* <a href="https://learn.microsoft.com/en-us/ssms/" target="_blank" rel="noopener noreferrer">SQL Server Management Studio</a> allows you connect to and query Dataverse databases using SQL commands.
 * <a href="https://www.microsoft.com/en-us/power-platform/blog/2025/06/09/long-term-retention/" target="_blank" rel="noopener noreferrer">Long-term retention data</a>
 
 ## Evolutions to come
