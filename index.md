@@ -18,11 +18,6 @@ summary:
 ## AI with driven model app
 * <a href="https://learn.microsoft.com/en-us/power-apps/user/ai-in-apps" target="_blank" rel="noopener noreferrer">AI features overview</a>
 
-## To do
-* How to create a plugin assembly and a C# solution project with all the references from scratch (https://youtu.be/nxnMvBkoS0k?si=FSd1XPs8HNAY7mC_)
-* GitHub pour Power App (versionning and edit code directly outisde of power app and commit it)
-* Formation powerbi
-
 ## PowerShell
 * [Link 1](https://pnp.github.io/powershell/)
 * [Link 2](https://learn.microsoft.com/fr-fr/training/courses/az-040t00)
