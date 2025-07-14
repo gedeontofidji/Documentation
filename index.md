@@ -49,13 +49,11 @@ An asynchronous process allows an operation to start and continue without waitin
 <div role="tabpanel" class="tab-pane" id="freelance" markdown="1">
 ## Message LinkedIn
 Bonjour,  
-Je me permets de vous contacter car je suis développeur CRM, spécialisé sur les technologies Microsoft, notamment la Power Platform (Power Apps, Dynamics 365, Dataverse) ainsi que SharePoint.
-J’accompagne les entreprises dans la conception et le déploiement de solutions métier adaptées à leurs besoins. Je serais ravi de savoir si votre entreprise fait appel à des prestataires externes pour ce type de profil, ou de pouvoir échanger avec la personne en charge des besoins IT.
-Merci d'avance pour votre retour  
-Gédéon Tofidji  
-Mail : gtofidji@gmail.com
-
-
+Je me permets de vous contacter afin de vous faire part de mon expertise en tant que développeur CRM freelance, spécialisé dans les technologies Microsoft telles que Power Platform et SharePoint. J'accompagne les entreprises dans la conception et le déploiement de solutions métier sur mesure, adaptées à leurs besoins. J'accompagne actuellement CVE dans la mise en place de solutions personnalisées visant à optimiser leurs processus métier et améliorer leur productivité.  
+Je serais ravi de savoir si votre entreprise fait appel à des prestataires externes pour ce type de profil, ou bien d'échanger avec la personne en charge des besoins IT pour discuter de vos éventuels projets.  
+Je vous remercie par avance pour votre retour,  
+Bien à vous,  
+Gédéon Tofidji
 
 ## Nom freelance
 * CoreCrm Solution
