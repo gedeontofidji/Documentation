@@ -15,6 +15,7 @@ folder: mydoc
     <li><a class="noCrossRef" href="#fetchxml-builder" data-toggle="tab">FetchXML Builder</a></li>
     <li><a class="noCrossRef" href="#plugin-registration" data-toggle="tab">Plugin Registration</a></li>
     <li><a class="noCrossRef" href="#plugin-trace-viewer" data-toggle="tab">Plugin Trace Viewer</a></li>
+    <li><a class="noCrossRef" href="#polymorphic-lookup" data-toggle="tab">Polymorphic Lookup Manager</a></li>
     <li><a class="noCrossRef" href="#ribbon-workbench" data-toggle="tab">Ribbon Workbench</a></li>
     <li><a class="noCrossRef" href="#webresources-manager" data-toggle="tab">Webresources Manager</a></li>
 </ul>
@@ -42,6 +43,11 @@ folder: mydoc
 <div role="tabpanel" class="tab-pane" id="plugin-trace-viewer" markdown="1">
 ## Plugin Trace Viewer
 * Allows you to debug/view all server-side code executions.
+</div>
+
+<div role="tabpanel" class="tab-pane" id="polymorphic-lookup" markdown="1">
+## Polymorphic Lookup Manager
+* Allows you to create lookup field in Dataverse that can reference multiple tables: <a href="https://community.powerplatform.com/blogs/post/?postid=97a24711-9df6-ef11-be20-7c1e52189d0f" target="_blank" rel="noopener noreferrer">Tutorial/a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="early-bound-generator" markdown="1">
