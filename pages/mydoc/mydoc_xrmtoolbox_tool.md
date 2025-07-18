@@ -47,7 +47,7 @@ folder: mydoc
 
 <div role="tabpanel" class="tab-pane" id="polymorphic-lookup" markdown="1">
 ## Polymorphic Lookup Manager
-* Allows you to create lookup field in Dataverse that can reference multiple tables: <a href="https://community.powerplatform.com/blogs/post/?postid=97a24711-9df6-ef11-be20-7c1e52189d0f" target="_blank" rel="noopener noreferrer">Tutorial/a>
+* Allows you to create lookup field in Dataverse that can reference multiple tables: <a href="https://community.powerplatform.com/blogs/post/?postid=97a24711-9df6-ef11-be20-7c1e52189d0f" target="_blank" rel="noopener noreferrer">Tutorial</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="early-bound-generator" markdown="1">
