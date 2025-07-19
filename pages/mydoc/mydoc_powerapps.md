@@ -11,6 +11,7 @@ folder: mydoc
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
     <li><a class="noCrossRef" href="#csharp" data-toggle="tab">C#</a></li>
+    <li><a class="noCrossRef" href="#cli" data-toggle="tab">CLI</a></li>
     <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Dynamics 365 App for Outlook</a></li>
     <li><a class="noCrossRef" href="#javascript" data-toggle="tab">JavaScript</a></li>
     <li><a class="noCrossRef" href="#power-bi" data-toggle="tab">Power BI</a></li>
@@ -71,6 +72,11 @@ Pull the code stored on Git > Add your code and save it > Build the solution to 
 
 ### Functions
 * To create an entity: UserService.Create(entity)
+</div>
+
+<div role="tabpanel" class="tab-pane" id="cli" markdown="1">
+## Command Line Interface  
+Microsoft Power Platform CLI allows you to perform various operations within Microsoft Power Platform (<a href="https://learn.microsoft.com/fr-fr/power-platform/developer/cli/introduction?tabs=windows#install-power-platform-cli-for-windows" target="_blank" rel="noopener noreferrer">How to intstall PAC</a>)
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dynamics-app-outlook" markdown="1">
