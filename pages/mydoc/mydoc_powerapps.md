@@ -14,6 +14,7 @@ folder: mydoc
     <li><a class="noCrossRef" href="#cli" data-toggle="tab">CLI</a></li>
     <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Dynamics 365 App for Outlook</a></li>
     <li><a class="noCrossRef" href="#javascript" data-toggle="tab">JavaScript</a></li>
+    <li><a class="noCrossRef" href="#levelup" data-toggle="tab">Level up for PowerApps</a></li>
     <li><a class="noCrossRef" href="#power-bi" data-toggle="tab">Power BI</a></li>
     <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power Fx</a></li>
     <li><a class="noCrossRef" href="#copilot" data-toggle="tab">Copilot</a></li>
@@ -86,6 +87,10 @@ Microsoft Power Platform CLI allows you to perform various operations within Mic
 {% include image.html file="powerapps_outlookconfiguration.png" max-width="50%" %}
 </div>
 
+<div role="tabpanel" class="tab-pane" id="levelup" markdown="1">
+Level up for Dynamics 365/Power Apps is a browser extension that helps you to perform advanced actions.
+</div>
+  
 <div role="tabpanel" class="tab-pane" id="javascript" markdown="1">
 ### 📚 Documentation
 * <a href="https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference" target="_blank" rel="noopener noreferrer">JavaScript API</a>
