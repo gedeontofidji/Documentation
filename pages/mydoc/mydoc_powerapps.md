@@ -15,6 +15,7 @@ folder: mydoc
     <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Dynamics 365 App for Outlook</a></li>
     <li><a class="noCrossRef" href="#javascript" data-toggle="tab">JavaScript</a></li>
     <li><a class="noCrossRef" href="#levelup" data-toggle="tab">Level up for PowerApps</a></li>
+    <li><a class="noCrossRef" href="#patch" data-toggle="tab">Patch</a></li>
     <li><a class="noCrossRef" href="#power-bi" data-toggle="tab">Power BI</a></li>
     <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power Fx</a></li>
     <li><a class="noCrossRef" href="#copilot" data-toggle="tab">Copilot</a></li>
@@ -106,15 +107,22 @@ debugger;
 ```
 </div>
 
-<div role="tabpanel" class="tab-pane" id="power-bi" markdown="1">
+<div role="tabpanel" class="tab-pane" id="patch" markdown="1">
 ### Embed Power BI report on the dashboard
 <a href="https://learn.microsoft.com/en-us/power-apps/user/add-powerbi-dashboards" target="_blank" rel="noopener noreferrer">Power BI dashboard</a>
+</div>
+
+<div role="tabpanel" class="tab-pane" id="power-bi" markdown="1">
+Patch allows you to export only selected components of a solution for minor updates, giving you tighter control through segmentation without needing to export entire entities.
+1. Create a solution patch and add the elements you want to update (cloner un correctif)
+2. Deploy to a managed solution
+2. Clone the main solution
+<a href="https://learn.microsoft.com/fr-fr/dynamics365/customerengagement/on-premises/customize/use-segmented-solutions-patches-simplify-updates?view=op-9-1" target="_blank" rel="noopener noreferrer">Power BI dashboard</a>
 
 ### Embed Power BI report in a form
 #### Method 1: Built-in PowerBI control
 <a href="https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/embed-powerbi-report-in-system-form" target="_blank" rel="noopener noreferrer">Power BI form</a>  
 #### Method 2: HTML WebResource with custom framework
-
 </div>
 
 <div role="tabpanel" class="tab-pane" id="power-fx" markdown="1">
