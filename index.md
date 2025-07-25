@@ -44,6 +44,7 @@ An asynchronous process allows an operation to start and continue without waitin
 * 🔍 Get a field value
 * 📝 Set a field value
 * 🙈 Hide ...
+* ❗ Common issues
 </div>
 
 <div role="tabpanel" class="tab-pane" id="freelance" markdown="1">
