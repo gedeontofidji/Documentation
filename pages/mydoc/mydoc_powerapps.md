@@ -86,6 +86,9 @@ Microsoft Power Platform CLI allows you to perform various operations within Mic
 * To enable integration of a table with Outlook, make sure the table is included in the 'Dynamics 365 App for Outlook' application.
 * To install the plugin on a email user, go in the `application > Advanced setting > Email configuration > Mailboxes` and follow the steps :
 {% include image.html file="powerapps_outlookconfiguration.png" max-width="50%" %}
+
+### ❗ Common issues
+* When you connect the plugin to a new environment, it may take some time before it appears in the user's mailbox. It can take up to 24 hours for the settings to take effect
 </div>
 
 <div role="tabpanel" class="tab-pane" id="levelup" markdown="1">
