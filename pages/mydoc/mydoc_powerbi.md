@@ -9,12 +9,18 @@ summary: PowerBI is a Microsofttool that allows users to visualize data, create 
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#documentation" data-toggle="tab">Documentation</a></li>
+    <li><a class="noCrossRef" href="#best-practice" data-toggle="tab"><Model best practices</a></li>
     <li><a class="noCrossRef" href="#dataverse-connection" data-toggle="tab">Dataverse connection</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="documentation" markdown="1">
 * <a href="https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-share-dashboards" target="_blank" rel="noopener noreferrer">Share Power BI reports with coworkers</a>
 * <a href="https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-per-user-faq" target="_blank" rel="noopener noreferrer">Premium license</a>
+</div>
+
+<div role="tabpanel" class="tab-pane" id="best-practice" markdown="1">
+* Organize datas by creating a `_rawDatas` folder to store all implicit measures
+* Replace implicit measures automatically created by PowerBI with explicit DAX measures for better clarity and control
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dataverse-connection" markdown="1">
