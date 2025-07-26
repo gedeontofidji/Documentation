@@ -23,7 +23,7 @@ summary: PowerBI is a Microsofttool that allows users to visualize data, create 
 * Replace implicit measures automatically created by PowerBI with explicit DAX measures for better clarity and control
 {% include image.html file="powerbi_rawdatas.png" max-width="65%" %}
 * Place the "many" side (*) of relationships at the bottom of your model to see how filters propagate. Filters only flow in the direction of the relationship arrows*
-{% include image.html file="powerbi_tables_layout.png" max-width="65%" %}
+{% include image.html file="powerbi_tables_layout.png" max-width="55%" %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dataverse-connection" markdown="1">
