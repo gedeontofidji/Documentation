@@ -11,6 +11,7 @@ summary: PowerBI is a Microsofttool that allows users to visualize data, create 
     <li class="active"><a class="noCrossRef" href="#documentation" data-toggle="tab">Documentation</a></li>
     <li><a class="noCrossRef" href="#best-practice" data-toggle="tab">Model best practices</a></li>
     <li><a class="noCrossRef" href="#dataverse-connection" data-toggle="tab">Dataverse connection</a></li>
+    <li><a class="noCrossRef" href="#user-interface" data-toggle="tab">Userf interface</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="documentation" markdown="1">
@@ -52,6 +53,12 @@ ExpandLabel=Table.ExpandRecordColumn(ExpandOptionsUserLabel,"Options.Label.UserL
 FinalTable=Table.RemoveColumns(ExpandLabel,{"Description.UserLocalizedLabel","DisplayName.UserLocalizedLabel","@odata.context","Value"})
 in FinalTable
 ```
+</div>
+
+<div role="tabpanel" class="tab-pane" id="user-interface" markdown="1">
+* You can design layouts in PowerPoint, export them as PNG images and use them as background images in PowerBI
+* You can change the theme colors to match the company's branding
+* You can create buttons to navigate between pages in the report
 </div>
 </div>
 
