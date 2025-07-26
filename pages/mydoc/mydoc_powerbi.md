@@ -21,6 +21,7 @@ summary: PowerBI is a Microsofttool that allows users to visualize data, create 
 <div role="tabpanel" class="tab-pane" id="best-practice" markdown="1">
 * Organize datas by creating a `_rawDatas` folder to store all implicit measures
 * Replace implicit measures automatically created by PowerBI with explicit DAX measures for better clarity and control
+{% include image.html file="powerbi_rawdatas.png" max-width="100%" %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dataverse-connection" markdown="1">
