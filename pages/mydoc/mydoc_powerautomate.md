@@ -28,7 +28,7 @@ Write the following expression : /entityName(entityId)
 </div>
 
 <div role="tabpanel" class="tab-pane" id="common-issues" markdown="1">
-## Error 403 with a service principal flow connection  
+## Error 403 with a Service Principal flow connection  
 To fix this issue, create the flow connection using PAC CLI (<a href="https://learn.microsoft.com/fr-fr/power-platform/developer/cli/introduction?tabs=windows" target="_blank" rel="noopener noreferrer">Install PAC</a>
 ```
 pac auth create  https://organisationName.crm4.dynamics.com/
