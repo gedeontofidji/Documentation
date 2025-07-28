@@ -9,7 +9,7 @@ summary: Power Automate is a Microsoft tool that allows users to automate workfl
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
-    <li><a class="noCrossRef" href="common-issues" data-toggle="tab">Common issues</a></li>
+    <li><a class="noCrossRef" href="#common-issues" data-toggle="tab">Common issues</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
