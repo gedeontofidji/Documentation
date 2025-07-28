@@ -27,7 +27,7 @@ Write the following expression : /entityName(entityId)
 {% include image.html file="powerautomate_setlookupfield.png" max-width="45%" %}
 </div>
 
-<div role="tabpanel" class="tab-pane active" id="common-issues" markdown="1">
+<div role="tabpanel" class="tab-pane" id="common-issues" markdown="1">
 ## Error 403 with a service principle flow connection  
 To fix this issue, create the flow connection using PAC CLI (<a href="https://learn.microsoft.com/fr-fr/power-platform/developer/cli/introduction?tabs=windows" target="_blank" rel="noopener noreferrer">Install PAC</a>
 ```
