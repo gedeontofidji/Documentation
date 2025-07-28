@@ -12,6 +12,7 @@ summary:
     <li><a class="noCrossRef" href="#useful-links" data-toggle="tab">Useful links</a></li>
     <li><a class="noCrossRef" href="#emoji" data-toggle="tab">Emoji</a></li>
     <li><a class="noCrossRef" href="#freelance" data-toggle="tab">Freelance</a></li>
+    <li><a class="noCrossRef" href="#project-management" data-toggle="tab">Freelance</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
@@ -68,6 +69,11 @@ Gédéon Tofidji
 
 ## Intégration Power Apps Outlook
 * Ok, configuration rapide à faire
+</div>
+
+<div role="tabpanel" class="tab-pane" id="project-management" markdown="1">
+### Specifications
+* [GitHub Jekyll theme](https://jekyllthemes.io/theme/documentation)
 </div>
 </div>
 
