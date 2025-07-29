@@ -74,7 +74,7 @@ Pull the code stored on Git > Add your code and save it > Build the solution to 
 
 ### Enable/Disable a service method
 `IsFeatureEnabled(nameof(OpportunityService.service))` is defined in XrmToolBox step
-{% include image.html file="powerapps_cs.png" max-width="30%" %}
+{% include image.html file="powerapps_cs.png" max-width="50%" %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="cli" markdown="1">
