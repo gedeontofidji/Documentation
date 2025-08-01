@@ -51,14 +51,13 @@ An asynchronous process allows an operation to start and continue without waitin
 <div role="tabpanel" class="tab-pane" id="freelance" markdown="1">
 
 ## Pitch premier contact
-Objet : Proposition de collaboration en développement CRM freelance
-Bonjour [Nom du destinataire],  
-Je me permets de vous contacter afin de vous faire part de mon expertise en tant que développeur CRM freelance, spécialisé dans les technologies Microsoft telles que Power Platform et SharePoint. J'accompagne les entreprises dans la conception et le déploiement de solutions métier sur mesure, adaptées à leurs besoins. Travaillant actuellement avec CVE, j'ai déjà pu améliorer leur productivité, par exemple en mettant en place un processus sur mesure aboutissant à l’édition automatique de contrats commerciaux.  
-Je serais ravi de savoir si votre entreprise fait appel à des prestataires externes pour ce type de profil, ou bien d'échanger avec la personne en charge des besoins IT pour discuter de vos éventuels projets.  
-Vous trouverez mon CV en pièce jointe.  
-En vous remerciant par avance pour votre retour,  
-Bien à vous,  
-Gédéon Tofidji
+Objet : Etude de marché CRM - Secteur immobilier
+Bonjour,  
+Je me permets de vous contacter dans le cadre d’une étude de marché que je mène sur le secteur de l’immobilier. Mon objectif est de mieux comprendre les enjeux du suivi client, les méthodes d’organisation, ainsi que l’usage des outils numériques par les professionnels du secteur.  
+En tant que développeur CRM, je souhaite concevoir une solution adaptée aux besoins du terrain. Pour cela, je recueille des retours d’expérience afin d’identifier les pratiques actuelles et les éventuelles limites rencontrées dans votre quotidien.  
+Auriez-vous 30 minutes à m’accorder dans les prochains jours pour un échange informel à ce sujet ? Votre retour d’expérience serait précieux  
+Je vous remercie par avance pour votre disponibilité.  
+Cordialement
 
 ## Informations freelance
 * Nom : CoreCrm Solution
