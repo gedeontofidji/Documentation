@@ -12,7 +12,7 @@ summary:
     <li><a class="noCrossRef" href="#useful-links" data-toggle="tab">Useful links</a></li>
     <li><a class="noCrossRef" href="#emoji" data-toggle="tab">Emoji</a></li>
     <li><a class="noCrossRef" href="#freelance" data-toggle="tab">Freelance</a></li>
-    <li><a class="noCrossRef" href="#project-management" data-toggle="tab">Freelance</a></li>
+    <li><a class="noCrossRef" href="#project-management" data-toggle="tab">Project management</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
@@ -50,7 +50,7 @@ An asynchronous process allows an operation to start and continue without waitin
 
 <div role="tabpanel" class="tab-pane" id="freelance" markdown="1">
 
-## Message LinkedIn
+## Pitch premier contact
 Objet : Proposition de collaboration en développement CRM freelance
 Bonjour [Nom du destinataire],  
 Je me permets de vous contacter afin de vous faire part de mon expertise en tant que développeur CRM freelance, spécialisé dans les technologies Microsoft telles que Power Platform et SharePoint. J'accompagne les entreprises dans la conception et le déploiement de solutions métier sur mesure, adaptées à leurs besoins. Travaillant actuellement avec CVE, j'ai déjà pu améliorer leur productivité, par exemple en mettant en place un processus sur mesure aboutissant à l’édition automatique de contrats commerciaux.  
