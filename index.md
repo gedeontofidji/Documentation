@@ -49,15 +49,13 @@ An asynchronous process allows an operation to start and continue without waitin
 </div>
 
 <div role="tabpanel" class="tab-pane" id="freelance" markdown="1">
-## Informations freelance
-* Nom : CoreCrm Solution
+## Informations
+* Name : CoreCrm Solution
+* <a href="https://github.com/gedeontofidji/Project_Management/tree/main" target="_blank" rel="noopener noreferrer">Project management</a>
 
 ## Licences
 * Les clients peuvent m'ajouter dans leur entraID et ma licence suffit pour que je développe, ils n'ont pas besoin de m'en fournir une.
 * Je peux inviter mes prospects à tester mon application s'ils prennent la licence essai ou je leur attribue la licence essai Sales. Pour cela, les ajouter en tant qu'invité dans l'AD puis leur partager l'application. Bien gérer les rôles de sécurité.
-
-## Intégration Power Apps Outlook
-* Ok, configuration rapide à faire
 </div>
 
 <div role="tabpanel" class="tab-pane" id="project-management" markdown="1">
