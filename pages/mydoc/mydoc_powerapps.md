@@ -61,6 +61,7 @@ In the environment:
 * Right click on the solution > Add new project > Search for `C# shared project` and create `Cor.Xrm.EntityWrappers` in the Shared folder
 * Right click on the plugin projet > Properties > Signing and sign the assembly with `Cor.Xrm.snk file` to be able to register it in XrmToolBox.
 7. Use EarlyBoundGenerator to generate classes. `Copy the settings from another environment`
+8. Update `AssemblyInfo.cs file` in Plugin project
 
 #### Coding process
 `The logic must be implemented in the service (e.g: CodeNasService) and not in the class (e.g: CodeNas).`  
