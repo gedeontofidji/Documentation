@@ -63,7 +63,7 @@ In the environment:
 7. Use EarlyBoundGenerator to generate classes. `Copy the settings from another environment`
 8. Update `AssemblyInfo.cs file` in Plugin project
 
-#### Coding process
+### Coding process
 `The logic must be implemented in the service (e.g: CodeNasService) and not in the class (e.g: CodeNas).`  
 Pull the code stored on Git > Add your code and save it > Build the solution to generates the DLL in the solution folder > Open Plugin Registration in XrmToolBox to update the plugin with the generated DLL > Test > Enter the commit message, then push the changes to Git.
 {% include image.html file="visualstudio_pull.png" max-width="30%" %}
@@ -76,6 +76,21 @@ Pull the code stored on Git > Add your code and save it > Build the solution to 
 ### Enable/Disable a service method
 `IsFeatureEnabled(nameof(OpportunityService.service))` is defined in XrmToolBox step
 {% include image.html file="powerapps_cs.png" max-width="50%" %}
+
+```
+if (intrant.cve_CreatedFromOutlook == true)
+{
+    var currentBpf = new Query<cve_bpfintrantaval>()
+        .Select(true)
+        .WhereEqual(l => l.bpf_cve_intranetavalid, intrant.Id)
+        .GetFirstOrDefault(UserService);
+
+    currentBpf.ActiveStageId.Id = new Guid("38648cd2-fc14-4eff-a1d5-51182e4a0c42"); // Id de la phase 2
+    currentBpf.TraversedPath = "002e7ec5-16fd-4f39-b9a0-fc1ea2524c6e,38648cd2-fc14-4eff-a1d5-51182e4a0c42"; // Transition de la phase 1 à 2
+    UserService.Update(currentBpf);
+}
+TraceMethodEnd();
+```
 </div>
 
 <div role="tabpanel" class="tab-pane" id="cli" markdown="1">
