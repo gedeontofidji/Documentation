@@ -21,8 +21,8 @@ folder: mydoc
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/functions-overview" target="_blank" rel="noopener noreferrer">Dataverse Accelerator</a>: allows you to create low-code plug-ins, but it's currently being deprioritized in favor of functions. Beta version.
 
 ## API request
-* You can directly fetch data from Dataverse in your browser using this syntax `https://organisationName.crm4.dynamics.com/api/data/v9.2/entityPluralName?$select=field1,field2&$filter=field1 eq xxx
-* To find the entityPluralName of an entity, use the request `https://organasationName.crm4.dynamics.com/api/data/v9.2/EntityDefinitions?$select=LogicalName,EntitySetName`
+* You can directly fetch data from Dataverse in your browser using this syntax `https://organisationName.crm4.dynamics.com/api/data/v9.2/entityPluralName?$select=field1,field2&$filter=field1 eq xxx&$orderby=field1 asc`
+* Use `https://organasationName.crm4.dynamics.com/api/data/v9.2/EntityDefinitions?$select=LogicalName,EntitySetName` to find the entityPluralName of an entity
 </div>
 </div>
 
