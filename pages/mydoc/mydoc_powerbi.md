@@ -22,7 +22,7 @@ summary: PowerBI is a Microsofttool that allows users to visualize data, create 
 <div role="tabpanel" class="tab-pane" id="best-practice" markdown="1">
 * Organize datas by creating a `_rawDatas` folder to store all implicit measures
 * Disable Time Intelligence in `File > Options and settings > Options > Enable Time Intelligence`
-* Replace implicit measures automatically created by PowerBI with explicit DAX measures for better clarity and control
+* Replace implicit measures automatically created by PowerBI with explicit DAX measures `explicitMeasure = SUM('Table'[implicitMeasure])` for better clarity and control
 {% include image.html file="powerbi_rawdatas.png" max-width="65%" %}
 * Place the * side of relationships at the bottom of your model to see how filters propagate. Filters only flow in the direction of the relationship arrows
 {% include image.html file="powerbi_tables_layout.png" max-width="55%" %}
