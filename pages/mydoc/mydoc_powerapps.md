@@ -23,6 +23,7 @@ folder: mydoc
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## 📚 Documentation
+* <a href="https://learn.microsoft.com/en-us/power-platform/alm/custom-host-pipelines" target="_blank" rel="noopener noreferrer">Create a pipeline to deploy solutions</a>
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-restricted-entities" target="_blank" rel="noopener noreferrer">Restricted tables requiring Dynamics 365 licenses</a>
 * <a href="https://mattruma.com/adventures-with-dataverse-virtual-tables-and-look-up-columns/?utm_source=substack&utm_medium=email" target="_blank" rel="noopener noreferrer">Virtual tables and lookup columns</a>
 * <a href="https://orby.com.au/hide-new-button-on-lookup-controls-in-model-driven-apps-2/" target="_blank" rel="noopener noreferrer">Hide new button on lookup controls</a>
