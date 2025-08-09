@@ -17,6 +17,7 @@ folder: mydoc
 * <a href="https://learn.microsoft.com/en-us/ssms/" target="_blank" rel="noopener noreferrer">SQL Server Management Studio</a> allows you to connect and query Dataverse databases using SQL commands. (<a href="https://www.youtube.com/watch?v=cv1l7EfG65o" target="_blank" rel="noopener noreferrer">Tutorial</a>)
 * <a href="https://www.microsoft.com/en-us/power-platform/blog/2025/06/09/long-term-retention/" target="_blank" rel="noopener noreferrer">Long-term retention data</a>
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-and-use-dataflows" target="_blank" rel="noopener noreferrer">Create dataflows (Extract, Transform, Load)</a>
+* <a href="https://www.microsoft.com/en-us/power-platform/blog/2025/08/07/data-protection-in-dataverse/" target="_blank" rel="noopener noreferrer">Strengthen data protection</a>
 
 ## Evolutions to come
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/functions-overview" target="_blank" rel="noopener noreferrer">Dataverse Accelerator</a>: allows you to create low-code plug-ins, but it's currently being deprioritized in favor of functions. Beta version.
