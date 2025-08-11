@@ -16,6 +16,9 @@ summary: Power Automate is a Microsoft tool that allows users to automate workfl
 ## 📚 Documentation
 * <a href="https://powerpro.nl/power-automate-check-user-role-for-authorization/?utm_source=substack&utm_medium=email" target="_blank" rel="noopener noreferrer">Check User Role for authorization</a>
 
+## SharePoint
+* `FSObjType eq 0` OData queries to retrieve only files
+
 ## 🔍 Get the value of a lookup field with Dataverse connector
 Write the following expression in a “Apply to each” loop :  
 ```
