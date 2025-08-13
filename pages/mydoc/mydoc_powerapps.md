@@ -130,10 +130,21 @@ debugger;
 
 <div role="tabpanel" class="tab-pane" id="patch" markdown="1">
 Patch allows you to export only selected components of a solution for minor updates, giving you tighter control through segmentation without needing to export entire entities.
-1. Create a solution patch and add the elements you want to update (cloner un correctif)
-2. Deploy to a managed solution
-2. Clone the main solution
-<a href="https://learn.microsoft.com/fr-fr/dynamics365/customerengagement/on-premises/customize/use-segmented-solutions-patches-simplify-updates?view=op-9-1" target="_blank" rel="noopener noreferrer">Power BI dashboard</a>
+Format : MAJOR.MINOR.BUILD.REVISION  
+* Create a solution patch (cloner un correctif) and `only increment the revision number` to include the elements you want to update
+* `Never use clone a solution`
+* `The revision number must increase for each patch`
+* `Increment the build number for when redeploying the parent solution`
+Make sure to follow this versioning structure :
+```
+Parent : 1.1.0.0
+    Clone patch 1 : 1.1.0.1 → Deploy to PROD
+    Delete patch 1
+    Clone patch 2 : 1.1.0.2 → Deploy to PROD
+    Delete patch 2
+    
+    Deploy parent to PROD : 1.1.1.0
+```
 </div>
 
 <div role="tabpanel" class="tab-pane" id="power-bi" markdown="1">    
