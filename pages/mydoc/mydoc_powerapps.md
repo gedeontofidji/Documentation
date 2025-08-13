@@ -129,12 +129,12 @@ debugger;
 </div>
 
 <div role="tabpanel" class="tab-pane" id="patch" markdown="1">
-Patch allows you to export only selected components of a solution for minor updates, giving you tighter control through segmentation without needing to export entire entities.
+Patch allows you to export only selected components of a solution for minor updates, giving you tighter control through segmentation without needing to export entire entities.  
 Format : MAJOR.MINOR.BUILD.REVISION  
 * Create a solution patch (cloner un correctif) and `only increment the revision number` to include the elements you want to update
 * `Never use clone a solution`
 * `The revision number must increase for each patch`
-* `Increment the build number for when redeploying the parent solution`
+* `Increment the build number when redeploying the parent solution`  
 Make sure to follow this versioning structure :
 ```
 Parent : 1.1.0.0
