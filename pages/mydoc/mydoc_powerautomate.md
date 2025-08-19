@@ -15,6 +15,8 @@ summary: Power Automate is a Microsoft tool that allows users to automate workfl
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## 📚 Documentation
 * <a href="https://powerpro.nl/power-automate-check-user-role-for-authorization/?utm_source=substack&utm_medium=email" target="_blank" rel="noopener noreferrer">Check User Role for authorization</a>
+* <a href="https://www.youtube.com/watch?v=KVnfWsO1Fhs" target="_blank" rel="noopener noreferrer">
+Create dynamic word</a>
 
 ## SharePoint
 * `FSObjType eq 0` OData queries to retrieve only files
