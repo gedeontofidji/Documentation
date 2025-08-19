@@ -12,7 +12,7 @@ folder: mydoc
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
     <li><a class="noCrossRef" href="#csharp" data-toggle="tab">C#</a></li>
     <li><a class="noCrossRef" href="#cli" data-toggle="tab">CLI</a></li>
-    <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Dynamics 365 App for Outlook</a></li>
+    <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Outlook</a></li>
     <li><a class="noCrossRef" href="#javascript" data-toggle="tab">JavaScript</a></li>
     <li><a class="noCrossRef" href="#levelup" data-toggle="tab">Level up for PowerApps</a></li>
     <li><a class="noCrossRef" href="#patch" data-toggle="tab">Patch</a></li>
@@ -101,7 +101,11 @@ Microsoft Power Platform CLI allows you to perform various operations within Mic
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dynamics-app-outlook" markdown="1">
-#### Plugin that connects Outlook with Power Apps, allowing users to track emails or appointments, access or create records directly from Outlook.
+### 📚 Documentation
+* <a href="https://joegill.com/power-apps-outlook-deep-linking/?utm_source=substack&utm_medium=email" target="_blank" rel="noopener noreferrer">Outlook deep linking</a>
+
+### Dynamics 365 App for Outlook
+Plugin that connects Outlook with Power Apps, allowing users to track emails or appointments, access or create records directly from Outlook.
 * To enable integration of a table with Outlook, make sure the table is included in the 'Dynamics 365 App for Outlook' application.
 * To install the plugin on a email user, go in the `application > Advanced setting > Email configuration > Mailboxes` and follow the steps :
 {% include image.html file="powerapps_outlookconfiguration.png" max-width="50%" %}  
