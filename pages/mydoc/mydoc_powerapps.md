@@ -18,6 +18,7 @@ folder: mydoc
     <li><a class="noCrossRef" href="#patch" data-toggle="tab">Patch</a></li>
     <li><a class="noCrossRef" href="#power-bi" data-toggle="tab">Power BI</a></li>
     <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power Fx</a></li>
+    <li><a class="noCrossRef" href="#sharepoint" data-toggle="tab">SharePoint</a></li>
     <li><a class="noCrossRef" href="#copilot" data-toggle="tab">Copilot</a></li>
 </ul>
   <div class="tab-content">
@@ -167,6 +168,11 @@ Value(field);
 917140003;"text3";""
 )
 ```
+</div>
+
+<div role="tabpanel" class="tab-pane" id="sharepoint" markdown="1">
+## 📚 Documentation
+* <a href="https://jscheper.com/single-sharepoint-document-storage-sales-process/?utm_source=substack&utm_medium=email" target="_blank" rel="noopener noreferrer">Centralized SharePoint storage for sales documents</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="copilot" markdown="1">
