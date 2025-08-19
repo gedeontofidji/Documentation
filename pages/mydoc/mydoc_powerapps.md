@@ -177,6 +177,8 @@ Value(field);
 <div role="tabpanel" class="tab-pane" id="sharepoint" markdown="1">
 ## 📚 Documentation
 * <a href="https://jscheper.com/single-sharepoint-document-storage-sales-process/?utm_source=substack&utm_medium=email" target="_blank" rel="noopener noreferrer">Centralized SharePoint storage for sales documents</a>
+* <a href="https://www.youtube.com/watch?v=KVnfWsO1Fhs" target="_blank" rel="noopener noreferrer">
+Create dynamic word</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="copilot" markdown="1">
