@@ -15,6 +15,7 @@ folder: mydoc
 ## Useful links
 * <a href="https://admin.powerplatform.microsoft.com/home" target="_blank" rel="noopener noreferrer">Admin Center</a>
 * <a href="https://learn.microsoft.com/en-us/power-platform/admin/powerapps-flow-licensing-faq" target="_blank" rel="noopener noreferrer">Licensing</a>
+* Access the old classic settings UI : `https://organisationName.crm4.dynamics.com/main.aspx?settingsonly=true`
 </div>
       
 </div>
