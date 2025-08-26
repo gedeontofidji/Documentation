@@ -179,6 +179,9 @@ Value(field);
 * <a href="https://jscheper.com/single-sharepoint-document-storage-sales-process/?utm_source=substack&utm_medium=email" target="_blank" rel="noopener noreferrer">Centralized SharePoint storage for sales documents</a>
 * <a href="https://www.youtube.com/watch?v=KVnfWsO1Fhs" target="_blank" rel="noopener noreferrer">
 Create dynamic word</a>
+
+## Common issues
+* If the SharePoint folder location is based on a parent entity, verify that the “Based on entity” option is not selected in both the new UI and the classic UI
 </div>
 
 <div role="tabpanel" class="tab-pane" id="copilot" markdown="1">
