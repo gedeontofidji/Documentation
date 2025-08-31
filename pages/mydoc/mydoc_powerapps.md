@@ -163,6 +163,8 @@ Parent : 1.1.0.0
 </div>
 
 <div role="tabpanel" class="tab-pane" id="power-fx" markdown="1">
+## 📚 Documentation
+* <a href="https://learn.microsoft.com/en-us/power-platform/power-fx/formula-reference-model-driven-apps" target="_blank" rel="noopener noreferrer">Formula reference</a>
 #### Switch
 ```
 Switch(
