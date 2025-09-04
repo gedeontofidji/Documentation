@@ -37,6 +37,12 @@ SelectedTable = Source{[Schema="dbo", Item="tableName"]}[Data],
 SelectedColumns = Table.SelectColumns(SelectedTable, {"column1","column2", "column3"})
 in SelectedColumns
 ```
+or this query for many-to-many relationship :
+```
+= let Source = CommonDataService.Database("organisationName.crm4.dynamics.com"),
+JunctionTable = Source{[Schema="dbo", Item="relationshipTableName"]}[Data]
+in JunctionTable
+```
 
 ### Retrieve option set piclist
 Option sets are not stored in any standard Dataverse table. To retrieve them, you need to use the Web connector with the following query :
