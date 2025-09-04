@@ -26,6 +26,20 @@ summary: PowerBI is a Microsofttool that allows users to visualize data, create 
 {% include image.html file="powerbi_rawdatas.png" max-width="65%" %}
 * Place the * side of relationships at the bottom of your model to see how filters propagate. Filters only flow in the direction of the relationship arrows
 {% include image.html file="powerbi_tables_layout.png" max-width="55%" %}
+* Create a date table :
+```
+CALENDAR = ADDCOLUMNS(
+    CALENDARAUTO(),
+    "Year", FORMAT([Date], "YYYY"),
+    "Year Rank", RANKX(CALENDARAUTO(), YEAR([Date]), , ASC, Dense),
+    "Year Week", YEAR([Date]) & " – " & FORMAT(WEEKNUM([Date], 2), "00"),
+    "Week Rank", RANKX(CALENDARAUTO(), YEAR([Date]) & " – " & FORMAT(WEEKNUM([Date], 2), "00"), , ASC, Dense),
+    "Year Month", FORMAT([Date], "YYYY-MM"),
+    "Month Rank", RANKX(CALENDARAUTO(), FORMAT([Date], "YYYY-MM"), , ASC, Dense),
+    "Year Quarter", FORMAT([Date], "YYYY") & "-Q" & FORMAT(QUARTER([Date]), "0"),
+    "Quarter Rank", RANKX(CALENDARAUTO(), FORMAT([Date], "YYYY") & "-Q" & FORMAT(QUARTER([Date]), "0"), , ASC, Dense)
+)
+```
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dataverse-connection" markdown="1">
