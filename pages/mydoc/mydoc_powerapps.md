@@ -18,6 +18,7 @@ folder: mydoc
     <li><a class="noCrossRef" href="#patch" data-toggle="tab">Patch</a></li>
     <li><a class="noCrossRef" href="#power-bi" data-toggle="tab">Power BI</a></li>
     <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power Fx</a></li>
+    <li><a class="noCrossRef" href="#pfc" data-toggle="tab">PFC</a></li>
     <li><a class="noCrossRef" href="#sharepoint" data-toggle="tab">SharePoint</a></li>
     <li><a class="noCrossRef" href="#copilot" data-toggle="tab">Copilot</a></li>
 </ul>
@@ -174,6 +175,11 @@ Value(field);
 917140003;"text3";""
 )
 ```
+</div>
+
+<div role="tabpanel" class="tab-pane" id="pfc" markdown="1">
+## 📚 Documentation
+* <a href="https://github.com/LucasHahne/PCF-MDA-Background-Control?tab=readme-ov-file" target="_blank" rel="noopener noreferrer">Background control</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="sharepoint" markdown="1">
