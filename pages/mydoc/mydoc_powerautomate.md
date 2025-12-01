@@ -19,6 +19,7 @@ summary: Power Automate is a Microsoft tool that allows users to automate workfl
 Create dynamic word</a>
 
 ## SharePoint
+### OData queries
 * `FSObjType eq 0` OData queries to retrieve only files
 
 ## 🔍 Get the value of a lookup field with Dataverse connector
