@@ -20,7 +20,7 @@ Create dynamic word</a>
 
 ## Functions reference
 * `formatNumber(number, 'D3')` to convert an integer into a 3-digit number : <a href="https://learn.microsoft.com/en-us/azure/logic-apps/expression-functions-reference#formatNumber" target="_blank" rel="noopener noreferrer"> Microsoft doc</a>
-* `(date gt 2025-01-01T00:00:00Z) and (date lt 2025-12-31T00:00:00Z)` to compare dates
+* `(date gt '2025-01-01T00:00:00Z') and (date lt '2025-12-31T00:00:00Z')` to compare dates
 
 ## SharePoint - OData queries
 * `FSObjType eq 0` to retrieve only files
