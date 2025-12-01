@@ -18,9 +18,11 @@ summary: Power Automate is a Microsoft tool that allows users to automate workfl
 * <a href="https://www.youtube.com/watch?v=KVnfWsO1Fhs" target="_blank" rel="noopener noreferrer">
 Create dynamic word</a>
 
-## SharePoint
-### OData queries
-* `FSObjType eq 0` OData queries to retrieve only files
+## Functions reference
+* `formatNumber(number, 'D3')` to convert an integer into a 3-digit number : <a href="https://learn.microsoft.com/en-us/azure/logic-apps/expression-functions-reference#formatNumber" target="_blank" rel="noopener noreferrer"> Microsoft doc</a>
+
+## SharePoint - OData queries
+* `FSObjType eq 0` to retrieve only files
 
 ## 🔍 Get the value of a lookup field with Dataverse connector
 Write the following expression in a “Apply to each” loop :  
