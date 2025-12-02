@@ -22,7 +22,7 @@ entries:
       url: /mydoc_powerapps.html
       output: web, pdf
 
-      - title: Canva Apps
+    - title: Canva Apps
       url: /mydoc_powerapps.html
       output: web, pdf
 
