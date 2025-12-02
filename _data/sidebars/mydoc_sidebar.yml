@@ -18,7 +18,11 @@ entries:
       url: /mydoc_dataverse.html
       output: web, pdf
       
-    - title: Power Apps
+    - title: Model Driven Apps
+      url: /mydoc_powerapps.html
+      output: web, pdf
+
+      - title: Canva Apps
       url: /mydoc_powerapps.html
       output: web, pdf
 
