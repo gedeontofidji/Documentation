@@ -23,9 +23,6 @@ Create dynamic word</a>
 * `formatNumber(number, 'D3')` to convert an integer into a 3-digit number : <a href="https://learn.microsoft.com/en-us/azure/logic-apps/expression-functions-reference#formatNumber" target="_blank" rel="noopener noreferrer"> Microsoft doc</a>
 * `(date gt '2025-01-01T00:00:00Z') and (date lt '2025-12-31T00:00:00Z')` to compare dates
 
-## SharePoint - OData queries
-* `FSObjType eq 0` to retrieve only files
-
 ## 🔍 Get the value of a lookup field with Dataverse connector
 Write the following expression in a “Apply to each” loop :  
 ```
@@ -49,6 +46,7 @@ pac connection create -env https://organisationName.crm4.dynamics.com/ -t tenant
 <div role="tabpanel" class="tab-pane" id="sharepoint" markdown="1">
 ## SharePoint - OData queries
 * `FSObjType eq 0` to retrieve only files
+* <a href="https://learn.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/guidance/working-with-get-items-and-get-files" target="_blank" rel="noopener noreferrer">Get items/files properties</a>
 </div>
 
 </div>
