@@ -16,6 +16,8 @@ folder: mydoc
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## 📚 Documentation
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/sharepoint-form-integration" target="_blank" rel="noopener noreferrer">SharePoint forms integration</a>
+* <a href="https://learn.microsoft.com/en-us/power-apps/guidance/coding-guidelines/code-readability" target="_blank" rel="noopener noreferrer">Naming conventions</a>
+* <a href="[https://learn.microsoft.com/en-us/power-apps/guidance/coding-guidelines/code-readability](https://learn.microsoft.com/en-us/power-apps/guidance/coding-guidelines/code-optimization)" target="_blank" rel="noopener noreferrer">Code optimization</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="powerfx" markdown="1">
