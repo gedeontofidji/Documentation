@@ -16,7 +16,6 @@ folder: mydoc
       
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## 📚 Documentation
-* <a href="https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/sharepoint-form-integration" target="_blank" rel="noopener noreferrer">SharePoint forms integration</a>
 * <a href="https://learn.microsoft.com/en-us/power-apps/guidance/coding-guidelines/code-readability" target="_blank" rel="noopener noreferrer">Naming conventions</a>
 * <a href="https://learn.microsoft.com/en-us/power-apps/guidance/coding-guidelines/code-optimization" target="_blank" rel="noopener noreferrer">Code optimization</a>
 </div>
@@ -24,6 +23,10 @@ folder: mydoc
 <div role="tabpanel" class="tab-pane" id="sharepoint" markdown="1">
 ## 📚 Documentation
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/sharepoint-form-integration" target="_blank" rel="noopener noreferrer">SharePoint forms integration</a>
+If you want to make a field required in the SharePoint list form using Power Apps, follow the below steps:
+
+## Conditionally make form fields mandatory
+Select the data card that contains the field you want to make mandatory, then go to the advanced properties and make the Required property true. If the field is locked, then click on the “Unlock to change properties” button in the advanced properties to unlock the data card.
 </div>
 
 </div>
