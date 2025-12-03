@@ -15,7 +15,7 @@ folder: mydoc
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## 📚 Documentation
-* <a href="https://learn.microsoft.com/en-us/power-platform/alm/custom-host-pipelines" target="_blank" rel="noopener noreferrer">Create a pipeline to deploy solutions</a>
+* <a href="https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/sharepoint-form-integration" target="_blank" rel="noopener noreferrer">SharePoint forms integration</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="powerfx" markdown="1">
