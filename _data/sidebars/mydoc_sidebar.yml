@@ -23,7 +23,7 @@ entries:
       output: web, pdf
 
     - title: Canva Apps
-      url: /mydoc_powerapps.html
+      url: /mydoc_canvaapps.html
       output: web, pdf
 
     - title: Power Automate
