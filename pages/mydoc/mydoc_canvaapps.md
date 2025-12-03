@@ -25,7 +25,7 @@ folder: mydoc
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/sharepoint-form-integration" target="_blank" rel="noopener noreferrer">SharePoint forms integration</a>
 If you want to make a field required in the SharePoint list form using Power Apps, follow the below steps:
 
-#### Conditionally make form fields mandatory
+#### ⚙️ Conditionally make form fields mandatory
 1. Select the data card that contains the field you want to make mandatory
 2. Go to the advanced properties and make the required property true or edit with your condition
 </div>
