@@ -10,6 +10,7 @@ summary: Power Automate is a Microsoft tool that allows users to automate workfl
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
     <li><a class="noCrossRef" href="#common-issues" data-toggle="tab">Common issues</a></li>
+    <li><a class="noCrossRef" href="#sharepoint" data-toggle="tab">SharePoint</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
@@ -44,6 +45,11 @@ pac auth create  https://organisationName.crm4.dynamics.com/
 pac connection create -env https://organisationName.crm4.dynamics.com/ -t tenantId -a appId -cs clientSecret -n "Name of the application"
 ```
 </div>
+
+<div role="tabpanel" class="tab-pane" id="sharepoint" markdown="1">
+## SharePoint - OData queries
+* `FSObjType eq 0` to retrieve only files
 </div>
 
+</div>
 {% include links.html %}
