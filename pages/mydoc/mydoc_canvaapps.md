@@ -23,7 +23,7 @@ folder: mydoc
 <div role="tabpanel" class="tab-pane" id="sharepoint" markdown="1">
 ## 📚 Documentation
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/sharepoint-form-integration" target="_blank" rel="noopener noreferrer">SharePoint forms integration</a>
-* <a target="\_blank" class="noCrossRef" href="{{ "pdf/mydoc.pdf"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
+* <a target="\_blank" class="noCrossRef" href="{{ "pdf/CustomFormsMigration.pdf"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Move custom forms to a designated environment </button></a>
 
 #### ⚙️ Conditionally make form fields mandatory
 1. Select the data card that contains the field you want to make mandatory
