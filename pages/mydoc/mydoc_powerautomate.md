@@ -35,6 +35,8 @@ Write the following expression : /entityName(entityId)
 </div>
 
 <div role="tabpanel" class="tab-pane" id="common-issues" markdown="1">
+* <a href="https://www.linkedin.com/pulse/escape-single-quotes-odata-filter-query-power-ian-bennett-/" target="_blank" rel="noopener noreferrer"> Fixing OData filter errors when strings contain apostrophes </a>
+    
 ## Error 403 with a Service Principal flow connection  
 To fix this issue, create the flow connection using PAC CLI (<a href="https://learn.microsoft.com/fr-fr/power-platform/developer/cli/introduction?tabs=windows" target="_blank" rel="noopener noreferrer">Install PAC</a>)
 ```
