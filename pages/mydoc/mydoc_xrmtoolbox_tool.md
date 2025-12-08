@@ -17,6 +17,7 @@ folder: mydoc
     <li><a class="noCrossRef" href="#plugin-trace-viewer" data-toggle="tab">Plugin Trace Viewer</a></li>
     <li><a class="noCrossRef" href="#polymorphic-lookup" data-toggle="tab">Polymorphic Lookup Manager</a></li>
     <li><a class="noCrossRef" href="#ribbon-workbench" data-toggle="tab">Ribbon Workbench</a></li>
+    <li><a class="noCrossRef" href="#user-settings-utility" data-toggle="tab">User Settings Utility</a></li>
     <li><a class="noCrossRef" href="#webresources-manager" data-toggle="tab">Webresources Manager</a></li>
 </ul>
 <div class="tab-content">
@@ -93,6 +94,11 @@ To translate other elements such as system ribbons or BPF, you can use the <a hr
 {% include image.html file="flyoutbutton.png" max-width="100%" %}
 
 {% include tip.html content="By default, the flyout button will not appear after reopening Ribbon Workbench. To fix this, you need to export the solution as unmanaged and edit the solution.xml to change Location=\"Mscrm.Form.entityLogicalName.MainTab.Save.Controls._children\" to Location=\"Mscrm.Form.entityLogicalName.MainTab.ModernClient.Controls._children\". Reimport the solution." %}
+</div>
+
+<div role="tabpanel" class="tab-pane" id="user-settings-utility" markdown="1">
+## User Settings Utility
+* Allows you to manage users personnal settings, by defalut you can only see yours in the CRM
 </div>
 
 <div role="tabpanel" class="tab-pane" id="webresources-manager" markdown="1">
