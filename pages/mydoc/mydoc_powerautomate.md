@@ -37,7 +37,8 @@ pac connection create -env https://organisationName.crm4.dynamics.com/ -t tenant
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dataverse" markdown="1">
-### Expand a query `Always use the schema name of the lookup field `
+### Expand a query
+`Always use the schema name of the lookup field `
 ```
 cor_ProducteurDechetTiers($select=name,),owninguser($select=title,mobilephone)
 ```
