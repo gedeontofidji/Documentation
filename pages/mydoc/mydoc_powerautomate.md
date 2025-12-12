@@ -37,9 +37,9 @@ pac connection create -env https://organisationName.crm4.dynamics.com/ -t tenant
 </div>
 
 <div role="tabpanel" class="tab-pane" id="dataverse" markdown="1">
-### Expand a query
+### Expand a query `Always use the schema name of the lookup field `
 ```
-parentcontactid($select=firstname,lastname),owninguser($select=title,mobilephone)
+cor_ProducteurDechetTiers($select=name,),owninguser($select=title,mobilephone)
 ```
 
 ### Get the value of a lookup field with Dataverse connector
