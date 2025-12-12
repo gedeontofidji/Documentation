@@ -10,6 +10,7 @@ summary: Power Automate is a Microsoft tool that allows users to automate workfl
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
     <li><a class="noCrossRef" href="#common-issues" data-toggle="tab">Common issues</a></li>
+    <li><a class="noCrossRef" href="#dataverse" data-toggle="tab">Dataverse</a></li>
     <li><a class="noCrossRef" href="#sharepoint" data-toggle="tab">SharePoint</a></li>
 </ul>
   <div class="tab-content">
@@ -22,16 +23,6 @@ Create dynamic word</a>
 ## Functions reference
 * `formatNumber(number, 'D3')` to convert an integer into a 3-digit number : <a href="https://learn.microsoft.com/en-us/azure/logic-apps/expression-functions-reference#formatNumber" target="_blank" rel="noopener noreferrer"> Microsoft doc</a>
 * `(date gt '2025-01-01T00:00:00Z') and (date lt '2025-12-31T00:00:00Z')` to compare dates
-
-## 🔍 Get the value of a lookup field with Dataverse connector
-Write the following expression in a “Apply to each” loop :  
-```
-items('Apply_to_each')?[_my_field_value@OData.Community.Display.V1.FormattedValue]
-```
-
-## 📝 Set a lookup field with Dataverse connector
-Write the following expression : /entityName(entityId)
-{% include image.html file="powerautomate_setlookupfield.png" max-width="45%" %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="common-issues" markdown="1">
@@ -43,6 +34,18 @@ To fix this issue, create the flow connection using PAC CLI (<a href="https://le
 pac auth create  https://organisationName.crm4.dynamics.com/
 pac connection create -env https://organisationName.crm4.dynamics.com/ -t tenantId -a appId -cs clientSecret -n "Name of the application"
 ```
+</div>
+
+<div role="tabpanel" class="tab-pane" id="dataverse" markdown="1">
+## Get the value of a lookup field with Dataverse connector
+Write the following expression in a “Apply to each” loop :  
+```
+items('Apply_to_each')?[_my_field_value@OData.Community.Display.V1.FormattedValue]
+```
+
+## Set a lookup field with Dataverse connector
+Write the following expression : /entityName(entityId)
+{% include image.html file="powerautomate_setlookupfield.png" max-width="45%" %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="sharepoint" markdown="1">
