@@ -36,11 +36,12 @@ pac connection create -env https://organisationName.crm4.dynamics.com/ -t tenant
 ```
 </div>
 
-<div role="tabpanel" class="tab-pane" id="dataverse" markdown="1
+<div role="tabpanel" class="tab-pane" id="dataverse" markdown="1>
 ### Expand a query
 ```
 parentcontactid($select=firstname,lastname),owninguser($select=title,mobilephone)
 ```
+
 ### Get the value of a lookup field with Dataverse connector
 Write the following expression in a “Apply to each” loop :  
 ```
