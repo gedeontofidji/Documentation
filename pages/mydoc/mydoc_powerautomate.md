@@ -36,15 +36,19 @@ pac connection create -env https://organisationName.crm4.dynamics.com/ -t tenant
 ```
 </div>
 
-<div role="tabpanel" class="tab-pane" id="dataverse" markdown="1">
-## Get the value of a lookup field with Dataverse connector
+<div role="tabpanel" class="tab-pane" id="dataverse" markdown="1
+### Expand a query
+```
+parentcontactid($select=firstname,lastname),owninguser($select=title,mobilephone)
+```
+### Get the value of a lookup field with Dataverse connector
 Write the following expression in a “Apply to each” loop :  
 ```
 items('Apply_to_each')?[_my_field_value@OData.Community.Display.V1.FormattedValue]
 ```
 
-## Set a lookup field with Dataverse connector
-Write the following expression : /entityName(entityId)
+### Set a lookup field with Dataverse connector
+Write the following expression : /entityPluralName(recordId)
 {% include image.html file="powerautomate_setlookupfield.png" max-width="45%" %}
 </div>
 
