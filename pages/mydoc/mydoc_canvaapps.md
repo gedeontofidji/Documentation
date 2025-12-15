@@ -17,7 +17,10 @@ folder: mydoc
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## 📚 Documentation
 * <a href="https://learn.microsoft.com/en-us/power-apps/guidance/coding-guidelines/code-readability" target="_blank" rel="noopener noreferrer">Naming conventions</a>
-* <a href="https://learn.microsoft.com/en-us/power-apps/guidance/coding-guidelines/code-optimization" target="_blank" rel="noopener noreferrer">Code optimization</a>
+
+## Code optimization
+* <a href="https://learn.microsoft.com/en-us/power-apps/guidance/coding-guidelines/code-optimization" target="_blank" rel="noopener noreferrer">Documentation</a>
+* Enable DelayOutput for text controls
 </div>
 
 <div role="tabpanel" class="tab-pane" id="sharepoint" markdown="1">
