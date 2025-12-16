@@ -31,24 +31,11 @@ folder: mydoc
 1. Select the data card that contains the field you want to make mandatory
 2. Go to the advanced properties and make the required property true or edit with your condition
 
-#### 🔎 OptionSet fields (* <a href="https://rezadorrani.com/index.php/2020/05/04/power-apps-patch-function-with-sharepoint/" target="_blank" rel="noopener noreferrer">Documentation</a>)
+#### 🔎 Lookup User field (<a href="https://rezadorrani.com/index.php/2020/05/04/power-apps-patch-function-with-sharepoint/" target="_blank" rel="noopener noreferrer">sharePoint picklist syntax</a>)
 1. Add the data source Office365Users
 2. Set Items property on `Office365Users.SearchUserV2({isSearchTermRequired:false; top:999}).value`
 3. Set DefaultSelectedItems property
-4. Set Update property on sharePoint syntax:
-```
-{
-    Claims: Concatenate(
-        "i:0#.f|membership|";
-        User().Mail // Person email
-    );
-    Department: "";
-    DisplayName: User().FullName;
-    Email: User().Mail; // Person email
-JobTitle: "";
-    Picture: ""
-}
-```
+4. Set Update property with sharePoint syntax
 </div>
 
 </div>
