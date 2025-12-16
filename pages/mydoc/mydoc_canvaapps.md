@@ -30,6 +30,25 @@ folder: mydoc
 #### ⚙️ Conditionally make form fields mandatory
 1. Select the data card that contains the field you want to make mandatory
 2. Go to the advanced properties and make the required property true or edit with your condition
+
+#### 🔎 Lookup field on Users
+1. Add the data source Office365Users
+2. Set Items property on `Office365Users.SearchUserV2({isSearchTermRequired:false; top:999}).value`
+3. Set DefaultSelectedItems property
+4. Set Update property on sharePoint syntax:
+```
+{
+    Claims: Concatenate(
+        "i:0#.f|membership|";
+        User().Mail // Person email
+    );
+    Department: "";
+    DisplayName: User().FullName;
+    Email: User().Mail; // Person email
+JobTitle: "";
+    Picture: ""
+}
+```
 </div>
 
 </div>
