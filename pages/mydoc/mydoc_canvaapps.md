@@ -33,7 +33,7 @@ folder: mydoc
 1. Select the data card that contains the field you want to make mandatory
 2. Go to the advanced properties and make the required property true or edit with your condition
 
-#### 🔎 Lookup User field (<a href="https://rezadorrani.com/index.php/2020/05/04/power-apps-patch-function-with-sharepoint/" target="_blank" rel="noopener noreferrer">sharePoint picklist syntax</a>)
+#### 🔎 Lookup User field
 1. Add the data source Office365Users
 2. Set Items property on `Office365Users.SearchUserV2({isSearchTermRequired:false; top:999}).value`
 3. Set DefaultSelectedItems property
@@ -42,6 +42,7 @@ folder: mydoc
 
 <div role="tabpanel" class="tab-pane active" id="sharepoint-patch" markdown="1">
 * <a href="https://www.youtube.com/watch?v=g9ChYuTdNd4&t=867s" target="_blank" rel="noopener noreferrer">YouTube tutorial</a>  
+  
 Yes/No column
 ```
  1  // Yes value. For No value use false
