@@ -41,6 +41,7 @@ folder: mydoc
 </div>
 
 <div role="tabpanel" class="tab-pane active" id="sharepoint-patch" markdown="1">
+* * <a href="https://www.youtube.com/watch?v=g9ChYuTdNd4&t=867s" target="_blank" rel="noopener noreferrer">YouTube tutorial</a>
 Yes/No column
 ```
  1  // Yes value. For No value use false
