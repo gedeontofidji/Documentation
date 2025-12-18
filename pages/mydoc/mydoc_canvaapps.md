@@ -37,6 +37,59 @@ folder: mydoc
 2. Set Items property on `Office365Users.SearchUserV2({isSearchTermRequired:false; top:999}).value`
 3. Set DefaultSelectedItems property
 4. Set Update property with sharePoint syntax
+
+#### Columns patch syntax
+Yes/No column
+```
+ 1  // Yes value. For No value use false
+```
+
+Choice column
+```
+{Value: "choice value"}
+```
+
+Person column
+```
+{
+    Claims: Concatenate(
+        "i:0#.f|membership|",
+        User().Email // Person email
+        ),
+        Department: "",
+        DisplayName: User().FullName,
+        Email: User().Email, // Person email
+        JobTitle: "",
+        Picture: ""
+}
+```
+
+Lookup column
+```
+{
+    Value: "Title", // Value of lookup column
+    Id: 2 // Id of lookup column
+}
+```
+
+Multi select choice column
+```
+Table(
+    {Value: "choice value 1"},
+    {Value: "choice value 2"} // keep adding multiple choices
+   )
+```
+
+Managed metadata  column
+```
+{
+    Label: "label",
+    Path: "",
+    TermGuid: "d30784d3-f4dc-46e2-b3ed-577b9ae5bea9",// Replace with term guid
+    Value: "",
+    WssId: 0
+}       
+```
 </div>
 
 </div>
