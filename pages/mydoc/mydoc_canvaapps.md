@@ -11,6 +11,7 @@ folder: mydoc
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
     <li><a class="noCrossRef" href="#sharepoint" data-toggle="tab">SharePoint forms</a></li>
+    <li><a class="noCrossRef" href="#sharepoint-patch" data-toggle="tab">SP patch syntax</a></li>
 </ul>
   <div class="tab-content">
       
@@ -37,8 +38,9 @@ folder: mydoc
 2. Set Items property on `Office365Users.SearchUserV2({isSearchTermRequired:false; top:999}).value`
 3. Set DefaultSelectedItems property
 4. Set Update property with sharePoint syntax
+</div>
 
-#### Columns patch syntax
+<div role="tabpanel" class="tab-pane active" id="sharepoint-patch" markdown="1">
 Yes/No column
 ```
  1  // Yes value. For No value use false
