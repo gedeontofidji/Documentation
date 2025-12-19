@@ -71,7 +71,7 @@ Person column
 Lookup column
 ```
 {
-    Value: "Title", // Value of lookup column
+    Value: "val1", // Value of lookup column
     Id: 2 // Id of lookup column
 }
 ```
