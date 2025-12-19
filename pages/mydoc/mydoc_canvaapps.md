@@ -21,6 +21,7 @@ folder: mydoc
 
 ## Code optimization (<a href="https://learn.microsoft.com/en-us/power-apps/guidance/coding-guidelines/code-optimization" target="_blank" rel="noopener noreferrer">Documentation</a>)
 * Limit the size and number of collections. Use the `ShowColumns` function to get only specific columns and add the `Filter` function to get only relevant data.
+* `Coalesce` function
 * Enable DelayOutput for text controls
 </div>
 
