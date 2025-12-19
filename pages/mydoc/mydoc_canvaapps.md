@@ -20,7 +20,7 @@ folder: mydoc
 * <a href="https://learn.microsoft.com/en-us/power-apps/guidance/coding-guidelines/code-readability" target="_blank" rel="noopener noreferrer">Naming conventions</a>
 
 ## Code optimization (<a href="https://learn.microsoft.com/en-us/power-apps/guidance/coding-guidelines/code-optimization" target="_blank" rel="noopener noreferrer">Documentation</a>)
-* Limit populating collections with large amounts of data
+* Limit the size and number of collections. Use the `ShowColumns` function to get only specific columns and add the `Filter` function to get only relevant data.
 * Enable DelayOutput for text controls
 </div>
 
