@@ -40,7 +40,7 @@ folder: mydoc
 4. Set Update property with sharePoint syntax
 </div>
 
-<div role="tabpanel" class="tab-pane active" id="sharepoint-patch" markdown="1">
+<div role="tabpanel" class="tab-pane" id="sharepoint-patch" markdown="1">
 * <a href="https://www.youtube.com/watch?v=g9ChYuTdNd4&t=867s" target="_blank" rel="noopener noreferrer">YouTube tutorial</a>  
   
 Yes/No column
