@@ -107,9 +107,10 @@ Microsoft Power Platform CLI allows you to perform various operations within Mic
 * <a href="https://joegill.com/power-apps-outlook-deep-linking/?utm_source=substack&utm_medium=email" target="_blank" rel="noopener noreferrer">Outlook deep linking</a>
 
 ### Dynamics 365 App for Outlook
-Plugin that connects Outlook with Power Apps, allowing users to track emails or appointments, access or create records directly from Outlook.
-* To enable integration of a table with Outlook, make sure the table is included in the 'Dynamics 365 App for Outlook' application.
-* To install the plugin on a email user, go in the `application > Advanced setting > Email configuration > Mailboxes` and follow the steps :
+Plugin that connects Outlook with Power Apps, allowing users to track emails or appointments, access or create records directly from Outlook.  
+<a href="https://learn.microsoft.com/en-us/dynamics365/outlook-addin/user-guide/set-option-automatically-track-incoming-outlook-email" target="_blank" rel="noopener noreferrer">Documentation + Automatically track sent folder items</a>
+1. To enable integration of a table with Outlook, make sure the table is included in the 'Dynamics 365 App for Outlook' application.
+2. To install the plugin on a email user, go in the `application > Advanced setting > Email configuration > Mailboxes` and follow the steps :
 {% include image.html file="powerapps_outlookconfiguration.png" max-width="50%" %}  
 
 ### ❗ Common issues
