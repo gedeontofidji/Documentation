@@ -29,7 +29,7 @@ folder: mydoc
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-restricted-entities" target="_blank" rel="noopener noreferrer">Restricted tables requiring Dynamics 365 licenses</a>
 * <a href="https://mattruma.com/adventures-with-dataverse-virtual-tables-and-look-up-columns/?utm_source=substack&utm_medium=email" target="_blank" rel="noopener noreferrer">Virtual tables and lookup columns</a>
 * <a href="https://danikahil.com/open-sub-grid-records-in-a-modal-dialog-form-using-the-new-power-apps-grid-control/" target="_blank" rel="noopener noreferrer">Open subgrid records in a modal form</a>
-* <a href="https://orby.com.au/hide-new-button-on-lookup-controls-in-model-driven-apps-2/" target="_blank" rel="noopener noreferrer">Hide new button on lookup controls</a>
+* <a href="https://orby.com.au/hide-new-button-on-lookup-controls-in-model-driven-apps-2/" target="_blank" rel="noopener noreferrer">Hide new button on lookup controls</a>. Can be done with form XLM Editor in XrmToolBox.
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/plan-designer/plan-designer" target="_blank" rel="noopener noreferrer">Overview of Plan Designer</a>  
 It helps to create a plan for your existing solution or a new one using copilot. It generates a detailed document that describes your solution. The plan covers the business problem, user requirements like user roles and stories, the data model, and technologies like apps. This feature saves time when you're trying to understand a solution's content and helps makers improve an existing solution.
 
