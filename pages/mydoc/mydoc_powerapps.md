@@ -14,7 +14,7 @@ folder: mydoc
     <li><a class="noCrossRef" href="#cli" data-toggle="tab">CLI</a></li>
     <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Outlook</a></li>
     <li><a class="noCrossRef" href="#javascript" data-toggle="tab">JavaScript</a></li>
-    <li><a class="noCrossRef" href="#levelup" data-toggle="tab">Level up for PowerApps</a></li>
+    <li><a class="noCrossRef" href="#extension" data-toggle="tab">Level up for PowerApps</a></li>
     <li><a class="noCrossRef" href="#patch" data-toggle="tab">Patch</a></li>
     <li><a class="noCrossRef" href="#power-bi" data-toggle="tab">Power BI</a></li>
     <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power Fx</a></li>
@@ -117,8 +117,9 @@ Plugin that connects Outlook with Power Apps, allowing users to track emails or 
 * When you connect the plugin to a new environment, it may take some time before it appears in the user's mailbox. It can take up to 24 hours for the settings to take effect
 </div>
 
-<div role="tabpanel" class="tab-pane" id="levelup" markdown="1">
-Level up for Dynamics 365/Power Apps is a browser extension that helps you to perform advanced actions.
+<div role="tabpanel" class="tab-pane" id="extension" markdown="1">
+* Level up for Dynamics 365/Power Apps
+* Power-Toolkit for Power Apps
 </div>
   
 <div role="tabpanel" class="tab-pane" id="javascript" markdown="1">
