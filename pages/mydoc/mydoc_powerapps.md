@@ -14,7 +14,7 @@ folder: mydoc
     <li><a class="noCrossRef" href="#cli" data-toggle="tab">CLI</a></li>
     <li><a class="noCrossRef" href="#dynamics-app-outlook" data-toggle="tab">Outlook</a></li>
     <li><a class="noCrossRef" href="#javascript" data-toggle="tab">JavaScript</a></li>
-    <li><a class="noCrossRef" href="#extension" data-toggle="tab">Level up for PowerApps</a></li>
+    <li><a class="noCrossRef" href="#extension" data-toggle="tab">Extensions</a></li>
     <li><a class="noCrossRef" href="#patch" data-toggle="tab">Patch</a></li>
     <li><a class="noCrossRef" href="#power-bi" data-toggle="tab">Power BI</a></li>
     <li><a class="noCrossRef" href="#power-fx" data-toggle="tab">Power Fx</a></li>
