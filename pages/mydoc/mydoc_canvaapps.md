@@ -32,7 +32,7 @@ folder: mydoc
 
 #### 🚀 Deploy SharePoint custom form from DEV to PROD
 1. Go to list settings > Form settings > See versions and usage > Export package > Create as new
-2. Run
+2. <a href="https://github.com/gedeontofidji/PowerShell/blob/main/CanvaApp/DeployFromDevToProd.ps1" target="_blank" rel="noopener noreferrer">Download this script in the folder where is the exported package</a>. `PowerShell may not run the script due to execution policy. In that case, create each script file manually by copying the content.`
 </div>
 
 <div role="tabpanel" class="tab-pane" id="sharepoint-patch" markdown="1">
