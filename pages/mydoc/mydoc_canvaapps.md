@@ -31,8 +31,12 @@ folder: mydoc
 * <a target="\_blank" class="noCrossRef" href="{{ "pdf/CustomFormsMigration.pdf"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Best practices for SharePoint custom forms </button></a>
 
 #### 🚀 Deploy SharePoint custom form from DEV to PROD
-1. Go to list settings > Form settings > See versions and usage > Export package > Create as new
-2. <a href="https://github.com/gedeontofidji/PowerShell/blob/main/CanvaApp/DeployFromDevToProd.ps1" target="_blank" rel="noopener noreferrer">Download this script in the folder where is the exported package</a>. `PowerShell may not run the script due to execution policy. In that case, create each script file manually by copying the content.`
+1. In DEV, go to list settings > Form settings > See versions and usage > Export package > Create as new
+2. <a href="https://github.com/gedeontofidji/PowerShell/blob/main/CanvaApp/DeployFromDevToProd.ps1" target="_blank" rel="noopener noreferrer">Download this script in the folder where the exported package is</a>. `PowerShell may not run the script due to execution policy. In that case, create each script file manually by copying the content.`
+3. Run the script
+4. In PROD, go to list settings > Form settings > Use the default SharePoint form > Delete custom form
+5. Open https://make.powerapps.com/ in the environment where you intend to migrate the SharePoint form > Import canvas app
+6. Open the SharePoint form in PROD and publish it
 </div>
 
 <div role="tabpanel" class="tab-pane" id="sharepoint-patch" markdown="1">
