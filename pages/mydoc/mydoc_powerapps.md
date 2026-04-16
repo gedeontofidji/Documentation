@@ -43,6 +43,11 @@ In the environment:
 5. Make sure the radio button under Web is selected then publish your customizations
 {% include image.html file="editableview1.png" max-width="50%" %}
 {% include image.html file="editableview2.png" max-width="800%" %}
+
+#### ⚙️ How to map fields between lead and opportunity
+1. Go to Settings > Customize > Customize the system
+2. Select the entity lead
+3. Open the relationship `opportunity_originating_lead` and edit the mapping
 </div>
 
 <div role="tabpanel" class="tab-pane" id="csharp" markdown="1">
