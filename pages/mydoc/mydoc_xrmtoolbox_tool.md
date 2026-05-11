@@ -38,7 +38,12 @@ folder: mydoc
 `Asynchronous` : Blocks the user before saving  
 `Synchronous` : Does not block the user before saving and runs after saving  
 `Pre-image` : Captures data from a table before/after saving  
-`Post-image` : Captures data from a table after saving  
+`Post-image` : Captures data from a table after saving
+
+#### How to delete a plugin and its steps
+1. Delete the code and unlink it from the project in Visual Studio
+2. Delete the steps and the plugin in SANDBOX environment
+3. Deploy the solution that contains the plugin
 </div>
 
 <div role="tabpanel" class="tab-pane" id="plugin-trace-viewer" markdown="1">
