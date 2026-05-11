@@ -41,9 +41,10 @@ folder: mydoc
 `Post-image` : Captures data from a table after saving
 
 #### How to delete a plugin and its steps
-1. Delete the code and unlink it from the project in Visual Studio
-2. Delete the steps and the plugin in SANDBOX environment
-3. Deploy the solution that contains the plugin
+1. Unlink the plugin from the project in Visual Studio
+2. Delete code files
+3. Delete the steps and the plugin in the current environment and in the target environment with `plugin registration`
+4. Deploy the solution that contains the plugin
 </div>
 
 <div role="tabpanel" class="tab-pane" id="plugin-trace-viewer" markdown="1">
