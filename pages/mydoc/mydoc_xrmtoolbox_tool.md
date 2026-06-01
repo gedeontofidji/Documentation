@@ -71,7 +71,7 @@ folder: mydoc
 * Language codes : French (1036) / English (1033) / Spanish (3082)
 * Import only what has been modified to avoid a timeout  
 
-To translate other elements such as system ribbons or BPF, you can use the <a href="https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/translate-localizable-text" target="_blank" rel="noopener noreferrer">export/import translations feature from the solution</a>. For BPF, make sure to translate fields from ```Workflow Categories```.
+To translate other elements such as system ribbons or BPF, you can use the <a href="https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/translate-localizable-text" target="_blank" rel="noopener noreferrer">export/import translations feature from the solution</a>. For BPF, make sure to translate ```Workflow Categories``` fields.
 </div>
 
 <div role="tabpanel" class="tab-pane" id="fetchxml-builder" markdown="1">
