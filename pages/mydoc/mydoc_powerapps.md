@@ -51,6 +51,9 @@ In the environment:
 </div>
 
 <div role="tabpanel" class="tab-pane" id="csharp" markdown="1">
+### 📚 Documentation
+* <a href="https://github.com/gedeontofidji/Tbs/blob/main/BOOST/Cve.Xrm/Shared/Cve.Xrm.Service/ContratBiogazService.cs" target="_blank" rel="noopener noreferrer">Send http request</a>
+
 ### Create a new plugin assembly from scratch
 1. <a href="https://github.com/gedeontofidji/PowerShell/tree/main/CreateDynamicsPlugin" target="_blank" rel="noopener noreferrer">Download the repository locally</a>. `PowerShell may not run the script due to execution policy. In that case, create each script file manually by copying the content.`
 2. In Main.ps1 script, configure the `basePath` variable to the location where you want to create the solution
