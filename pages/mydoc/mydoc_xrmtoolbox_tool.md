@@ -84,6 +84,7 @@ To translate other elements such as system ribbons or BPF, you can use the <a hr
 ## Allows you to custom button properties, including display and enable rules.
 #### 📚 Documentation
 * <a href="https://learn.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/gg309332(v=crm.8)" target="_blank" rel="noopener noreferrer">Crm Parameters</a>
+* <a href="https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/pass-data-page-parameter-ribbon-actions" target="_blank" rel="noopener noreferrer">Call javaScript from a ribbon passing the formContext</a> ```In the portal, call your function Cor.Ribbon.EntityName.Function```
 
 #### ⚙️ How to create a dynamic button based on record's table
 1. In Ribbon workbench, drag and drop the flyout button in the form section of the ribbon
