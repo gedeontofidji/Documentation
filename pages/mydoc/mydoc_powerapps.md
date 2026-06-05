@@ -133,6 +133,7 @@ Plugin that connects Outlook with Power Apps, allowing users to track emails or 
 <div role="tabpanel" class="tab-pane" id="javascript" markdown="1">
 ### 📚 Documentation
 * <a href="https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference" target="_blank" rel="noopener noreferrer">JavaScript API</a>
+* <a href="https://github.com/gedeontofidji/Tbs/blob/main/BOOST/Cve.Xrm/System/Cve.Xrm.WebResources/cve_/Scripts/Ribbon/IntrantAmont.js" target="_blank" rel="noopener noreferrer">Call a custom API</a>
 * <a href="https://github.com/gedeontofidji/JavaScript/blob/main/Shared/Form.js" target="_blank" rel="noopener noreferrer">Form.js functions</a>
 
 ### 🐞 Debugging
