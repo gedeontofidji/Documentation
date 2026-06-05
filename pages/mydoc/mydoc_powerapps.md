@@ -53,7 +53,12 @@ In the environment:
 <div role="tabpanel" class="tab-pane" id="csharp" markdown="1">
 ### 📚 Documentation
 * <a href="https://github.com/gedeontofidji/Tbs/blob/main/BOOST/Cve.Xrm/Shared/Cve.Xrm.Service/ContratBiogazService.cs" target="_blank" rel="noopener noreferrer">Send http request</a>
-* <a href="https://github.com/gedeontofidji/Tbs/blob/main/BOOST/Cve.Xrm/System/Cve.Xrm.Plugins/CustomApi/CreateDocumentTomorro.cs" target="_blank" rel="noopener noreferrer">Custom API</a>
+
+### Create a custom API
+* <a ref="https://github.com/gedeontofidji/Tbs/blob/main/BOOST/Cve.Xrm/System/Cve.Xrm.Plugins/CustomApi/CreateDocumentTomorro.cs" target="_blank" rel="noopener noreferrer">Custom API code</a>
+{% include image.html file="customapi.png" max-width="30%" %}
+{% include image.html file="customapi_inputparameter.png" max-width="30%" %}
+{% include image.html file="customapi_outputparameter.png" max-width="30%" %}
 
 ### Create a new plugin assembly from scratch
 1. <a href="https://github.com/gedeontofidji/PowerShell/tree/main/CreateDynamicsPlugin" target="_blank" rel="noopener noreferrer">Download the repository locally</a>. `PowerShell may not run the script due to execution policy. In that case, create each script file manually by copying the content.`
