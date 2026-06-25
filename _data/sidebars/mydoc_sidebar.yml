@@ -50,10 +50,6 @@ entries:
     - title: General
       url: /mydoc_sharepoint_general.html
       output: web
-      
-    - title: List and library
-      url: /mydoc_sharepoint_listandlibrary.html
-      output: web
 
     - title: Pnp Modern Search
       url: /mydoc_sharepoint_pnpsearch.html
