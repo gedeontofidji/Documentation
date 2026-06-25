@@ -9,6 +9,7 @@ folder: mydoc
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
+    <li><a class="noCrossRef" href="#api" data-toggle="tab">API</a></li>
     <li><a class="noCrossRef" href="#content-type" data-toggle="tab">Content Type</a></li>
     <li><a class="noCrossRef" href="#list-library" data-toggle="tab">List and Library</a></li>
 </ul>
@@ -22,6 +23,11 @@ folder: mydoc
 2. Select My profile Office => Update profile
 3. Select the link “here”
 4. Modify the language in the section Language and region”
+</div>
+
+<div role="tabpanel" class="tab-pane" id="api" markdown="1">
+## Documentation
+* <a href="https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest" target="_blank" rel="noopener noreferrer">REST API</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="content-type" markdown="1">
