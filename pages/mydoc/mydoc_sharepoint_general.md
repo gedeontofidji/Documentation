@@ -10,7 +10,7 @@ folder: mydoc
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
     <li><a class="noCrossRef" href="#content-type" data-toggle="tab">Content Type</a></li>
-    <li><a class="noCrossRef" href="#list_library" data-toggle="tab">List and Library</a></li>
+    <li><a class="noCrossRef" href="#list-library" data-toggle="tab">List and Library</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
@@ -30,7 +30,7 @@ folder: mydoc
 * When you update a content type template with the same name, you should run a sript to clean Office data cache on computers of users. It will avoid warming messages.
 </div>
 
-<div role="tabpanel" class="tab-pane" id="list_library" markdown="1">
+<div role="tabpanel" class="tab-pane" id="list-library" markdown="1">
 ## Documentation
 * [View formatting](https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/view-formatting)
 * <a href="https://manueltgomes.com/microsoft/sharepoint/translate-your-list-column-names/" target="_blank" rel="noopener noreferrer">Columns translations</a>
