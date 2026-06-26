@@ -38,7 +38,8 @@ All the methods are not documented, here is the way to find every existing actio
 6. You can then select only the properties you want by appending `?$select=Name` to your request.
 To perform actions on objects search for `<FunctionImport>` tags. For example, `<FunctionImport Name="Publish` shows that it applies to a File object and have one parameter. The query will look like :
 * URL : _api/web/lists(guid'...')/items(42)/File/Publish
-* Body : {"comment": "Your comment here"} TEST
+* Body : {"comment": "Your comment here"}
+
 ```
 <FunctionImport Name="Publish" IsBindable="true">
 <Parameter Name="this" Type="SP.File"/>
