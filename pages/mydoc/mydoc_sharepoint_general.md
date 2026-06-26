@@ -30,11 +30,11 @@ folder: mydoc
 * <a href="https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest" target="_blank" rel="noopener noreferrer">REST API</a>
 
 All the methods are not documented, here is the way to find every existing action:
-1. Go to `https://{site_url}/_api/$metadata` to access the full XML contract.
-2. Look for an object, for example: `<EntityType Name="Web"`. For each object, you can find its associated properties and its relations to other objects via `<NavigationProperty>`.
-3. For instance, the `Web` object contains a navigation property linked to the `Lists` object, which you can inspect under `<EntityType Name="List"`.
-4. This tells you the resulting query URL path will look like `_api/web/lists`.
-5. The `<Key>` property specifies the exact identifier required to target a specific data instance.
+1. Go to `https://{site_url}/_api/$metadata` to view the complete XML data structure
+2. Search for an object, for example: `<EntityType Name="Web"`. Inside, you will find its properties and relations to other objects through `<NavigationProperty>`
+3. For example, the `Web` object is linked to `List`. You can find the details of that connected object by searching for `<EntityType Name="List"`
+4. Combining these links gives you your API path, such as `_api/web/lists`
+5. The `<Key>` property specifies the exact identifier required to target a specific object.
 6. You can then select only the properties you want by appending `?$select=Name` to your request.
 </div>
 
