@@ -28,7 +28,7 @@ folder: mydoc
 <div role="tabpanel" class="tab-pane" id="api" markdown="1">
 ## Documentation
 * <a href="https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest" target="_blank" rel="noopener noreferrer">REST API</a>
-* <a href="/Documentation/xml/sharepointRestApi.xml" target="_blank" rel="noopener noreferrer">Conceptual Schema Definition Language</a>
+* <a href="https://drive.google.com/drive/folders/1rzV9-vC5jok874T-iiUlb0Jvdds2Nv4m" target="_blank" rel="noopener noreferrer">Conceptual Schema Definition Language</a>
 
 All the methods are not documented, here is the way to find every existing action:
 1. Go to `https://{site_url}/_api/$metadata` to view the complete XML data structure
