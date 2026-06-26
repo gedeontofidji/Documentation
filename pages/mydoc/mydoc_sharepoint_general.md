@@ -13,7 +13,7 @@ folder: mydoc
     <li><a class="noCrossRef" href="#content-type" data-toggle="tab">Content Type</a></li>
     <li><a class="noCrossRef" href="#list-library" data-toggle="tab">List and Library</a></li>
 </ul>
-  <div class="tab-content">
+<div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## Useful links
 * [Admin Center](https://go.microsoft.com/fwlink/?linkid=2185220)
@@ -38,7 +38,7 @@ All the methods are not documented, here is the way to find every existing actio
 6. You can then select only the properties you want by appending `?$select=Name` to your request.
 To perform actions on objects search for `<FunctionImport>` tags. For example, `<FunctionImport Name="Publish` shows that it applies to a File object and have one parameter. The query will look like :
 * URL : _api/web/lists(guid'...')/items(42)/File/Publish
-* Body : {"comment": "Your comment here"}
+* Body : {"comment": "Your comment here"} TEST
 ```
 <FunctionImport Name="Publish" IsBindable="true">
 <Parameter Name="this" Type="SP.File"/>
