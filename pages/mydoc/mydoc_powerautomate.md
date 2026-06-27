@@ -60,7 +60,7 @@ Write the following expression : /entityPluralName(recordId)
 * <a href="https://learn.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/guidance/working-with-get-items-and-get-files" target="_blank" rel="noopener noreferrer">Get items/files properties</a>
 
 ## Useful methods
-* <a href="https://learn.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/guidance/working-with-get-items-and-get-files" target="_blank" rel="noopener noreferrer">Check if a SharePoint column has changed</a>
+* <a href="/Documentation/zip/PowerPlatformSolution/checkIfASharepointColumnHasChanged.zip" target="_blank" rel="noopener noreferrer">Check if a SharePoint column has changed</a>
 </div>
 
 </div>
