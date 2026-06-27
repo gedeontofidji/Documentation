@@ -50,7 +50,7 @@ To perform actions on objects search for `<FunctionImport>` tags. For example, `
 ```
 
 ## Update a file or item with context user
-{% include image.html file="sharepoint_validateUpdateListItem.png" max-width="80%" %}
+{% include image.html file="sharepoint_validateUpdateListItem.png" max-width="60%" %}
 </div>
 
 <div role="tabpanel" class="tab-pane" id="content-type" markdown="1">
