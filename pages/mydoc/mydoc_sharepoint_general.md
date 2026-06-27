@@ -49,7 +49,7 @@ To perform actions on objects search for `<FunctionImport>` tags. For example, `
 </FunctionImport>
 ```
 
-## Update a file or item with context user
+## Update metadatas with context user
 {% include image.html file="sharepoint_validateUpdateListItem.png" max-width="60%" %}
 </div>
 
