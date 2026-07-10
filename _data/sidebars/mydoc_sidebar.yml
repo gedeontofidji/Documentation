@@ -55,7 +55,7 @@ entries:
       url: /mydoc_sharepoint_pnpsearch.html
       output: web
 
-      - title: Spfx
+    - title: Spfx
       url: /mydoc_sharepoint_spfx.html
       output: web
       
