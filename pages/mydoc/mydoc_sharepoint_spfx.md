@@ -17,7 +17,8 @@ SPFx is JavaScript running directly in the browser. Microsoft implemented a comp
 * TypeScrit: a typed JavaScript that compiles into JavaScript
 * Node.js: enable running JavaScript on server and running scripts such as yeoman(yo)/heft
 * VS Code
-* Libraries: React (UI), Pnp (SP interactions), Office UI Fabric (graphic components like buttons and lists). <br/>
+* Libraries: React (UI), Pnp (SP interactions), Office UI Fabric (graphic components like buttons and lists)
+    
 Managing this entire stack can lead to version compatibility issues between tools. To resolve this, you can <a href="https://www.nvmnode.com/fr/" target="_blank" rel="noopener noreferrer">NVM</a> to switch between multiple Node.js versions.
 
 ### 💡Tips
