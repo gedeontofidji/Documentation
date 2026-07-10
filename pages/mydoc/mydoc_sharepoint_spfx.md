@@ -13,11 +13,11 @@ folder: mydoc
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
-SPFx is JavaScript running directly in the browser. Microsoft implemented a complete framework utilizing this stack:
-* TypeScrit: a typed JavaScript that will compiles into JavaScript
-* Node.js: enables running JavaScript on the server and running scripts such as yeoman(yo)/heft
+SPFx is JavaScript running directly in the browser. Microsoft implemented a complete framework using this stack:
+* TypeScrit: a typed JavaScript that compiles into JavaScript
+* Node.js: enable running JavaScript on server and running scripts such as yeoman(yo)/heft
 * VS Code
-* Libraries: React (UI), Pnp (SP interactions), Office UI Fabric (graphic components like buttons and lists)
+* Libraries: React (UI), Pnp (SP interactions), Office UI Fabric (graphic components like buttons and lists). <br/>
 Managing this entire stack can lead to version compatibility issues between tools. To resolve this, you can <a href="https://www.nvmnode.com/fr/" target="_blank" rel="noopener noreferrer">NVM</a> to switch between multiple Node.js versions.
 
 ### 💡Tips
