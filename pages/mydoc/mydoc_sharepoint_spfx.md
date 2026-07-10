@@ -19,9 +19,10 @@ SPFx is JavaScript running directly in the browser. Microsoft implemented a comp
 * VS Code
 * Libraries: React (UI), Pnp (SP interactions), Office UI Fabric (graphic components like buttons and lists)
     
-Managing this entire stack can lead to version compatibility issues between tools. To resolve this, you can <a href="https://www.nvmnode.com/fr/" target="_blank" rel="noopener noreferrer">NVM</a> to switch between multiple Node.js versions.
+Managing this entire stack can lead to version compatibility issues between tools. To resolve this, you can use <a href="https://www.nvmnode.com/fr/" target="_blank" rel="noopener noreferrer">NVM</a> to switch between multiple Node.js versions. `If Node.js is already installed, you must uninstall it before installing NVM`
 
-### 💡Tips
+### 🔗 Useful links
+* <a href="https://www.nvmnode.com/cli/" target="_blank" rel="noopener noreferrer">NVM commands</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="other" markdown="1">
