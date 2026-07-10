@@ -1,5 +1,5 @@
 ---
-title:  Pnp Modern Search
+title:  Spfx
 keywords:
 sidebar: mydoc_sidebar
 permalink: mydoc_sharepoint_spfx.html
