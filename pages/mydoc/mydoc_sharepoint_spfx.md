@@ -2,7 +2,7 @@
 title:  Pnp Modern Search
 keywords:
 sidebar: mydoc_sidebar
-permalink: mydoc_sharepoint_pnpsearch.html
+permalink: mydoc_sharepoint_spfx.html
 toc: false
 folder: mydoc
 ---
