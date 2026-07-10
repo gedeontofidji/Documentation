@@ -54,6 +54,10 @@ entries:
     - title: Pnp Modern Search
       url: /mydoc_sharepoint_pnpsearch.html
       output: web
+
+      - title: Spfx
+      url: /mydoc_sharepoint_spfx.html
+      output: web
       
   - title: Microsoft
     output: web
