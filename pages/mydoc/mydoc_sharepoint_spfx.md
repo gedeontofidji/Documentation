@@ -22,6 +22,7 @@ SPFx is JavaScript running directly in the browser. Microsoft implemented a comp
 Managing this entire stack can lead to version compatibility issues between tools. To resolve this, you can use <a href="https://www.nvmnode.com/fr/" target="_blank" rel="noopener noreferrer">NVM</a> to switch between multiple Node.js versions. `If Node.js is already installed, you must uninstall it before installing NVM`
 
 ### ⌨️ Commands & Shortcuts
+* `Ctrl + J`: Open terminal
 * `node -v`: get the installed version of Node.js
 * `npm list @rushstack/heft`: get the installed version of heft
 * `npm -v @microsoft/generator-sharepoint`: get the installed version of SPFx
