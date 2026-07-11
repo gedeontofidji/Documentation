@@ -25,9 +25,9 @@ Managing this entire stack can lead to version compatibility issues between tool
 * `node -v`: get the installed version of Node.js
 * `npm list @rushstack/heft`: get the installed version of heft
 * `npm -v @microsoft/generator-sharepoint`: get the installed version of SPFx
+* <a href="https://www.nvmnode.com/cli/" target="_blank" rel="noopener noreferrer">NVM commands</a>
 
 ### 🔗 Useful links
-* <a href="https://www.nvmnode.com/cli/" target="_blank" rel="noopener noreferrer">NVM commands</a>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="other" markdown="1">
