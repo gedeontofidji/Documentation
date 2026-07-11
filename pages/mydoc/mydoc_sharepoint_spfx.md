@@ -9,7 +9,7 @@ folder: mydoc
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
-    <li><a class="noCrossRef" href="#other" data-toggle="tab">Other</a></li>
+    <li><a class="noCrossRef" href="#fieldCustomizer" data-toggle="tab">Field Customizer</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
@@ -32,7 +32,7 @@ Managing this entire stack can lead to version compatibility issues between tool
 ### 🔗 Useful links
 </div>
 
-<div role="tabpanel" class="tab-pane" id="other" markdown="1">
+<div role="tabpanel" class="tab-pane" id="fieldCustomizer" markdown="1">
 ## Other
 </div>
 </div>
