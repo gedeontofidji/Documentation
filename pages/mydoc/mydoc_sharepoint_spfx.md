@@ -29,7 +29,12 @@ Managing this entire stack can lead to version compatibility issues between tool
 * <a href="https://www.nvmnode.com/cli/" target="_blank" rel="noopener noreferrer">NVM commands</a>
 * `heft clean` (optional) --> `heft build --production` (compile TypeScript into JavaScript) --> `heft package-solution --production` (create the sppkg package in sharepoint/solution folder)
 
-### 🔗 Useful links
+### 🛠️ Create the App Catalog on a SharePoint site using PowerShell
+1. `Get-Module -ListAvailable -Name Microsoft.Online.SharePoint.PowerShell`: check if the module is already installed
+2. `Install-Module -Name Microsoft.Online.SharePoint.PowerShell -Scope CurrentUser`
+3. `Import-Module Microsoft.Online.SharePoint.PowerShell`
+4. `Connect-SPOService -Url https://tenantName-admin.sharepoint.com`: connection using admin acess
+5. `Add-SPOSiteCollectionAppCatalog -Site https://tenantName.sharepoint.com/sites/siteName`: create the App Catalog for the target site
 </div>
 
 <div role="tabpanel" class="tab-pane" id="fieldCustomizer" markdown="1">
