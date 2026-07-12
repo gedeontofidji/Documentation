@@ -38,7 +38,8 @@ Managing this entire stack can lead to version compatibility issues between tool
 </div>
 
 <div role="tabpanel" class="tab-pane" id="fieldCustomizer" markdown="1">
-## Other
+`https://tenantName.sharepoint.com/sites/siteName/_api/web/lists(guid'00000000-0000-0000-0000-000000000000')/fields/getbyinternalnameortitle('fieldInternalName')?$select=ClientSideComponentId,InternalName,TypeAsString,Group`: to fill sharepoint/assets/elements.xml
+### Other
 </div>
 </div>
 
