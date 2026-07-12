@@ -47,7 +47,7 @@ Managing this entire stack can lead to version compatibility issues between tool
 2. Update config files: `sharepoint/assets/elements.xml` and `src/extensions/componentName/componentNameFieldCustomizer.manifest.json`
 
 If ClientSideComponentId isn't defined, you can do it with the following request:
-{% include image.html file="sharepoint_editFieldCustomizer.png" max-width="60%" %}
+{% include image.html file="sharepoint_editFieldCustomizer.png" max-width="65%" %}
 </div>
 </div>
 
