@@ -40,14 +40,14 @@ Managing this entire stack can lead to version compatibility issues between tool
 <div role="tabpanel" class="tab-pane" id="fieldCustomizer" markdown="1">
 1. Create a folder and open it in VS Code
 2. Run `yo @microsoft/sharepoint`
-{% include image.html file="sharepoint_fieldCustomizer.png" max-width=""30%" %}
+{% include image.html file="sharepoint_fieldCustomizer.png" max-width=""85%" %}
 
 ### 🔌 Link a component to a SharePoint field
 1. Run this query to get the required field properties: `https://tenantName.sharepoint.com/sites/siteName/_api/web/lists(guid'libraryId')/fields/getbyinternalnameortitle('fieldInternalName')?$select=ClientSideComponentId,InternalName,TypeAsString,Group`: to fill sharepoint/assets/elements.xml`
 2. Update config files: `sharepoint/assets/elements.xml` and `src/extensions/componentName/componentNameFieldCustomizer.manifest.json`
 
 If ClientSideComponentId isn't defined, you can do it with the following request:
-{% include image.html file="sharepoint_editFieldCustomizer.png" max-width="100%" %}
+{% include image.html file="sharepoint_editFieldCustomizer.png" max-width="60%" %}
 </div>
 </div>
 
