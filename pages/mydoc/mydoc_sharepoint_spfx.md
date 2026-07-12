@@ -43,7 +43,7 @@ Managing this entire stack can lead to version compatibility issues between tool
 {% include image.html file="sharepoint_fieldCustomizer.png" max-width="70%" %}
 
 ### 🔌 Link a component to a SharePoint field
-1. Run this query to to fetch the existing column's properties: `https://tenantName.sharepoint.com/sites/siteName/_api/web/lists(guid'libraryId')/fields/getbyinternalnameortitle('fieldInternalName')?$select=ClientSideComponentId,InternalName,TypeAsString,Group`: to fill sharepoint/assets/elements.xml`
+1. Run this query to to fetch the existing field's properties: `https://tenantName.sharepoint.com/sites/siteName/_api/web/lists(guid'libraryId')/fields/getbyinternalnameortitle('fieldInternalName')?$select=ClientSideComponentId,InternalName,TypeAsString,Group`
 2. Update config files:
     * `sharepoint/assets/elements.xml`
     * `src/extensions/{componentName}/{componentName}FieldCustomizer.manifest.json`
