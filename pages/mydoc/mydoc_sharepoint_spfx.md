@@ -40,7 +40,8 @@ Managing this entire stack can lead to version compatibility issues between tool
 <div role="tabpanel" class="tab-pane" id="fieldCustomizer" markdown="1">
 1. Create a folder and and open VSCode in this directory
 2. Run `yo @microsoft/sharepoint`
-{% include image.html file="sharepoint_fieldCustomizer.png" max-width="100%" %}    `https://tenantName.sharepoint.com/sites/siteName/_api/web/lists(guid'libraryId')/fields/getbyinternalnameortitle('fieldInternalName')?$select=ClientSideComponentId,InternalName,TypeAsString,Group`: to fill sharepoint/assets/elements.xml
+{% include image.html file="sharepoint_fieldCustomizer.png" max-width="100%" %}
+    `https://tenantName.sharepoint.com/sites/siteName/_api/web/lists(guid'libraryId')/fields/getbyinternalnameortitle('fieldInternalName')?$select=ClientSideComponentId,InternalName,TypeAsString,Group`: to fill sharepoint/assets/elements.xml
 ### Other
 </div>
 </div>
