@@ -46,7 +46,8 @@ Managing this entire stack can lead to version compatibility issues between tool
 1. Run this query to get the required field properties: `https://tenantName.sharepoint.com/sites/siteName/_api/web/lists(guid'libraryId')/fields/getbyinternalnameortitle('fieldInternalName')?$select=ClientSideComponentId,InternalName,TypeAsString,Group`: to fill sharepoint/assets/elements.xml`
 2. Update config files: `sharepoint/assets/elements.xml` and `src/extensions/componentName/componentNameFieldCustomizer.manifest.json`
 
-{% include tip.html content="If ClientSideComponentId isn't defined, you can do it with this request." file="sharepoint_editFieldCustomizer.png" max-width="85%" %}
+If ClientSideComponentId isn't defined, you can do it with the following request:
+{% include image.html file="sharepoint_editFieldCustomizer.png" max-width="100%" %}
 </div>
 </div>
 
