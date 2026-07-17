@@ -25,7 +25,7 @@ Managing this entire stack can lead to version compatibility issues between tool
 * `Ctrl + J`: open terminal
 * `node -v`: get the installed version of Node.js
 * `npm list @rushstack/heft`: get the installed version of heft
-* `npm -v @microsoft/generator-sharepoint`: get the installed version of SPFx
+* `npm ls -g @microsoft/generator-sharepoint --depth=0`: get the installed version of SPFx
 * <a href="https://www.nvmnode.com/cli/" target="_blank" rel="noopener noreferrer">NVM commands</a>
 * `heft clean` (optional) --> `heft build --production` (compile TypeScript into JavaScript) --> `heft package-solution --production` (create the sppkg package in sharepoint/solution folder)
 
