@@ -53,6 +53,9 @@ In the environment:
 <div role="tabpanel" class="tab-pane" id="csharp" markdown="1">
 ### 📚 Documentation
 * <a href="https://github.com/gedeontofidji/Tbs/blob/main/BOOST/Cve.Xrm/Shared/Cve.Xrm.Service/ContratBiogazService.cs" target="_blank" rel="noopener noreferrer">Send http request</a>
+* <a href="https://learn.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-debugger?view=visualstudio" target="_blank" rel="noopener noreferrer">Debug C# in Visual Studio</a>
+
+
 
 ### Create a custom API
 * <a href="https://github.com/gedeontofidji/Tbs/blob/main/BOOST/Cve.Xrm/System/Cve.Xrm.Plugins/CustomApi/CreateDocumentTomorro.cs" target="_blank" rel="noopener noreferrer">Custom API code</a>
