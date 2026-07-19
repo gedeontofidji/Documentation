@@ -20,7 +20,7 @@ SPFx is JavaScript running directly in the browser. Microsoft implemented a comp
 * VS Code
 * Libraries: React (UI), Pnp (SP interactions), Office UI Fabric (graphic components like buttons and lists)
     
-Managing this entire stack can lead to version compatibility issues between tools. To resolve this, you can use <a href="https://www.nvmnode.com/fr/" target="_blank" rel="noopener noreferrer">NVM</a> to switch between multiple Node.js versions. `If Node.js is already installed, you must uninstall it before installing NVM`
+Managing this entire stack can lead to version compatibility issues between tools. To resolve this, you can use <a href="https://www.nvmnode.com/fr/" target="_blank" rel="noopener noreferrer">NVM</a> to switch between multiple Node.js versions.
 
 ### ⌨️ Commands & Shortcuts
 * `Ctrl + J`: open terminal
@@ -39,9 +39,11 @@ Managing this entire stack can lead to version compatibility issues between tool
 </div>
 
 <div role="tabpanel" class="tab-pane" id="nvm" markdown="1">
-If Node.js is already installed, you must uninstall it before installing NVM. `Note the version of Node.js you currently have to be able to install it again later.`
+If Node.js is already installed, you must uninstall it before installing NVM. `Note the version of Node.js you currently use to be able to install it again later.`
 1. Once NVM is installed, update environment variable and Path
-2. Run `nvm install xx.xx.x` to install the right Node.js version
+{% include image.html file="nvm_environmentVariable.png" max-width="70%" %}
+{% include image.html file="nvm_environmentVariable_path.png" max-width="70%" %}
+2. Run `nvm install xx.xx.x` to install the right version of Node.js
 3. Run `nvm use xx.xx.x` to use that version
 4. Run `npm install @rushstack/heft yo @microsoft/generator-sharepoint --global`
 
