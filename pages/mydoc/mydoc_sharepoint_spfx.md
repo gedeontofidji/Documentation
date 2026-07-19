@@ -9,6 +9,7 @@ folder: mydoc
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
+    <li><a class="noCrossRef" href="#nvm" data-toggle="tab">Installing NVM</a></li>
     <li><a class="noCrossRef" href="#fieldCustomizer" data-toggle="tab">Field Customizer</a></li>
 </ul>
   <div class="tab-content">
@@ -35,6 +36,15 @@ Managing this entire stack can lead to version compatibility issues between tool
 3. `Import-Module Microsoft.Online.SharePoint.PowerShell`
 4. `Connect-SPOService -Url https://tenantName-admin.sharepoint.com`: connection using admin acess
 5. `Add-SPOSiteCollectionAppCatalog -Site https://tenantName.sharepoint.com/sites/siteName`: create the App Catalog for the target site
+</div>
+
+<div role="tabpanel" class="tab-pane" id="nvm" markdown="1">
+If Node.js is already installed, you must uninstall it before installing NVM. `Note the version of Node.js you currently have to be able to install it again later.`
+1. Once NVM is installed, update environment variable and Path
+2. Run `nvm install xx.xx.x` to install the right Node.js version
+3. Run `nvm use xx.xx.x` to use that version
+4. Run `npm install @rushstack/heft yo @microsoft/generator-sharepoint --global`
+
 </div>
 
 <div role="tabpanel" class="tab-pane" id="fieldCustomizer" markdown="1">
