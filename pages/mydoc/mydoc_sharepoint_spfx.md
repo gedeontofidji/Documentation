@@ -40,7 +40,7 @@ Managing this entire stack can lead to version compatibility issues between tool
 
 <div role="tabpanel" class="tab-pane" id="nvm" markdown="1">
 If Node.js is already installed, you must uninstall it before installing NVM. `Note the version of Node.js you currently use to be able to install it again later.`
-1. Once NVM is installed, update environment variable and Path
+1. Once NVM is installed, update `environment variable` and `path`
 {% include image.html file="nvm_environmentVariable.png" max-width="40%" %}
 {% include image.html file="nvm_environmentVariable_path.png" max-width="40%" %}
 2. Run `nvm install xx.xx.x` to install the right version of Node.js
