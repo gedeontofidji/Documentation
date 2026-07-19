@@ -19,6 +19,7 @@ summary: Power Automate is a Microsoft tool that allows users to automate workfl
 * <a href="https://powerpro.nl/power-automate-check-user-role-for-authorization/?utm_source=substack&utm_medium=email" target="_blank" rel="noopener noreferrer">Check User Role for authorization</a>
 * <a href="https://www.youtube.com/watch?v=KVnfWsO1Fhs" target="_blank" rel="noopener noreferrer">
 Create dynamic word</a>
+* <a href="https://learn.microsoft.com/en-us/connectors/custom-connectors/define-openapi-definition" target="_blank" rel="noopener noreferrer">Create a custom connector from an OpenAPI definition</a>
 
 ## Functions reference
 * `formatNumber(number, 'D3')` to convert an integer into a 3-digit number : <a href="https://learn.microsoft.com/en-us/azure/logic-apps/expression-functions-reference#formatNumber" target="_blank" rel="noopener noreferrer"> Microsoft doc</a>
