@@ -28,8 +28,8 @@ Managing this entire stack can lead to version compatibility issues between tool
 
 ### ⌨️ Commands & Shortcuts
 * `Ctrl + J`: open terminal
-* `Ctrl + Space` to view component properties
-* `/** Icon used for the edit button */` to display IntelliSense tooltips on hover
+* `Ctrl + Space`: to view component properties
+* `/** Icon used for the edit button */`: to display IntelliSense tooltips on hover
 * `node -v`: get the installed version of Node.js
 * `npm list @rushstack/heft`: get the installed version of heft
 * `npm ls -g @microsoft/generator-sharepoint --depth=0`: get the installed version of SPFx
