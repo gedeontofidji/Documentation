@@ -23,6 +23,7 @@ SPFx is JavaScript running directly in the browser. Microsoft implemented a comp
 Managing this entire stack can lead to version compatibility issues between tools. To resolve this, you can use <a href="https://www.nvmnode.com/fr/" target="_blank" rel="noopener noreferrer">NVM</a> to switch between multiple Node.js versions.
 
 ### 🔗 Useful links
+* <a href="https://developer.microsoft.com/en-us/fluentui#/get-started" target="_blank" rel="noopener noreferrer">Fluent UI React</a>
 * <a href="https://developer.microsoft.com/en-us/fluentui#/styles/web/icons" target="_blank" rel="noopener noreferrer">Fluent UI Icons</a>
 
 ### ⌨️ Commands & Shortcuts
