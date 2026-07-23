@@ -27,12 +27,14 @@ Managing this entire stack can lead to version compatibility issues between tool
 
 ### ⌨️ Commands & Shortcuts
 * `Ctrl + J`: open terminal
+* `Ctrl + Space` to view component properties
+* `/** Icon used for the edit button */` to display IntelliSense tooltips on hover
 * `node -v`: get the installed version of Node.js
 * `npm list @rushstack/heft`: get the installed version of heft
 * `npm ls -g @microsoft/generator-sharepoint --depth=0`: get the installed version of SPFx
 * <a href="https://www.nvmnode.com/cli/" target="_blank" rel="noopener noreferrer">NVM commands</a>
 * `heft clean` (optional) --> `heft build --production` (compile TypeScript into JavaScript) --> `heft package-solution --production` (create the sppkg package in sharepoint/solution folder)
-* Use `/** Icon used for the edit button */` to display IntelliSense tooltips on hover
+
 
 ### 🛠️ Create the App Catalog on a SharePoint site using PowerShell
 1. `Get-Module -ListAvailable -Name Microsoft.Online.SharePoint.PowerShell`: check if the module is already installed
