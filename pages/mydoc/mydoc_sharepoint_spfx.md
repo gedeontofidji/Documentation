@@ -75,7 +75,7 @@ If ClientSideComponentId isn't defined, you can do it with the following request
 </div>
 
 <div role="tabpanel" class="tab-pane" id="html" markdown="1">
-* `style={{ whiteSpace: "pre-line" }}`: renders line breaks ("\r\n")
+* {% raw %} `style={{ whiteSpace: "pre-line" }}`: renders line breaks ("\r\n") {% endraw %}
 </div>
 </div>
 
