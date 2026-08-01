@@ -11,6 +11,7 @@ folder: mydoc
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
     <li><a class="noCrossRef" href="#nvm" data-toggle="tab">Installing NVM</a></li>
     <li><a class="noCrossRef" href="#fieldCustomizer" data-toggle="tab">Field Customizer</a></li>
+    <li><a class="noCrossRef" href="#html" data-toggle="tab">HTML</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
@@ -71,6 +72,10 @@ If Node.js is already installed, you must uninstall it before installing NVM. `N
 
 If ClientSideComponentId isn't defined, you can do it with the following request:
 {% include image.html file="sharepoint_editFieldCustomizer.png" max-width="60%" %}
+</div>
+
+<div role="tabpanel" class="tab-pane" id="html" markdown="1">
+* `style={{ whiteSpace: "pre-line" }}`: renders line breaks ("\r\n")
 </div>
 </div>
 
