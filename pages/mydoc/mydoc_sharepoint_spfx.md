@@ -64,7 +64,7 @@ If Node.js is already installed, you must uninstall it before installing NVM. `N
 {% include image.html file="sharepoint_fieldCustomizer.png" max-width="70%" %}
 
 ### 🔌 Link a component to a SharePoint field
-1. Run this query to to fetch the existing field's properties: `https://tenantName.sharepoint.com/sites/siteName/_api/web/lists(guid'libraryId')/fields/getbyinternalnameortitle('fieldInternalName')?$select=ClientSideComponentId,InternalName,TypeAsString,Group`
+1. Run this query to to fetch the existing field's properties: `https://tenantName.sharepoint.com/sites/siteName/_api/web/fields/getbyinternalnameortitle('fieldInternalName')?$select=ClientSideComponentId,InternalName,TypeAsString,Group`
 2. Update config files:
     * `sharepoint/assets/elements.xml`
     * `src/extensions/{componentName}/{componentName}FieldCustomizer.manifest.json`
