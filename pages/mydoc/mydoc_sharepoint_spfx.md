@@ -38,6 +38,7 @@ Managing this entire stack can lead to version compatibility issues between tool
 * `npm list @rushstack/heft`: get the installed version of heft
 * <a href="https://www.nvmnode.com/cli/" target="_blank" rel="noopener noreferrer">NVM commands</a>
 * `heft clean` (optional) --> `heft build --production` (compile TypeScript into JavaScript) --> `heft package-solution --production` (create the sppkg package in sharepoint/solution folder)
+* `heft start`: runs locally your component
 
 
 ### 🛠️ Create the App Catalog on a SharePoint site using PowerShell
