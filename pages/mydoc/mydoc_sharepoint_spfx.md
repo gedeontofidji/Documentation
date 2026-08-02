@@ -65,6 +65,7 @@ If Node.js is already installed, you must uninstall it before installing NVM. `N
 {% include image.html file="sharepoint_fieldCustomizer.png" max-width="70%" %}
 
 ### ⚙️ Strcuture
+* `config/serve.json` needs to be updated to test your component locally.
 * `sharepoint/assets/elements.xml` is only used to create SP columns and can then be deleted.
 
 ### 🔌 Link a component to a SharePoint field
