@@ -40,13 +40,16 @@ Managing this entire stack can lead to version compatibility issues between tool
 * `heft clean` (optional) --> `heft build --production` (compile TypeScript into JavaScript) --> `heft package-solution --production` (create the sppkg package in sharepoint/solution folder)
 * `heft start`: runs locally your component
 
-
 ### 🛠️ Create the App Catalog on a SharePoint site using PowerShell
 1. `Get-Module -ListAvailable -Name Microsoft.Online.SharePoint.PowerShell`: check if the module is already installed
 2. `Install-Module -Name Microsoft.Online.SharePoint.PowerShell -Scope CurrentUser`
 3. `Import-Module Microsoft.Online.SharePoint.PowerShell`
 4. `Connect-SPOService -Url https://tenantName-admin.sharepoint.com`: connection using admin acess
 5. `Add-SPOSiteCollectionAppCatalog -Site https://tenantName.sharepoint.com/sites/siteName`: create the App Catalog for the target site
+
+### 💡 Tips
+* `package-lock.json` refers all packages for the component. For backups, include all folders except `node_modules`. This very heavy folder contains only libraries and not the code. You can reinstall packages with `npm install`
+
 </div>
 
 <div role="tabpanel" class="tab-pane" id="nvm" markdown="1">
