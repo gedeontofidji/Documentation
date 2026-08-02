@@ -64,6 +64,9 @@ If Node.js is already installed, you must uninstall it before installing NVM. `N
 2. Run `yo @microsoft/sharepoint`
 {% include image.html file="sharepoint_fieldCustomizer.png" max-width="70%" %}
 
+### ⚙️ Strcuture
+* `sharepoint/assets/elements.xml` is only used to create SP columns and can then be deleted.
+
 ### 🔌 Link a component to a SharePoint field
 1. Run this query to to fetch the existing field's properties: `https://tenantName.sharepoint.com/sites/siteName/_api/web/fields/getbyinternalnameortitle('fieldInternalName')?$select=ClientSideComponentId,InternalName,TypeAsString,Group`
 2. Update config files:
