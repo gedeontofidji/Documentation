@@ -56,11 +56,14 @@ Write the following expression : /entityPluralName(recordId)
 </div>
 
 <div role="tabpanel" class="tab-pane" id="sharepoint" markdown="1">
-## OData queries
+### OData queries
 * `FSObjType eq 0` to retrieve only files
 * <a href="https://learn.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/guidance/working-with-get-items-and-get-files" target="_blank" rel="noopener noreferrer">Get items/files properties</a>
 
-## Useful methods
+### 📚 API
+{% include image.html file="powerautomate_updateSharepointItem.png" max-width="45%" %}
+
+### Useful methods
 * <a href="/Documentation/zip/PowerPlatformSolution/checkIfASharepointColumnHasChanged.zip" target="_blank" rel="noopener noreferrer">Check if a SharePoint column has changed</a>
 </div>
 
