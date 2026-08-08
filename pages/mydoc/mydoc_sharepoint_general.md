@@ -53,8 +53,8 @@ To perform actions on objects search for `<FunctionImport>` tags. For example, `
 {% include image.html file="sharepoint_validateUpdateListItem.png" max-width="60%" %}
 
 ### 📚 Fields technical name
-* Name with extension: FileLeafRef
-* Extension: File_x0020_Type
+* Name with extension: `FileLeafRef`
+* Extension: `File_x0020_Type`
 </div>
 
 <div role="tabpanel" class="tab-pane" id="content-type" markdown="1">
