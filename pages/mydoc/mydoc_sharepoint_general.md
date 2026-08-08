@@ -26,7 +26,7 @@ folder: mydoc
 </div>
 
 <div role="tabpanel" class="tab-pane" id="api" markdown="1">
-## Documentation
+### Documentation
 * <a href="https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest" target="_blank" rel="noopener noreferrer">REST API</a>
 * <a href="https://drive.google.com/drive/folders/1rzV9-vC5jok874T-iiUlb0Jvdds2Nv4m" target="_blank" rel="noopener noreferrer">Conceptual Schema Definition Language</a>
 
@@ -49,8 +49,12 @@ To perform actions on objects search for `<FunctionImport>` tags. For example, `
 </FunctionImport>
 ```
 
-## Update metadatas with context user
+### Update metadatas with context user
 {% include image.html file="sharepoint_validateUpdateListItem.png" max-width="60%" %}
+
+### 📚 Fields technical name
+* Name with extension: FileLeafRef
+* Extension: File_x0020_Type
 </div>
 
 <div role="tabpanel" class="tab-pane" id="content-type" markdown="1">
