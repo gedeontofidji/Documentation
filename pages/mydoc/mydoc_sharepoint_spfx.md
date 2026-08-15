@@ -31,6 +31,7 @@ Managing this entire stack can lead to version compatibility issues between tool
 * <a href="https://developer.microsoft.com/en-us/fluentui#/styles/web/icons" target="_blank" rel="noopener noreferrer">Fluent UI Icons</a>
 * <a href="https://pnp.github.io/pnpjs/" target="_blank" rel="noopener noreferrer">PnPjs for consuming SharePoint, Graph, and Office 365 REST APIs</a>
 * <a href="https://pnp.github.io/sp-dev-fx-controls-react/" target="_blank" rel="noopener noreferrer">PnP SPFx controls</a>
+* <a href="https://learn.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/basics/use-web-parts-full-width-column" target="_blank" rel="noopener noreferrer">Use web parts with the full-width column</a>
 
 ### ⌨️ Commands & Shortcuts
 * `Ctrl + J`: open terminal
