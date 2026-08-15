@@ -29,6 +29,7 @@ Managing this entire stack can lead to version compatibility issues between tool
 ### 🔗 Useful links
 * <a href="https://developer.microsoft.com/en-us/fluentui#/get-started" target="_blank" rel="noopener noreferrer">Fluent UI React</a>
 * <a href="https://developer.microsoft.com/en-us/fluentui#/styles/web/icons" target="_blank" rel="noopener noreferrer">Fluent UI Icons</a>
+* <a href="https://pnp.github.io/pnpjs/" target="_blank" rel="noopener noreferrer">PnPjs libraries</a>
 
 ### ⌨️ Commands & Shortcuts
 * `Ctrl + J`: open terminal
