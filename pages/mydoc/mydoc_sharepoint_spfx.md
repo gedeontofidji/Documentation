@@ -29,7 +29,8 @@ Managing this entire stack can lead to version compatibility issues between tool
 ### 🔗 Useful links
 * <a href="https://developer.microsoft.com/en-us/fluentui#/get-started" target="_blank" rel="noopener noreferrer">Fluent UI React</a>
 * <a href="https://developer.microsoft.com/en-us/fluentui#/styles/web/icons" target="_blank" rel="noopener noreferrer">Fluent UI Icons</a>
-* <a href="https://pnp.github.io/pnpjs/" target="_blank" rel="noopener noreferrer">PnPjs libraries</a>
+* <a href="https://pnp.github.io/pnpjs/" target="_blank" rel="noopener noreferrer">PnPjs for consuming SharePoint, Graph, and Office 365 REST APIs</a>
+* <a href="https://pnp.github.io/sp-dev-fx-controls-react/" target="_blank" rel="noopener noreferrer">PnP SPFx controls</a>
 
 ### ⌨️ Commands & Shortcuts
 * `Ctrl + J`: open terminal
