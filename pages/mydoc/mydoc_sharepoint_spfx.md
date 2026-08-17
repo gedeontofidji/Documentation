@@ -55,6 +55,7 @@ Managing this entire stack can lead to version compatibility issues between tool
 5. `Add-SPOSiteCollectionAppCatalog -Site https://tenantName.sharepoint.com/sites/siteName`: create the App Catalog for the target site
 
 ### 💡 Tips
+* Document project versions in README.md
 * `package-lock.json` refers all packages for the component. For backups, include all folders except `node_modules`. This very heavy folder contains only libraries and not the code. You can reinstall packages with `npm install`
 
 </div>
