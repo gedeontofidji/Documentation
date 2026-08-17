@@ -49,6 +49,9 @@ To perform actions on objects search for `<FunctionImport>` tags. For example, `
 </FunctionImport>
 ```
 
+### URL requests
+* `https://{tenant}.sharepoint.com/sites/{site}/_layouts/15/mngsiteadmin.aspx` to view site admins. Only visible by site collection admins.
+
 ### Update metadatas with context user
 {% include image.html file="sharepoint_validateUpdateListItem.png" max-width="60%" %}
 
