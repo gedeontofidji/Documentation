@@ -31,6 +31,7 @@ Managing this entire stack can lead to version compatibility issues between tool
 * <a href="https://learn.microsoft.com/en-us/sharepoint/dev/spfx/debug-in-vscode" target="_blank" rel="noopener noreferrer">Debug in Visual Studio Code</a>
 * <a href="https://developer.microsoft.com/en-us/fluentui#/get-started" target="_blank" rel="noopener noreferrer">Fluent UI React</a>
 * <a href="https://developer.microsoft.com/en-us/fluentui#/styles/web/icons" target="_blank" rel="noopener noreferrer">Fluent UI Icons</a>
+* <a href="https://github.com/DamoBird365/microsoft-cloud-icons" target="_blank" rel="noopener noreferrer">Microsoft Product Icons</a>
 * <a href="https://pnp.github.io/pnpjs/" target="_blank" rel="noopener noreferrer">PnPjs for consuming SharePoint, Graph, and Office 365 REST APIs</a>
 * <a href="https://pnp.github.io/sp-dev-fx-controls-react/" target="_blank" rel="noopener noreferrer">PnP SPFx controls</a>
 
