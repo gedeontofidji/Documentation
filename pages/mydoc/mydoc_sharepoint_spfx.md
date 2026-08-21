@@ -94,8 +94,8 @@ If ClientSideComponentId isn't defined, you can do it with the following request
 <div role="tabpanel" class="tab-pane" id="css" markdown="1">
 * `{ whiteSpace: pre-line }`: to render line breaks (\r\n)
 * `{ whiteSpace: normal }`: to display long text across multiple lines without \r\n
-* {% raw %} `{ whiteSpace: pre-line }`: to render line breaks (\r\n) {% endraw %}
 </div>
+
 </div>
 
 {% include links.html %}
