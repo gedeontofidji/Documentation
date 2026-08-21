@@ -91,9 +91,9 @@ If ClientSideComponentId isn't defined, you can do it with the following request
 {% include image.html file="sharepoint_editFieldCustomizer.png" max-width="60%" %}
 </div>
 
-<div role="tabpanel" class="tab-pane" id="html" markdown="1">
+<div role="tabpanel" class="tab-pane" id="css" markdown="1">
 * `{ whiteSpace: pre-line }`: to render line breaks (\r\n)
-* `{ whiteSpace: normal }`: to display text across multiple lines without \r\n
+* `{ whiteSpace: normal }`: to display long text across multiple lines without \r\n
 * {% raw %} `{ whiteSpace: pre-line }`: to render line breaks (\r\n) {% endraw %}
 </div>
 </div>
