@@ -11,7 +11,7 @@ folder: mydoc
     <li class="active"><a class="noCrossRef" href="#general" data-toggle="tab">General</a></li>
     <li><a class="noCrossRef" href="#nvm" data-toggle="tab">Installing NVM</a></li>
     <li><a class="noCrossRef" href="#fieldCustomizer" data-toggle="tab">Field Customizer</a></li>
-    <li><a class="noCrossRef" href="#html" data-toggle="tab">HTML</a></li>
+    <li><a class="noCrossRef" href="#css" data-toggle="tab">CSS</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
@@ -92,7 +92,9 @@ If ClientSideComponentId isn't defined, you can do it with the following request
 </div>
 
 <div role="tabpanel" class="tab-pane" id="html" markdown="1">
-* {% raw %} `style={{ whiteSpace: "pre-line" }}`: renders line breaks ("\r\n") {% endraw %}
+* `{ whiteSpace: pre-line }`: to render line breaks (\r\n)
+* `{ whiteSpace: normal }`: to display text across multiple lines without \r\n
+* {% raw %} `{ whiteSpace: pre-line }`: to render line breaks (\r\n) {% endraw %}
 </div>
 </div>
 
