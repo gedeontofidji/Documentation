@@ -25,6 +25,7 @@ folder: mydoc
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="general" markdown="1">
 ## 📚 Documentation
+* <a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/column-visualizations-grids" target="_blank" rel="noopener noreferrer">Custom column visualizations for grids</a>
 * <a href="https://www.linkedin.com/pulse/new-microsoft-update-triggers-errors-excel-online-crm-nicu-aleman-sowaf" target="_blank" rel="noopener noreferrer">Security role to open Excel Online (officedocument table)</a>
 * <a href="https://learn.microsoft.com/en-us/power-platform/alm/custom-host-pipelines" target="_blank" rel="noopener noreferrer">Create a pipeline to deploy solutions</a>
 * <a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-restricted-entities" target="_blank" rel="noopener noreferrer">Restricted tables requiring Dynamics 365 licenses</a>
